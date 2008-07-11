@@ -1,4 +1,4 @@
-Ascent Win32/64 Libraries Distribution
+ArcEmu Win32/64 Libraries Distribution
 ======================================
 
 Installation Instructions:
@@ -41,6 +41,6 @@ The two DLL files provided with this distribution should go in your binary folde
 under C:\Windows\System32.
 
 This only has to be done once per compiler!
-When you update ascent, this doesn't need to be done each time.
+When you update ArcEmu, this doesn't need to be done each time.
 
-Now you can build Ascent as normal.
+Now you can build ArcEmu as normal.
