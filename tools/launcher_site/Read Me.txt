@@ -1,0 +1,14 @@
+This is Blizzard's WoW Launcher site. It is what you see whenever you start up the launcher. It's directly ripped from launcher.worldofwarcraft.com and also includes 21 thumbs and 60 backgrounds. 
+
+
+This will be updated pretty much whenever Blizzard's updates launcher.worldofwarcraft.com
+
+
+
+I will probably create a folder of old views of the site.
+
+
+
+
+
+-- Maven
