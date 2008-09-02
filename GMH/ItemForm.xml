@@ -110,7 +110,8 @@
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnTabPressed>this:ClearFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -438,8 +439,9 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>AddItem()
-; ItemNumber:ClearFocus();
+          <OnClick>AddItem();
+ItemNumber:ClearFocus();
+ItemQuantity1:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -541,12 +543,13 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnEscapePressed>ItemNumber:ClearFocus();
-</OnEscapePressed>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
+          <OnEscapePressed>ItemNumber:ClearFocus();
+</OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
- ItemQuantity1:SetFocus();</OnTabPressed>
+ItemQuantity1:SetFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -606,10 +609,10 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnEscapePressed>Silver:ClearFocus();
-</OnEscapePressed>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
+          <OnEscapePressed>Silver:ClearFocus();
+</OnEscapePressed>
           <OnTabPressed>this:ClearFocus(); Copper:SetFocus();
 </OnTabPressed>
         </Scripts>
@@ -811,10 +814,10 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnEscapePressed>ItemSetNumber:ClearFocus();
-</OnEscapePressed>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
+          <OnEscapePressed>ItemSetNumber:ClearFocus();
+</OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
@@ -1022,10 +1025,10 @@ end
           </Layer>
         </Layers>
         <Scripts>
-          <OnEscapePressed>Gold:ClearFocus();
-</OnEscapePressed>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
+          <OnEscapePressed>Gold:ClearFocus();
+</OnEscapePressed>
           <OnTabPressed>this:ClearFocus(); Silver:SetFocus();
 </OnTabPressed>
         </Scripts>
@@ -1087,10 +1090,10 @@ end
           </Layer>
         </Layers>
         <Scripts>
-          <OnEscapePressed>Copper:ClearFocus();
-</OnEscapePressed>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
+          <OnEscapePressed>Copper:ClearFocus();
+</OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>

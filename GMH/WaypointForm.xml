@@ -141,7 +141,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-65" />
+              <AbsDimension x="17" y="-29" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -211,7 +211,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-29" />
+              <AbsDimension x="17" y="-101" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -281,7 +281,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-101" />
+              <AbsDimension x="17" y="-65" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -356,7 +356,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>WaypointsForm:Hide(); 
+          <OnClick>WaypointsForm:Hide();
 OpenMain();
 </OnClick>
         </Scripts>

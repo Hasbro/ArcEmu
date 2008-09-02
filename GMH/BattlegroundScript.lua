@@ -9,7 +9,7 @@ function BGForceStart()
 end
 
 function BGInfo()
-    result=".battleground getqueue";
+    result=".battleground bginfo";
     outSAY(result);
 end
 

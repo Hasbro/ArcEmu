@@ -181,6 +181,8 @@
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
           <OnEnter>GameTooltip:SetOwner(this, "ANCHOR_LEFT");
 GameTooltip:AddLine("Modify Help");
 GameTooltip:AddLine("Some Buttons, use TWO numbers divided by a space.");
@@ -189,8 +191,6 @@ GameTooltip:Show();
 </OnEnter>
           <OnLeave>GameTooltip:Hide();
 </OnLeave>
-          <OnTabPressed>this:ClearFocus();
-</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -993,7 +993,7 @@ ModifyEditBox:ClearFocus()
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>Demorph() ModifyEditBox:ClearFocus()
+          <OnClick>Demorph(); ModifyEditBox:ClearFocus()
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
