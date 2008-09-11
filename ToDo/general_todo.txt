@@ -134,6 +134,8 @@ SMT_RESIST_DISPEL - check if it is used
 - imp is attacking self
 - totems chase targets
 - you can extract infinite amount of gold from guild bank if amm is not max/day amount.
+- cast some dot on a pala, he should use divine shield. Die while imune and on res he will stay imune
+- for some reason player is deleted before he is removed from world
 
 ==========================================================================
 player A must have any unsoulbound bag and he must party with player B ..
