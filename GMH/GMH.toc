@@ -4,7 +4,7 @@
 ## Version: 2.0.0
 ## Notes: An addon to manage GM commands in an A.R.C. Emu based World of Warcraft private server.
 ## eMail: Skate555@gmail.com | Maven01@live.com
-## URL: http://opensvn.csie.org/GMHelper/|svn://arcemu.info/svn/arcemu/
+## URL: http://opensvn.csie.org/GMHelper/|http://arcemu.info/svn
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 ## SavedVariables: firstannounce,secondannounce,thirdeannounce,forthannounce,fifthannounce,view,TicketChannel,TicketPassword
