@@ -1,3 +1,52 @@
-Copyrights of all scripts to ArcEmu Script team.
-www.arcemu.org
-.
+ArcEmu - ArcScript Team:
+
+Information:
+SCRIPTS
+
+C++: branches/arcscripts/Zone_or_EventName\
+Example: branches/arcscripts/Brewfest\
+
+Lua: branches\arcscripts\lua\Zone_or_EventName\
+Example: branches\arcscripts\Molten Core\
+
+!Important!
+
+SQL 
+
+Lua: branches\arcscripts\lua/Zone_or_EventName/sql\
+C++: branches\arcscripts\zone_or_EventName/sql\
+
+Examples:
+
+Lua: branches\arcscripts\lua\Molten Core\sql\
+C++: branches\arcscripts\Brewfest\sql\
+
+This will allow users to select which sql files they would 
+like to apply specifically and make it much more organized on both ends.
+
+C++ scripts will eventually be migrated into a project file
+which will compile the ones the user wants all together.
+
+Custom scripts
+
+Everyone enjoys a custom fun experience now and again.
+We have special folders to include custom scripts in which
+you are welcome to place custom scripts.
+
+Lua: branches\arcscripts\lua\Custom\Zone_or_EventName\
+C++: branches\arcscripts\custom\Zone_or_EventName\
+
+Examples: 
+Lua: branches\arcscripts\lua\Custom\Molten Core Custom
+C++: branches\arcscripts\custom\Wonderland Custom\
+
+Please make sure you add to the folder name, Custom to indicate
+it's custom as filenames may become confusing.
+
+Thank you for taking the time to read and abide by these guidelines.
+Sincerely, the staff.
+
+- Http://www.ArcEmu.org/
+
+
+
