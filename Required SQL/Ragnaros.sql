@@ -1,1 +1,0 @@
-UPDATE `creature_proto` SET `attacktype`='2' WHERE (`entry`='11502');
