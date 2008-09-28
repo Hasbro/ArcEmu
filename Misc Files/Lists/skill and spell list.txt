@@ -1,0 +1,111 @@
+SPELL			NAME			SKILL
+
+
+668  			Common   		98
+669  			Orcish			109
+670  			Taurhe			115
+671  			Darnassian		113
+672  			Dwarvish		111
+813  			Thalassian(BE)		137
+7341  			Gnomish			313
+7341 			Troll			315
+17737 			Gutterspeak		673
+29932  			Draenei			759
+
+------------------------------------------------
+9078			Cloth			415
+9077			Leather			414
+8737			MAil			413
+750			Plate Mail		293
+9116			Shields			433
+
+------------------------------------------------
+196			One Handed Axes		44
+197			Two Handed Axes		172
+198			One Handed Maces	54
+199			Two Handed Maces	160
+200			Polearms		229
+201			One Handed Swords	43
+202			Two Handed Swords	55
+203			Unarmed			162
+204			Defense			95
+227			Staves			136
+264			Bows			45
+266			Guns			46
+5009			Crossbows		226
+5011			Wands			228
+15590			Fist Weapons		473
+1180			Daggers			173
+2567			Thrown Weapons		176
+
+Skill Lines for Spells
+Each class needs to have their skill lines included in the playercreateinfo_Skills. Heres a list by class. These are SKILL IDs, not spell IDs.
+
+
+SKILL		NAME
+
+
+Warlock
+354		Demonology
+355		Affliction
+593		Destruction
+
+Druid
+574		Balance
+573		Restoration
+134		Feral Combat
+
+Hunter
+50		Beast Mastery
+51		Survival
+163		Marks
+
+Mage
+6		Frost
+8		Fire
+237		Arcane
+
+Paladin
+594		Holy
+184		Retribution
+267		Protection
+
+Priest
+56		Holy
+78		Shadow Magic
+613		Discipiline
+
+Rogue
+25		Assassination
+38		Combat
+39		Subtlety
+
+Shaman
+373		Enhancement
+374		Restoration
+375		Elemental
+
+Warrior
+256		Fury
+257		Protection
+26		Arms
+
+Death Knight
+770		Blood
+771		Frost
+772		Unholy
+
+
+For some reason racials are included and need to be added in. This does not count as the spells, the spells are seperate, but this is required. Another skilline set for YOU
+SKILL		NAME
+
+101		Dwarf
+124		Tauren
+125		Orc
+126		Night Elf
+220		Undead
+733		Troll
+753		Gnome
+754		Human
+756		Blood Elf
+760		Draenei

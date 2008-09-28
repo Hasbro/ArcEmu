@@ -1,0 +1,94 @@
+NAME			ID			COST		LVL
+
+-- Blood --
+Blood Boil Rank 1:   48721    			28215		58   
+Blood Boil Rank 2:   49939			61750		66
+Blood Boil Rank 3:   49940			95000		72
+Blood Boil Rank 4:   49941			95000		78			
+Death Strike Rank 1: 49998			28215		58			
+Death Strike Rank 2: 49999			61750		63
+Death Strike Rank 3: 45463			61750		70
+Death Strike Rank 4: 49923			95000		75
+Death Strike Rank 5: 49924			95000		80
+Blood Strike Rank 1: 45902			41230		59
+Blood Strike Rank 2: 49926			41230		59
+Blood Strike Rank 3: 49927			61750		64
+Blood Strike Rank 4: 49928			61750		69
+Blood Strike Rank 5: 49929			95000		74
+Blood Strike Rank 6: 49930			95000		80			
+Strangulate Rank 1:  48680			-----		--
+Strangulate Rank 2:  49913			61750		65
+Strangulate Rank 3:  49914			61750		69
+Strangulate Rank 4:  49915			95000		74
+Strangulate Rank 5:  49916			95000		79
+Blood Tap: 	     47802			61750		64
+Death Pact Rank 1:   48743			61750		66
+Death Pact Rank 2:   49934			95000		77
+-----------------------------
+Rune Tap: 	    48982
+Mark of Blood:      49005
+Hysteria:	    49016
+Blood Rune Mastery: 49019 			(NYI)
+Heart Strike:       49020
+Dancing Runeblade:  49028
+
+
+-- Frost --
+Chains of Ice Rank 1:   45524			4750		56
+Frost Presence: 	48263			16050		57
+Mind Freeze Rank 1: 	47528			-----		--
+Mind Freeze Rank 2: 	49910			61750		63
+Mind Freeze Rank 3: 	49911			95000		71
+Mind Freeze Rank 4: 	49912			95000		77
+Icy Touch Rank 1: 	45477			-----		--
+Icy Touch Rank 2: 	49896			61750		61
+Icy Touch Rank 3: 	49903			61750		67
+Icy Touch Rank 4: 	49904			95000		73
+Icy Touch Rank 5: 	49909			95000		78
+Empower Runeblade: 	47568			61750		68
+Icebound Fortitude:	48792			95000		72
+-----------------------------
+Frozen Runeblade: 	49142
+Deathchill: 		49796
+Frozen Dread Plate: 	50458
+Howling Blast: 		49184
+Frost Rune Mastery: 	49188 			(NYI)
+Frost Strike: 		43568
+Hungering Cold: 	49203 			(NYI)
+
+
+-- Unholy --
+Raise Dead Rank 1: 	46584			4750		56
+Death and Decay Rank 1: 43265			55100		60
+Death and Decay Rank 2: 49936			61750		67
+Death and Decay Rank 3: 49937			95000		73			
+Death and Decay Rank 4: 49938			95000		80
+Plague Strike Rank 1:   45462                   -----		--
+Plague Strike Rank 2:   49917			55100		60
+Plague Strike Rank 3:   49918			61750		65
+Plague Strike Rank 4:   49919			61750		70
+Plague Strike Rank 5:   49920			95000		75
+Plague Strike Rank 6:   49921			95000		80
+Death Coil Rank 1: 	47541			-----		--
+Death Coil Rank 2: 	49892			061750		62	
+Death Coil Rank 3: 	49893			061750		68
+Death Coil Rank 4: 	49894			095000		76			
+Death Coil Rank 5: 	49895			095000		80
+Degeneration Rank 1:    45843			61750		62
+Degeneration Rank 2:    49932			095000		76
+Degeneration Rank 3:    49933			095000		80		
+Unholy Presence: 	48265			617500		70
+Army of the Dead: 	42650			095000		75
+Anti-Magic Shell: 	48707			095000		80
+-----------------------------
+Lichborne: 		50397
+On a Pale Horse: 	49146
+Corpse Explosion: 	17616
+Shadow of Death: 	40251
+Magic Domination: 	49225
+Bone Armor: 		49609
+Unholy Rune Mastery: 	49208			 (NYI)
+Summon Gargoyle: 	49206
+Unholy Blight: 		50536
+
+-

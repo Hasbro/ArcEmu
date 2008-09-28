@@ -1,0 +1,1063 @@
+.rdata:008F31C0                 db  43h ; C
+.rdata:008F31C1                 db  4Fh ; O
+.rdata:008F31C2                 db  52h ; R
+.rdata:008F31C3                 db  50h ; P
+.rdata:008F31C4                 db  53h ; S
+.rdata:008F31C5                 db  45h ; E
+.rdata:008F31C6                 db  5Fh ; _
+.rdata:008F31C7                 db  46h ; F
+.rdata:008F31C8                 db  49h ; I
+.rdata:008F31C9                 db  45h ; E
+.rdata:008F31CA                 db  4Ch ; L
+.rdata:008F31CB                 db  44h ; D
+.rdata:008F31CC                 db  5Fh ; _
+.rdata:008F31CD                 db  50h ; P
+.rdata:008F31CE                 db  41h ; A
+.rdata:008F31CF                 db  44h ; D
+.rdata:008F31D0                 db    0
+.rdata:008F31D1                 db    0
+.rdata:008F31D2                 db    0
+.rdata:008F31D3                 db    0
+.rdata:008F31D4                 db  43h ; C
+.rdata:008F31D5                 db  4Fh ; O
+.rdata:008F31D6                 db  52h ; R
+.rdata:008F31D7                 db  50h ; P
+.rdata:008F31D8                 db  53h ; S
+.rdata:008F31D9                 db  45h ; E
+.rdata:008F31DA                 db  5Fh ; _
+.rdata:008F31DB                 db  46h ; F
+.rdata:008F31DC                 db  49h ; I
+.rdata:008F31DD                 db  45h ; E
+.rdata:008F31DE                 db  4Ch ; L
+.rdata:008F31DF                 db  44h ; D
+.rdata:008F31E0                 db  5Fh ; _
+.rdata:008F31E1                 db  44h ; D
+.rdata:008F31E2                 db  59h ; Y
+.rdata:008F31E3                 db  4Eh ; N
+.rdata:008F31E4                 db  41h ; A
+.rdata:008F31E5                 db  4Dh ; M
+.rdata:008F31E6                 db  49h ; I
+.rdata:008F31E7                 db  43h ; C
+.rdata:008F31E8                 db  5Fh ; _
+.rdata:008F31E9                 db  46h ; F
+.rdata:008F31EA                 db  4Ch ; L
+.rdata:008F31EB                 db  41h ; A
+.rdata:008F31EC                 db  47h ; G
+.rdata:008F31ED                 db  53h ; S
+.rdata:008F31EE                 db    0
+.rdata:008F31EF                 db    0
+.rdata:008F31F0                 db  43h ; C
+.rdata:008F31F1                 db  4Fh ; O
+.rdata:008F31F2                 db  52h ; R
+.rdata:008F31F3                 db  50h ; P
+.rdata:008F31F4                 db  53h ; S
+.rdata:008F31F5                 db  45h ; E
+.rdata:008F31F6                 db  5Fh ; _
+.rdata:008F31F7                 db  46h ; F
+.rdata:008F31F8                 db  49h ; I
+.rdata:008F31F9                 db  45h ; E
+.rdata:008F31FA                 db  4Ch ; L
+.rdata:008F31FB                 db  44h ; D
+.rdata:008F31FC                 db  5Fh ; _
+.rdata:008F31FD                 db  46h ; F
+.rdata:008F31FE                 db  4Ch ; L
+.rdata:008F31FF                 db  41h ; A
+.rdata:008F3200                 db  47h ; G
+.rdata:008F3201                 db  53h ; S
+.rdata:008F3202                 db    0
+.rdata:008F3203                 db    0
+.rdata:008F3204                 db  43h ; C
+.rdata:008F3205                 db  4Fh ; O
+.rdata:008F3206                 db  52h ; R
+.rdata:008F3207                 db  50h ; P
+.rdata:008F3208                 db  53h ; S
+.rdata:008F3209                 db  45h ; E
+.rdata:008F320A                 db  5Fh ; _
+.rdata:008F320B                 db  46h ; F
+.rdata:008F320C                 db  49h ; I
+.rdata:008F320D                 db  45h ; E
+.rdata:008F320E                 db  4Ch ; L
+.rdata:008F320F                 db  44h ; D
+.rdata:008F3210                 db  5Fh ; _
+.rdata:008F3211                 db  47h ; G
+.rdata:008F3212                 db  55h ; U
+.rdata:008F3213                 db  49h ; I
+.rdata:008F3214                 db  4Ch ; L
+.rdata:008F3215                 db  44h ; D
+.rdata:008F3216                 db    0
+.rdata:008F3217                 db    0
+.rdata:008F3218                 db  43h ; C
+.rdata:008F3219                 db  4Fh ; O
+.rdata:008F321A                 db  52h ; R
+.rdata:008F321B                 db  50h ; P
+.rdata:008F321C                 db  53h ; S
+.rdata:008F321D                 db  45h ; E
+.rdata:008F321E                 db  5Fh ; _
+.rdata:008F321F                 db  46h ; F
+.rdata:008F3220                 db  49h ; I
+.rdata:008F3221                 db  45h ; E
+.rdata:008F3222                 db  4Ch ; L
+.rdata:008F3223                 db  44h ; D
+.rdata:008F3224                 db  5Fh ; _
+.rdata:008F3225                 db  42h ; B
+.rdata:008F3226                 db  59h ; Y
+.rdata:008F3227                 db  54h ; T
+.rdata:008F3228                 db  45h ; E
+.rdata:008F3229                 db  53h ; S
+.rdata:008F322A                 db  5Fh ; _
+.rdata:008F322B                 db  32h ; 2
+.rdata:008F322C                 db    0
+.rdata:008F322D                 db    0
+.rdata:008F322E                 db    0
+.rdata:008F322F                 db    0
+.rdata:008F3230                 db  43h ; C
+.rdata:008F3231                 db  4Fh ; O
+.rdata:008F3232                 db  52h ; R
+.rdata:008F3233                 db  50h ; P
+.rdata:008F3234                 db  53h ; S
+.rdata:008F3235                 db  45h ; E
+.rdata:008F3236                 db  5Fh ; _
+.rdata:008F3237                 db  46h ; F
+.rdata:008F3238                 db  49h ; I
+.rdata:008F3239                 db  45h ; E
+.rdata:008F323A                 db  4Ch ; L
+.rdata:008F323B                 db  44h ; D
+.rdata:008F323C                 db  5Fh ; _
+.rdata:008F323D                 db  42h ; B
+.rdata:008F323E                 db  59h ; Y
+.rdata:008F323F                 db  54h ; T
+.rdata:008F3240                 db  45h ; E
+.rdata:008F3241                 db  53h ; S
+.rdata:008F3242                 db  5Fh ; _
+.rdata:008F3243                 db  31h ; 1
+.rdata:008F3244                 db    0
+.rdata:008F3245                 db    0
+.rdata:008F3246                 db    0
+.rdata:008F3247                 db    0
+.rdata:008F3248                 db  43h ; C
+.rdata:008F3249                 db  4Fh ; O
+.rdata:008F324A                 db  52h ; R
+.rdata:008F324B                 db  50h ; P
+.rdata:008F324C                 db  53h ; S
+.rdata:008F324D                 db  45h ; E
+.rdata:008F324E                 db  5Fh ; _
+.rdata:008F324F                 db  46h ; F
+.rdata:008F3250                 db  49h ; I
+.rdata:008F3251                 db  45h ; E
+.rdata:008F3252                 db  4Ch ; L
+.rdata:008F3253                 db  44h ; D
+.rdata:008F3254                 db  5Fh ; _
+.rdata:008F3255                 db  49h ; I
+.rdata:008F3256                 db  54h ; T
+.rdata:008F3257                 db  45h ; E
+.rdata:008F3258                 db  4Dh ; M
+.rdata:008F3259                 db    0
+.rdata:008F325A                 db    0
+.rdata:008F325B                 db    0
+.rdata:008F325C                 db  43h ; C
+.rdata:008F325D                 db  4Fh ; O
+.rdata:008F325E                 db  52h ; R
+.rdata:008F325F                 db  50h ; P
+.rdata:008F3260                 db  53h ; S
+.rdata:008F3261                 db  45h ; E
+.rdata:008F3262                 db  5Fh ; _
+.rdata:008F3263                 db  46h ; F
+.rdata:008F3264                 db  49h ; I
+.rdata:008F3265                 db  45h ; E
+.rdata:008F3266                 db  4Ch ; L
+.rdata:008F3267                 db  44h ; D
+.rdata:008F3268                 db  5Fh ; _
+.rdata:008F3269                 db  44h ; D
+.rdata:008F326A                 db  49h ; I
+.rdata:008F326B                 db  53h ; S
+.rdata:008F326C                 db  50h ; P
+.rdata:008F326D                 db  4Ch ; L
+.rdata:008F326E                 db  41h ; A
+.rdata:008F326F                 db  59h ; Y
+.rdata:008F3270                 db  5Fh ; _
+.rdata:008F3271                 db  49h ; I
+.rdata:008F3272                 db  44h ; D
+.rdata:008F3273                 db    0
+.rdata:008F3274                 db  43h ; C
+.rdata:008F3275                 db  4Fh ; O
+.rdata:008F3276                 db  52h ; R
+.rdata:008F3277                 db  50h ; P
+.rdata:008F3278                 db  53h ; S
+.rdata:008F3279                 db  45h ; E
+.rdata:008F327A                 db  5Fh ; _
+.rdata:008F327B                 db  46h ; F
+.rdata:008F327C                 db  49h ; I
+.rdata:008F327D                 db  45h ; E
+.rdata:008F327E                 db  4Ch ; L
+.rdata:008F327F                 db  44h ; D
+.rdata:008F3280                 db  5Fh ; _
+.rdata:008F3281                 db  50h ; P
+.rdata:008F3282                 db  4Fh ; O
+.rdata:008F3283                 db  53h ; S
+.rdata:008F3284                 db  5Fh ; _
+.rdata:008F3285                 db  5Ah ; Z
+.rdata:008F3286                 db    0
+.rdata:008F3287                 db    0
+.rdata:008F3288                 db  43h ; C
+.rdata:008F3289                 db  4Fh ; O
+.rdata:008F328A                 db  52h ; R
+.rdata:008F328B                 db  50h ; P
+.rdata:008F328C                 db  53h ; S
+.rdata:008F328D                 db  45h ; E
+.rdata:008F328E                 db  5Fh ; _
+.rdata:008F328F                 db  46h ; F
+.rdata:008F3290                 db  49h ; I
+.rdata:008F3291                 db  45h ; E
+.rdata:008F3292                 db  4Ch ; L
+.rdata:008F3293                 db  44h ; D
+.rdata:008F3294                 db  5Fh ; _
+.rdata:008F3295                 db  50h ; P
+.rdata:008F3296                 db  4Fh ; O
+.rdata:008F3297                 db  53h ; S
+.rdata:008F3298                 db  5Fh ; _
+.rdata:008F3299                 db  59h ; Y
+.rdata:008F329A                 db    0
+.rdata:008F329B                 db    0
+.rdata:008F329C                 db  43h ; C
+.rdata:008F329D                 db  4Fh ; O
+.rdata:008F329E                 db  52h ; R
+.rdata:008F329F                 db  50h ; P
+.rdata:008F32A0                 db  53h ; S
+.rdata:008F32A1                 db  45h ; E
+.rdata:008F32A2                 db  5Fh ; _
+.rdata:008F32A3                 db  46h ; F
+.rdata:008F32A4                 db  49h ; I
+.rdata:008F32A5                 db  45h ; E
+.rdata:008F32A6                 db  4Ch ; L
+.rdata:008F32A7                 db  44h ; D
+.rdata:008F32A8                 db  5Fh ; _
+.rdata:008F32A9                 db  50h ; P
+.rdata:008F32AA                 db  4Fh ; O
+.rdata:008F32AB                 db  53h ; S
+.rdata:008F32AC                 db  5Fh ; _
+.rdata:008F32AD                 db  58h ; X
+.rdata:008F32AE                 db    0
+.rdata:008F32AF                 db    0
+.rdata:008F32B0                 db  43h ; C
+.rdata:008F32B1                 db  4Fh ; O
+.rdata:008F32B2                 db  52h ; R
+.rdata:008F32B3                 db  50h ; P
+.rdata:008F32B4                 db  53h ; S
+.rdata:008F32B5                 db  45h ; E
+.rdata:008F32B6                 db  5Fh ; _
+.rdata:008F32B7                 db  46h ; F
+.rdata:008F32B8                 db  49h ; I
+.rdata:008F32B9                 db  45h ; E
+.rdata:008F32BA                 db  4Ch ; L
+.rdata:008F32BB                 db  44h ; D
+.rdata:008F32BC                 db  5Fh ; _
+.rdata:008F32BD                 db  46h ; F
+.rdata:008F32BE                 db  41h ; A
+.rdata:008F32BF                 db  43h ; C
+.rdata:008F32C0                 db  49h ; I
+.rdata:008F32C1                 db  4Eh ; N
+.rdata:008F32C2                 db  47h ; G
+.rdata:008F32C3                 db    0
+.rdata:008F32C4 aCorpse_field_o db 'CORPSE_FIELD_OWNER',0 ; DATA XREF: .data:off_BF2F88o
+.rdata:008F32D7                 align 4
+.rdata:008F32D8 aDynamicobjec_0 db 'DYNAMICOBJECT_CASTTIME',0
+.rdata:008F32EF                 align 10h
+.rdata:008F32F0 aDynamicobjec_1 db 'DYNAMICOBJECT_FACING',0
+.rdata:008F3305                 align 4
+.rdata:008F3308 aDynamicobjec_2 db 'DYNAMICOBJECT_POS_Z',0
+.rdata:008F331C aDynamicobjec_3 db 'DYNAMICOBJECT_POS_Y',0
+.rdata:008F3330 aDynamicobjec_4 db 'DYNAMICOBJECT_POS_X',0
+.rdata:008F3344 aDynamicobjec_5 db 'DYNAMICOBJECT_RADIUS',0
+.rdata:008F3359                 align 4
+.rdata:008F335C aDynamicobjec_6 db 'DYNAMICOBJECT_SPELLID',0
+.rdata:008F3372                 align 4
+.rdata:008F3374 aDynamicobjec_7 db 'DYNAMICOBJECT_BYTES',0
+.rdata:008F3388 aDynamicobject_ db 'DYNAMICOBJECT_CASTER',0 ; DATA XREF: .data:off_BF2ED0o
+.rdata:008F339D                 align 10h
+.rdata:008F33A0 aGameobject_pad db 'GAMEOBJECT_PADDING',0
+.rdata:008F33B3                 align 4
+.rdata:008F33B4 aGameobject_ani db 'GAMEOBJECT_ANIMPROGRESS',0
+.rdata:008F33CC aGameobject_art db 'GAMEOBJECT_ARTKIT',0
+.rdata:008F33DE                 align 10h
+.rdata:008F33E0 aGameobject_lev db 'GAMEOBJECT_LEVEL',0
+.rdata:008F33F1                 align 4
+.rdata:008F33F4 aGameobject_typ db 'GAMEOBJECT_TYPE_ID',0
+.rdata:008F3407                 align 4
+.rdata:008F3408 aGameobject_fac db 'GAMEOBJECT_FACTION',0
+.rdata:008F341B                 align 4
+.rdata:008F341C aGameobject_dyn db 'GAMEOBJECT_DYN_FLAGS',0
+.rdata:008F3431                 align 4
+.rdata:008F3434 aGameobject_f_0 db 'GAMEOBJECT_FACING',0
+.rdata:008F3446                 align 4
+.rdata:008F3448 aGameobject_pos db 'GAMEOBJECT_POS_Z',0
+.rdata:008F3459                 align 4
+.rdata:008F345C aGameobject_p_0 db 'GAMEOBJECT_POS_Y',0
+.rdata:008F346D                 align 10h
+.rdata:008F3470 aGameobject_p_1 db 'GAMEOBJECT_POS_X',0
+.rdata:008F3481                 align 4
+.rdata:008F3484 aGameobject_sta db 'GAMEOBJECT_STATE',0
+.rdata:008F3495                 align 4
+.rdata:008F3498 aGameobject_rot db 'GAMEOBJECT_ROTATION',0
+.rdata:008F34AC aGameobject_fla db 'GAMEOBJECT_FLAGS',0
+.rdata:008F34BD                 align 10h
+.rdata:008F34C0 aGameobject_dis db 'GAMEOBJECT_DISPLAYID',0
+.rdata:008F34D5                 align 4
+.rdata:008F34D8 aObject_field_c db 'OBJECT_FIELD_CREATED_BY',0
+.rdata:008F34D8                                         ; DATA XREF: .data:off_BF2D90o
+.rdata:008F34F0 aPlayer_field_p db 'PLAYER_FIELD_PADDING',0
+.rdata:008F3505                 align 4
+.rdata:008F3508 aPlayer_field_i db 'PLAYER_FIELD_IGNORE_AURASTATE',0
+.rdata:008F3526                 align 4
+.rdata:008F3528 aPlayer_glyphs_ db 'PLAYER_GLYPHS_ENABLED',0
+.rdata:008F353E                 align 10h
+.rdata:008F3540 aPlayer_field_g db 'PLAYER_FIELD_GLYPHS_1',0
+.rdata:008F3556                 align 4
+.rdata:008F3558 aPlayer_field_0 db 'PLAYER_FIELD_GLYPH_SLOTS_1',0
+.rdata:008F3573                 align 4
+.rdata:008F3574 aPlayer_no_reag db 'PLAYER_NO_REAGENT_COST_1',0
+.rdata:008F358D                 align 10h
+.rdata:008F3590 aPlayer_rune_re db 'PLAYER_RUNE_REGEN_ENABLED',0
+.rdata:008F35AA                 align 4
+.rdata:008F35AC aPlayer_rune_po db 'PLAYER_RUNE_POWER',0
+.rdata:008F35BE                 align 10h
+.rdata:008F35C0 aPlayer_rune__0 db 'PLAYER_RUNE_REGEN_1',0
+.rdata:008F35D4 aPlayer_field_r db 'PLAYER_FIELD_RUNES_1',0
+.rdata:008F35E9                 align 4
+.rdata:008F35EC aPlayer_field_b db 'PLAYER_FIELD_BASE_RUNES_1',0
+.rdata:008F3606                 align 4
+.rdata:008F3608 aPlayer_field_n db 'PLAYER_FIELD_NUM_RUNES',0
+.rdata:008F361F                 align 10h
+.rdata:008F3620 aPlayer_field_d db 'PLAYER_FIELD_DAILY_QUESTS_1',0
+.rdata:008F363C aPlayer_field_m db 'PLAYER_FIELD_MAX_LEVEL',0
+.rdata:008F3653                 align 4
+.rdata:008F3654 aPlayer_field_1 db 'PLAYER_FIELD_MOD_MANA_REGEN_INTERRUPT',0
+.rdata:008F367A                 align 4
+.rdata:008F367C aPlayer_field_2 db 'PLAYER_FIELD_MOD_MANA_REGEN',0
+.rdata:008F3698 aPlayer_field_a db 'PLAYER_FIELD_ARENA_CURRENCY',0
+.rdata:008F36B4 aPlayer_field_h db 'PLAYER_FIELD_HONOR_CURRENCY',0
+.rdata:008F36D0 aPlayer_field_3 db 'PLAYER_FIELD_ARENA_TEAM_INFO_1_1',0
+.rdata:008F36F1                 align 4
+.rdata:008F36F4 aPlayer_field_c db 'PLAYER_FIELD_COMBAT_RATING_1',0
+.rdata:008F3711                 align 4
+.rdata:008F3714 aPlayer_field_w db 'PLAYER_FIELD_WATCHED_FACTION_INDEX',0
+.rdata:008F3737                 align 4
+.rdata:008F3738 aPlayer_field_4 db 'PLAYER_FIELD_BYTES2',0
+.rdata:008F374C aPlayer_field_l db 'PLAYER_FIELD_LIFETIME_HONORBALE_KILLS',0
+.rdata:008F3772                 align 4
+.rdata:008F3774 aPlayer_field_y db 'PLAYER_FIELD_YESTERDAY_CONTRIBUTION',0
+.rdata:008F3798 aPlayer_field_t db 'PLAYER_FIELD_TODAY_CONTRIBUTION',0
+.rdata:008F37B8 aPlayer_field_k db 'PLAYER_FIELD_KILLS',0
+.rdata:008F37CB                 align 4
+.rdata:008F37CC aPlayer_field_5 db 'PLAYER_FIELD_BUYBACK_TIMESTAMP_1',0
+.rdata:008F37ED                 align 10h
+.rdata:008F37F0 aPlayer_field_6 db 'PLAYER_FIELD_BUYBACK_PRICE_1',0
+.rdata:008F380D                 align 10h
+.rdata:008F3810 aPlayer_field_7 db 'PLAYER_FIELD_PVP_MEDALS',0
+.rdata:008F3828 aPlayer_self_re db 'PLAYER_SELF_RES_SPELL',0
+.rdata:008F383E                 align 10h
+.rdata:008F3840 aPlayer_ammo_id db 'PLAYER_AMMO_ID',0
+.rdata:008F384F                 align 10h
+.rdata:008F3850 aPlayer_field_8 db 'PLAYER_FIELD_BYTES',0
+.rdata:008F3863                 align 4
+.rdata:008F3864 aPlayer_field_9 db 'PLAYER_FIELD_MOD_TARGET_PHYSICAL_RESISTANCE',0
+.rdata:008F3890 aPlayer_fiel_10 db 'PLAYER_FIELD_MOD_TARGET_RESISTANCE',0
+.rdata:008F38B3                 align 4
+.rdata:008F38B4 aPlayer_fiel_11 db 'PLAYER_FIELD_MOD_HEALING_DONE_POS',0
+.rdata:008F38D6                 align 4
+.rdata:008F38D8 aPlayer_fiel_12 db 'PLAYER_FIELD_MOD_DAMAGE_DONE_PCT',0
+.rdata:008F38F9                 align 4
+.rdata:008F38FC aPlayer_fiel_13 db 'PLAYER_FIELD_MOD_DAMAGE_DONE_NEG',0
+.rdata:008F391D                 align 10h
+.rdata:008F3920 aPlayer_fiel_14 db 'PLAYER_FIELD_MOD_DAMAGE_DONE_POS',0
+.rdata:008F3941                 align 4
+.rdata:008F3944 aPlayer_fiel_15 db 'PLAYER_FIELD_COINAGE',0
+.rdata:008F3959                 align 4
+.rdata:008F395C aPlayer_rest_st db 'PLAYER_REST_STATE_EXPERIENCE',0
+.rdata:008F3979                 align 4
+.rdata:008F397C aPlayer_explore db 'PLAYER_EXPLORED_ZONES_1',0
+.rdata:008F3994 aPlayer_shield_ db 'PLAYER_SHIELD_BLOCK_CRIT_PERCENTAGE',0
+.rdata:008F39B8 aPlayer_shiel_0 db 'PLAYER_SHIELD_BLOCK',0
+.rdata:008F39CC aPlayer_spell_c db 'PLAYER_SPELL_CRIT_PERCENTAGE1',0
+.rdata:008F39EA                 align 4
+.rdata:008F39EC aPlayer_offhand db 'PLAYER_OFFHAND_CRIT_PERCENTAGE',0
+.rdata:008F3A0B                 align 4
+.rdata:008F3A0C aPlayer_ranged_ db 'PLAYER_RANGED_CRIT_PERCENTAGE',0
+.rdata:008F3A2A                 align 4
+.rdata:008F3A2C aPlayer_crit_pe db 'PLAYER_CRIT_PERCENTAGE',0
+.rdata:008F3A43                 align 4
+.rdata:008F3A44 aPlayer_offha_0 db 'PLAYER_OFFHAND_EXPERTISE',0
+.rdata:008F3A5D                 align 10h
+.rdata:008F3A60 aPlayer_experti db 'PLAYER_EXPERTISE',0
+.rdata:008F3A71                 align 4
+.rdata:008F3A74 aPlayer_parry_p db 'PLAYER_PARRY_PERCENTAGE',0
+.rdata:008F3A8C aPlayer_dodge_p db 'PLAYER_DODGE_PERCENTAGE',0
+.rdata:008F3AA4 aPlayer_block_p db 'PLAYER_BLOCK_PERCENTAGE',0
+.rdata:008F3ABC aPlayer_track_r db 'PLAYER_TRACK_RESOURCES',0
+.rdata:008F3AD3                 align 4
+.rdata:008F3AD4 aPlayer_track_c db 'PLAYER_TRACK_CREATURES',0
+.rdata:008F3AEB                 align 4
+.rdata:008F3AEC aPlayer_charact db 'PLAYER_CHARACTER_POINTS2',0
+.rdata:008F3B05                 align 4
+.rdata:008F3B08 aPlayer_chara_0 db 'PLAYER_CHARACTER_POINTS1',0
+.rdata:008F3B21                 align 4
+.rdata:008F3B24 aPlayer_skill_i db 'PLAYER_SKILL_INFO_1_1',0
+.rdata:008F3B3A                 align 4
+.rdata:008F3B3C aPlayer_next_le db 'PLAYER_NEXT_LEVEL_XP',0
+.rdata:008F3B51                 align 4
+.rdata:008F3B54 aPlayer_xp      db 'PLAYER_XP',0
+.rdata:008F3B5E                 align 10h
+.rdata:008F3B60 aPlayer__field_ db 'PLAYER__FIELD_KNOWN_TITLES',0
+.rdata:008F3B7B                 align 4
+.rdata:008F3B7C aPlayer_farsi_0 db 'PLAYER_FARSIGHT',0
+.rdata:008F3B8C aPlayer_fiel_16 db 'PLAYER_FIELD_CURRENCYTOKEN_SLOT_1',0
+.rdata:008F3BAE                 align 10h
+.rdata:008F3BB0 aPlayer_field_v db 'PLAYER_FIELD_VANITYPET_SLOT_1',0
+.rdata:008F3BCE                 align 10h
+.rdata:008F3BD0 aPlayer_fiel_17 db 'PLAYER_FIELD_KEYRING_SLOT_1',0
+.rdata:008F3BEC aPlayer_fiel_18 db 'PLAYER_FIELD_VENDORBUYBACK_SLOT_1',0
+.rdata:008F3C0E                 align 10h
+.rdata:008F3C10 aPlayer_fiel_19 db 'PLAYER_FIELD_BANKBAG_SLOT_1',0
+.rdata:008F3C2C aPlayer_fiel_20 db 'PLAYER_FIELD_BANK_SLOT_1',0
+.rdata:008F3C45                 align 4
+.rdata:008F3C48 aPlayer_fiel_21 db 'PLAYER_FIELD_PACK_SLOT_1',0
+.rdata:008F3C61                 align 4
+.rdata:008F3C64 aPlayer_fiel_22 db 'PLAYER_FIELD_INV_SLOT_HEAD',0
+.rdata:008F3C7F                 align 10h
+.rdata:008F3C80 aPlayer_fiel_23 db 'PLAYER_FIELD_PAD_0',0
+.rdata:008F3C93                 align 4
+.rdata:008F3C94 aPlayer_chosen_ db 'PLAYER_CHOSEN_TITLE',0
+.rdata:008F3CA8 aPlayer_visible db 'PLAYER_VISIBLE_ITEM_19_PAD',0
+.rdata:008F3CC3                 align 4
+.rdata:008F3CC4 aPlayer_visib_0 db 'PLAYER_VISIBLE_ITEM_19_SEED',0
+.rdata:008F3CE0 aPlayer_visib_1 db 'PLAYER_VISIBLE_ITEM_19_PROPERTIES',0
+.rdata:008F3D02                 align 4
+.rdata:008F3D04 aPlayer_visib_2 db 'PLAYER_VISIBLE_ITEM_19_0',0
+.rdata:008F3D1D                 align 10h
+.rdata:008F3D20 aPlayer_visib_3 db 'PLAYER_VISIBLE_ITEM_19_CREATOR',0
+.rdata:008F3D3F                 align 10h
+.rdata:008F3D40 aPlayer_visib_4 db 'PLAYER_VISIBLE_ITEM_18_PAD',0
+.rdata:008F3D5B                 align 4
+.rdata:008F3D5C aPlayer_visib_5 db 'PLAYER_VISIBLE_ITEM_18_SEED',0
+.rdata:008F3D78 aPlayer_visib_6 db 'PLAYER_VISIBLE_ITEM_18_PROPERTIES',0
+.rdata:008F3D9A                 align 4
+.rdata:008F3D9C aPlayer_visib_7 db 'PLAYER_VISIBLE_ITEM_18_0',0
+.rdata:008F3DB5                 align 4
+.rdata:008F3DB8 aPlayer_visib_8 db 'PLAYER_VISIBLE_ITEM_18_CREATOR',0
+.rdata:008F3DD7                 align 4
+.rdata:008F3DD8 aPlayer_visib_9 db 'PLAYER_VISIBLE_ITEM_17_PAD',0
+.rdata:008F3DF3                 align 4
+.rdata:008F3DF4 aPlayer_visi_10 db 'PLAYER_VISIBLE_ITEM_17_SEED',0
+.rdata:008F3E10 aPlayer_visi_11 db 'PLAYER_VISIBLE_ITEM_17_PROPERTIES',0
+.rdata:008F3E32                 align 4
+.rdata:008F3E34 aPlayer_visi_12 db 'PLAYER_VISIBLE_ITEM_17_0',0
+.rdata:008F3E4D                 align 10h
+.rdata:008F3E50 aPlayer_visi_13 db 'PLAYER_VISIBLE_ITEM_17_CREATOR',0
+.rdata:008F3E6F                 align 10h
+.rdata:008F3E70 aPlayer_visi_14 db 'PLAYER_VISIBLE_ITEM_16_PAD',0
+.rdata:008F3E8B                 align 4
+.rdata:008F3E8C aPlayer_visi_15 db 'PLAYER_VISIBLE_ITEM_16_SEED',0
+.rdata:008F3EA8 aPlayer_visi_16 db 'PLAYER_VISIBLE_ITEM_16_PROPERTIES',0
+.rdata:008F3ECA                 align 4
+.rdata:008F3ECC aPlayer_visi_17 db 'PLAYER_VISIBLE_ITEM_16_0',0
+.rdata:008F3EE5                 align 4
+.rdata:008F3EE8 aPlayer_visi_18 db 'PLAYER_VISIBLE_ITEM_16_CREATOR',0
+.rdata:008F3F07                 align 4
+.rdata:008F3F08 aPlayer_visi_19 db 'PLAYER_VISIBLE_ITEM_15_PAD',0
+.rdata:008F3F23                 align 4
+.rdata:008F3F24 aPlayer_visi_20 db 'PLAYER_VISIBLE_ITEM_15_SEED',0
+.rdata:008F3F40 aPlayer_visi_21 db 'PLAYER_VISIBLE_ITEM_15_PROPERTIES',0
+.rdata:008F3F62                 align 4
+.rdata:008F3F64 aPlayer_visi_22 db 'PLAYER_VISIBLE_ITEM_15_0',0
+.rdata:008F3F7D                 align 10h
+.rdata:008F3F80 aPlayer_visi_23 db 'PLAYER_VISIBLE_ITEM_15_CREATOR',0
+.rdata:008F3F9F                 align 10h
+.rdata:008F3FA0 aPlayer_visi_24 db 'PLAYER_VISIBLE_ITEM_14_PAD',0
+.rdata:008F3FBB                 align 4
+.rdata:008F3FBC aPlayer_visi_25 db 'PLAYER_VISIBLE_ITEM_14_SEED',0
+.rdata:008F3FD8 aPlayer_visi_26 db 'PLAYER_VISIBLE_ITEM_14_PROPERTIES',0
+.rdata:008F3FFA                 align 4
+.rdata:008F3FFC aPlayer_visi_27 db 'PLAYER_VISIBLE_ITEM_14_0',0
+.rdata:008F4015                 align 4
+.rdata:008F4018 aPlayer_visi_28 db 'PLAYER_VISIBLE_ITEM_14_CREATOR',0
+.rdata:008F4037                 align 4
+.rdata:008F4038 aPlayer_visi_29 db 'PLAYER_VISIBLE_ITEM_13_PAD',0
+.rdata:008F4053                 align 4
+.rdata:008F4054 aPlayer_visi_30 db 'PLAYER_VISIBLE_ITEM_13_SEED',0
+.rdata:008F4070 aPlayer_visi_31 db 'PLAYER_VISIBLE_ITEM_13_PROPERTIES',0
+.rdata:008F4092                 align 4
+.rdata:008F4094 aPlayer_visi_32 db 'PLAYER_VISIBLE_ITEM_13_0',0
+.rdata:008F40AD                 align 10h
+.rdata:008F40B0 aPlayer_visi_33 db 'PLAYER_VISIBLE_ITEM_13_CREATOR',0
+.rdata:008F40CF                 align 10h
+.rdata:008F40D0 aPlayer_visi_34 db 'PLAYER_VISIBLE_ITEM_12_PAD',0
+.rdata:008F40EB                 align 4
+.rdata:008F40EC aPlayer_visi_35 db 'PLAYER_VISIBLE_ITEM_12_SEED',0
+.rdata:008F4108 aPlayer_visi_36 db 'PLAYER_VISIBLE_ITEM_12_PROPERTIES',0
+.rdata:008F412A                 align 4
+.rdata:008F412C aPlayer_visi_37 db 'PLAYER_VISIBLE_ITEM_12_0',0
+.rdata:008F4145                 align 4
+.rdata:008F4148 aPlayer_visi_38 db 'PLAYER_VISIBLE_ITEM_12_CREATOR',0
+.rdata:008F4167                 align 4
+.rdata:008F4168 aPlayer_visi_39 db 'PLAYER_VISIBLE_ITEM_11_PAD',0
+.rdata:008F4183                 align 4
+.rdata:008F4184 aPlayer_visi_40 db 'PLAYER_VISIBLE_ITEM_11_SEED',0
+.rdata:008F41A0 aPlayer_visi_41 db 'PLAYER_VISIBLE_ITEM_11_PROPERTIES',0
+.rdata:008F41C2                 align 4
+.rdata:008F41C4 aPlayer_visi_42 db 'PLAYER_VISIBLE_ITEM_11_0',0
+.rdata:008F41DD                 align 10h
+.rdata:008F41E0 aPlayer_visi_43 db 'PLAYER_VISIBLE_ITEM_11_CREATOR',0
+.rdata:008F41FF                 align 10h
+.rdata:008F4200 aPlayer_visi_44 db 'PLAYER_VISIBLE_ITEM_10_PAD',0
+.rdata:008F421B                 align 4
+.rdata:008F421C aPlayer_visi_45 db 'PLAYER_VISIBLE_ITEM_10_SEED',0
+.rdata:008F4238 aPlayer_visi_46 db 'PLAYER_VISIBLE_ITEM_10_PROPERTIES',0
+.rdata:008F425A                 align 4
+.rdata:008F425C aPlayer_visi_47 db 'PLAYER_VISIBLE_ITEM_10_0',0
+.rdata:008F4275                 align 4
+.rdata:008F4278 aPlayer_visi_48 db 'PLAYER_VISIBLE_ITEM_10_CREATOR',0
+.rdata:008F4297                 align 4
+.rdata:008F4298 aPlayer_visi_49 db 'PLAYER_VISIBLE_ITEM_9_PAD',0
+.rdata:008F42B2                 align 4
+.rdata:008F42B4 aPlayer_visi_50 db 'PLAYER_VISIBLE_ITEM_9_SEED',0
+.rdata:008F42CF                 align 10h
+.rdata:008F42D0 aPlayer_visi_51 db 'PLAYER_VISIBLE_ITEM_9_PROPERTIES',0
+.rdata:008F42F1                 align 4
+.rdata:008F42F4 aPlayer_visi_52 db 'PLAYER_VISIBLE_ITEM_9_0',0
+.rdata:008F430C aPlayer_visi_53 db 'PLAYER_VISIBLE_ITEM_9_CREATOR',0
+.rdata:008F432A                 align 4
+.rdata:008F432C aPlayer_visi_54 db 'PLAYER_VISIBLE_ITEM_8_PAD',0
+.rdata:008F4346                 align 4
+.rdata:008F4348 aPlayer_visi_55 db 'PLAYER_VISIBLE_ITEM_8_SEED',0
+.rdata:008F4363                 align 4
+.rdata:008F4364 aPlayer_visi_56 db 'PLAYER_VISIBLE_ITEM_8_PROPERTIES',0
+.rdata:008F4385                 align 4
+.rdata:008F4388 aPlayer_visi_57 db 'PLAYER_VISIBLE_ITEM_8_0',0
+.rdata:008F43A0 aPlayer_visi_58 db 'PLAYER_VISIBLE_ITEM_8_CREATOR',0
+.rdata:008F43BE                 align 10h
+.rdata:008F43C0 aPlayer_visi_59 db 'PLAYER_VISIBLE_ITEM_7_PAD',0
+.rdata:008F43DA                 align 4
+.rdata:008F43DC aPlayer_visi_60 db 'PLAYER_VISIBLE_ITEM_7_SEED',0
+.rdata:008F43F7                 align 4
+.rdata:008F43F8 aPlayer_visi_61 db 'PLAYER_VISIBLE_ITEM_7_PROPERTIES',0
+.rdata:008F4419                 align 4
+.rdata:008F441C aPlayer_visi_62 db 'PLAYER_VISIBLE_ITEM_7_0',0
+.rdata:008F4434 aPlayer_visi_63 db 'PLAYER_VISIBLE_ITEM_7_CREATOR',0
+.rdata:008F4452                 align 4
+.rdata:008F4454 aPlayer_visi_64 db 'PLAYER_VISIBLE_ITEM_6_PAD',0
+.rdata:008F446E                 align 10h
+.rdata:008F4470 aPlayer_visi_65 db 'PLAYER_VISIBLE_ITEM_6_SEED',0
+.rdata:008F448B                 align 4
+.rdata:008F448C aPlayer_visi_66 db 'PLAYER_VISIBLE_ITEM_6_PROPERTIES',0
+.rdata:008F44AD                 align 10h
+.rdata:008F44B0 aPlayer_visi_67 db 'PLAYER_VISIBLE_ITEM_6_0',0
+.rdata:008F44C8 aPlayer_visi_68 db 'PLAYER_VISIBLE_ITEM_6_CREATOR',0
+.rdata:008F44E6                 align 4
+.rdata:008F44E8 aPlayer_visi_69 db 'PLAYER_VISIBLE_ITEM_5_PAD',0
+.rdata:008F4502                 align 4
+.rdata:008F4504 aPlayer_visi_70 db 'PLAYER_VISIBLE_ITEM_5_SEED',0
+.rdata:008F451F                 align 10h
+.rdata:008F4520 aPlayer_visi_71 db 'PLAYER_VISIBLE_ITEM_5_PROPERTIES',0
+.rdata:008F4541                 align 4
+.rdata:008F4544 aPlayer_visi_72 db 'PLAYER_VISIBLE_ITEM_5_0',0
+.rdata:008F455C aPlayer_visi_73 db 'PLAYER_VISIBLE_ITEM_5_CREATOR',0
+.rdata:008F457A                 align 4
+.rdata:008F457C aPlayer_visi_74 db 'PLAYER_VISIBLE_ITEM_4_PAD',0
+.rdata:008F4596                 align 4
+.rdata:008F4598 aPlayer_visi_75 db 'PLAYER_VISIBLE_ITEM_4_SEED',0
+.rdata:008F45B3                 align 4
+.rdata:008F45B4 aPlayer_visi_76 db 'PLAYER_VISIBLE_ITEM_4_PROPERTIES',0
+.rdata:008F45D5                 align 4
+.rdata:008F45D8 aPlayer_visi_77 db 'PLAYER_VISIBLE_ITEM_4_0',0
+.rdata:008F45F0 aPlayer_visi_78 db 'PLAYER_VISIBLE_ITEM_4_CREATOR',0
+.rdata:008F460E                 align 10h
+.rdata:008F4610 aPlayer_visi_79 db 'PLAYER_VISIBLE_ITEM_3_PAD',0
+.rdata:008F462A                 align 4
+.rdata:008F462C aPlayer_visi_80 db 'PLAYER_VISIBLE_ITEM_3_SEED',0
+.rdata:008F4647                 align 4
+.rdata:008F4648 aPlayer_visi_81 db 'PLAYER_VISIBLE_ITEM_3_PROPERTIES',0
+.rdata:008F4669                 align 4
+.rdata:008F466C aPlayer_visi_82 db 'PLAYER_VISIBLE_ITEM_3_0',0
+.rdata:008F4684 aPlayer_visi_83 db 'PLAYER_VISIBLE_ITEM_3_CREATOR',0
+.rdata:008F46A2                 align 4
+.rdata:008F46A4 aPlayer_visi_84 db 'PLAYER_VISIBLE_ITEM_2_PAD',0
+.rdata:008F46BE                 align 10h
+.rdata:008F46C0 aPlayer_visi_85 db 'PLAYER_VISIBLE_ITEM_2_SEED',0
+.rdata:008F46DB                 align 4
+.rdata:008F46DC aPlayer_visi_86 db 'PLAYER_VISIBLE_ITEM_2_PROPERTIES',0
+.rdata:008F46FD                 align 10h
+.rdata:008F4700 aPlayer_visi_87 db 'PLAYER_VISIBLE_ITEM_2_0',0
+.rdata:008F4718 aPlayer_visi_88 db 'PLAYER_VISIBLE_ITEM_2_CREATOR',0
+.rdata:008F4736                 align 4
+.rdata:008F4738 aPlayer_visi_89 db 'PLAYER_VISIBLE_ITEM_1_PAD',0
+.rdata:008F4752                 align 4
+.rdata:008F4754 aPlayer_visi_90 db 'PLAYER_VISIBLE_ITEM_1_SEED',0
+.rdata:008F476F                 align 10h
+.rdata:008F4770 aPlayer_visi_91 db 'PLAYER_VISIBLE_ITEM_1_PROPERTIES',0
+.rdata:008F4791                 align 4
+.rdata:008F4794 aPlayer_visi_92 db 'PLAYER_VISIBLE_ITEM_1_0',0
+.rdata:008F47AC aPlayer_visi_93 db 'PLAYER_VISIBLE_ITEM_1_CREATOR',0
+.rdata:008F47CA                 align 4
+.rdata:008F47CC aPlayer_quest_l db 'PLAYER_QUEST_LOG_25_4',0
+.rdata:008F47E2                 align 4
+.rdata:008F47E4 aPlayer_quest_0 db 'PLAYER_QUEST_LOG_25_3',0
+.rdata:008F47FA                 align 4
+.rdata:008F47FC aPlayer_quest_1 db 'PLAYER_QUEST_LOG_25_2',0
+.rdata:008F4812                 align 4
+.rdata:008F4814 aPlayer_quest_2 db 'PLAYER_QUEST_LOG_25_1',0
+.rdata:008F482A                 align 4
+.rdata:008F482C aPlayer_quest_3 db 'PLAYER_QUEST_LOG_24_4',0
+.rdata:008F4842                 align 4
+.rdata:008F4844 aPlayer_quest_4 db 'PLAYER_QUEST_LOG_24_3',0
+.rdata:008F485A                 align 4
+.rdata:008F485C aPlayer_quest_5 db 'PLAYER_QUEST_LOG_24_2',0
+.rdata:008F4872                 align 4
+.rdata:008F4874 aPlayer_quest_6 db 'PLAYER_QUEST_LOG_24_1',0
+.rdata:008F488A                 align 4
+.rdata:008F488C aPlayer_quest_7 db 'PLAYER_QUEST_LOG_23_4',0
+.rdata:008F48A2                 align 4
+.rdata:008F48A4 aPlayer_quest_8 db 'PLAYER_QUEST_LOG_23_3',0
+.rdata:008F48BA                 align 4
+.rdata:008F48BC aPlayer_quest_9 db 'PLAYER_QUEST_LOG_23_2',0
+.rdata:008F48D2                 align 4
+.rdata:008F48D4 aPlayer_ques_10 db 'PLAYER_QUEST_LOG_23_1',0
+.rdata:008F48EA                 align 4
+.rdata:008F48EC aPlayer_ques_11 db 'PLAYER_QUEST_LOG_22_4',0
+.rdata:008F4902                 align 4
+.rdata:008F4904 aPlayer_ques_12 db 'PLAYER_QUEST_LOG_22_3',0
+.rdata:008F491A                 align 4
+.rdata:008F491C aPlayer_ques_13 db 'PLAYER_QUEST_LOG_22_2',0
+.rdata:008F4932                 align 4
+.rdata:008F4934 aPlayer_ques_14 db 'PLAYER_QUEST_LOG_22_1',0
+.rdata:008F494A                 align 4
+.rdata:008F494C aPlayer_ques_15 db 'PLAYER_QUEST_LOG_21_4',0
+.rdata:008F4962                 align 4
+.rdata:008F4964 aPlayer_ques_16 db 'PLAYER_QUEST_LOG_21_3',0
+.rdata:008F497A                 align 4
+.rdata:008F497C aPlayer_ques_17 db 'PLAYER_QUEST_LOG_21_2',0
+.rdata:008F4992                 align 4
+.rdata:008F4994 aPlayer_ques_18 db 'PLAYER_QUEST_LOG_21_1',0
+.rdata:008F49AA                 align 4
+.rdata:008F49AC aPlayer_ques_19 db 'PLAYER_QUEST_LOG_20_4',0
+.rdata:008F49C2                 align 4
+.rdata:008F49C4 aPlayer_ques_20 db 'PLAYER_QUEST_LOG_20_3',0
+.rdata:008F49DA                 align 4
+.rdata:008F49DC aPlayer_ques_21 db 'PLAYER_QUEST_LOG_20_2',0
+.rdata:008F49F2                 align 4
+.rdata:008F49F4 aPlayer_ques_22 db 'PLAYER_QUEST_LOG_20_1',0
+.rdata:008F4A0A                 align 4
+.rdata:008F4A0C aPlayer_ques_23 db 'PLAYER_QUEST_LOG_19_4',0
+.rdata:008F4A22                 align 4
+.rdata:008F4A24 aPlayer_ques_24 db 'PLAYER_QUEST_LOG_19_3',0
+.rdata:008F4A3A                 align 4
+.rdata:008F4A3C aPlayer_ques_25 db 'PLAYER_QUEST_LOG_19_2',0
+.rdata:008F4A52                 align 4
+.rdata:008F4A54 aPlayer_ques_26 db 'PLAYER_QUEST_LOG_19_1',0
+.rdata:008F4A6A                 align 4
+.rdata:008F4A6C aPlayer_ques_27 db 'PLAYER_QUEST_LOG_18_4',0
+.rdata:008F4A82                 align 4
+.rdata:008F4A84 aPlayer_ques_28 db 'PLAYER_QUEST_LOG_18_3',0
+.rdata:008F4A9A                 align 4
+.rdata:008F4A9C aPlayer_ques_29 db 'PLAYER_QUEST_LOG_18_2',0
+.rdata:008F4AB2                 align 4
+.rdata:008F4AB4 aPlayer_ques_30 db 'PLAYER_QUEST_LOG_18_1',0
+.rdata:008F4ACA                 align 4
+.rdata:008F4ACC aPlayer_ques_31 db 'PLAYER_QUEST_LOG_17_4',0
+.rdata:008F4AE2                 align 4
+.rdata:008F4AE4 aPlayer_ques_32 db 'PLAYER_QUEST_LOG_17_3',0
+.rdata:008F4AFA                 align 4
+.rdata:008F4AFC aPlayer_ques_33 db 'PLAYER_QUEST_LOG_17_2',0
+.rdata:008F4B12                 align 4
+.rdata:008F4B14 aPlayer_ques_34 db 'PLAYER_QUEST_LOG_17_1',0
+.rdata:008F4B2A                 align 4
+.rdata:008F4B2C aPlayer_ques_35 db 'PLAYER_QUEST_LOG_16_4',0
+.rdata:008F4B42                 align 4
+.rdata:008F4B44 aPlayer_ques_36 db 'PLAYER_QUEST_LOG_16_3',0
+.rdata:008F4B5A                 align 4
+.rdata:008F4B5C aPlayer_ques_37 db 'PLAYER_QUEST_LOG_16_2',0
+.rdata:008F4B72                 align 4
+.rdata:008F4B74 aPlayer_ques_38 db 'PLAYER_QUEST_LOG_16_1',0
+.rdata:008F4B8A                 align 4
+.rdata:008F4B8C aPlayer_ques_39 db 'PLAYER_QUEST_LOG_15_4',0
+.rdata:008F4BA2                 align 4
+.rdata:008F4BA4 aPlayer_ques_40 db 'PLAYER_QUEST_LOG_15_3',0
+.rdata:008F4BBA                 align 4
+.rdata:008F4BBC aPlayer_ques_41 db 'PLAYER_QUEST_LOG_15_2',0
+.rdata:008F4BD2                 align 4
+.rdata:008F4BD4 aPlayer_ques_42 db 'PLAYER_QUEST_LOG_15_1',0
+.rdata:008F4BEA                 align 4
+.rdata:008F4BEC aPlayer_ques_43 db 'PLAYER_QUEST_LOG_14_4',0
+.rdata:008F4C02                 align 4
+.rdata:008F4C04 aPlayer_ques_44 db 'PLAYER_QUEST_LOG_14_3',0
+.rdata:008F4C1A                 align 4
+.rdata:008F4C1C aPlayer_ques_45 db 'PLAYER_QUEST_LOG_14_2',0
+.rdata:008F4C32                 align 4
+.rdata:008F4C34 aPlayer_ques_46 db 'PLAYER_QUEST_LOG_14_1',0
+.rdata:008F4C4A                 align 4
+.rdata:008F4C4C aPlayer_ques_47 db 'PLAYER_QUEST_LOG_13_4',0
+.rdata:008F4C62                 align 4
+.rdata:008F4C64 aPlayer_ques_48 db 'PLAYER_QUEST_LOG_13_3',0
+.rdata:008F4C7A                 align 4
+.rdata:008F4C7C aPlayer_ques_49 db 'PLAYER_QUEST_LOG_13_2',0
+.rdata:008F4C92                 align 4
+.rdata:008F4C94 aPlayer_ques_50 db 'PLAYER_QUEST_LOG_13_1',0
+.rdata:008F4CAA                 align 4
+.rdata:008F4CAC aPlayer_ques_51 db 'PLAYER_QUEST_LOG_12_4',0
+.rdata:008F4CC2                 align 4
+.rdata:008F4CC4 aPlayer_ques_52 db 'PLAYER_QUEST_LOG_12_3',0
+.rdata:008F4CDA                 align 4
+.rdata:008F4CDC aPlayer_ques_53 db 'PLAYER_QUEST_LOG_12_2',0
+.rdata:008F4CF2                 align 4
+.rdata:008F4CF4 aPlayer_ques_54 db 'PLAYER_QUEST_LOG_12_1',0
+.rdata:008F4D0A                 align 4
+.rdata:008F4D0C aPlayer_ques_55 db 'PLAYER_QUEST_LOG_11_4',0
+.rdata:008F4D22                 align 4
+.rdata:008F4D24 aPlayer_ques_56 db 'PLAYER_QUEST_LOG_11_3',0
+.rdata:008F4D3A                 align 4
+.rdata:008F4D3C aPlayer_ques_57 db 'PLAYER_QUEST_LOG_11_2',0
+.rdata:008F4D52                 align 4
+.rdata:008F4D54 aPlayer_ques_58 db 'PLAYER_QUEST_LOG_11_1',0
+.rdata:008F4D6A                 align 4
+.rdata:008F4D6C aPlayer_ques_59 db 'PLAYER_QUEST_LOG_10_4',0
+.rdata:008F4D82                 align 4
+.rdata:008F4D84 aPlayer_ques_60 db 'PLAYER_QUEST_LOG_10_3',0
+.rdata:008F4D9A                 align 4
+.rdata:008F4D9C aPlayer_ques_61 db 'PLAYER_QUEST_LOG_10_2',0
+.rdata:008F4DB2                 align 4
+.rdata:008F4DB4 aPlayer_ques_62 db 'PLAYER_QUEST_LOG_10_1',0
+.rdata:008F4DCA                 align 4
+.rdata:008F4DCC aPlayer_ques_63 db 'PLAYER_QUEST_LOG_9_4',0
+.rdata:008F4DE1                 align 4
+.rdata:008F4DE4 aPlayer_ques_64 db 'PLAYER_QUEST_LOG_9_3',0
+.rdata:008F4DF9                 align 4
+.rdata:008F4DFC aPlayer_ques_65 db 'PLAYER_QUEST_LOG_9_2',0
+.rdata:008F4E11                 align 4
+.rdata:008F4E14 aPlayer_ques_66 db 'PLAYER_QUEST_LOG_9_1',0
+.rdata:008F4E29                 align 4
+.rdata:008F4E2C aPlayer_ques_67 db 'PLAYER_QUEST_LOG_8_4',0
+.rdata:008F4E41                 align 4
+.rdata:008F4E44 aPlayer_ques_68 db 'PLAYER_QUEST_LOG_8_3',0
+.rdata:008F4E59                 align 4
+.rdata:008F4E5C aPlayer_ques_69 db 'PLAYER_QUEST_LOG_8_2',0
+.rdata:008F4E71                 align 4
+.rdata:008F4E74 aPlayer_ques_70 db 'PLAYER_QUEST_LOG_8_1',0
+.rdata:008F4E89                 align 4
+.rdata:008F4E8C aPlayer_ques_71 db 'PLAYER_QUEST_LOG_7_4',0
+.rdata:008F4EA1                 align 4
+.rdata:008F4EA4 aPlayer_ques_72 db 'PLAYER_QUEST_LOG_7_3',0
+.rdata:008F4EB9                 align 4
+.rdata:008F4EBC aPlayer_ques_73 db 'PLAYER_QUEST_LOG_7_2',0
+.rdata:008F4ED1                 align 4
+.rdata:008F4ED4 aPlayer_ques_74 db 'PLAYER_QUEST_LOG_7_1',0
+.rdata:008F4EE9                 align 4
+.rdata:008F4EEC aPlayer_ques_75 db 'PLAYER_QUEST_LOG_6_4',0
+.rdata:008F4F01                 align 4
+.rdata:008F4F04 aPlayer_ques_76 db 'PLAYER_QUEST_LOG_6_3',0
+.rdata:008F4F19                 align 4
+.rdata:008F4F1C aPlayer_ques_77 db 'PLAYER_QUEST_LOG_6_2',0
+.rdata:008F4F31                 align 4
+.rdata:008F4F34 aPlayer_ques_78 db 'PLAYER_QUEST_LOG_6_1',0
+.rdata:008F4F49                 align 4
+.rdata:008F4F4C aPlayer_ques_79 db 'PLAYER_QUEST_LOG_5_4',0
+.rdata:008F4F61                 align 4
+.rdata:008F4F64 aPlayer_ques_80 db 'PLAYER_QUEST_LOG_5_3',0
+.rdata:008F4F79                 align 4
+.rdata:008F4F7C aPlayer_ques_81 db 'PLAYER_QUEST_LOG_5_2',0
+.rdata:008F4F91                 align 4
+.rdata:008F4F94 aPlayer_ques_82 db 'PLAYER_QUEST_LOG_5_1',0
+.rdata:008F4FA9                 align 4
+.rdata:008F4FAC aPlayer_ques_83 db 'PLAYER_QUEST_LOG_4_4',0
+.rdata:008F4FC1                 align 4
+.rdata:008F4FC4 aPlayer_ques_84 db 'PLAYER_QUEST_LOG_4_3',0
+.rdata:008F4FD9                 align 4
+.rdata:008F4FDC aPlayer_ques_85 db 'PLAYER_QUEST_LOG_4_2',0
+.rdata:008F4FF1                 align 4
+.rdata:008F4FF4 aPlayer_ques_86 db 'PLAYER_QUEST_LOG_4_1',0
+.rdata:008F5009                 align 4
+.rdata:008F500C aPlayer_ques_87 db 'PLAYER_QUEST_LOG_3_4',0
+.rdata:008F5021                 align 4
+.rdata:008F5024 aPlayer_ques_88 db 'PLAYER_QUEST_LOG_3_3',0
+.rdata:008F5039                 align 4
+.rdata:008F503C aPlayer_ques_89 db 'PLAYER_QUEST_LOG_3_2',0
+.rdata:008F5051                 align 4
+.rdata:008F5054 aPlayer_ques_90 db 'PLAYER_QUEST_LOG_3_1',0
+.rdata:008F5069                 align 4
+.rdata:008F506C aPlayer_ques_91 db 'PLAYER_QUEST_LOG_2_4',0
+.rdata:008F5081                 align 4
+.rdata:008F5084 aPlayer_ques_92 db 'PLAYER_QUEST_LOG_2_3',0
+.rdata:008F5099                 align 4
+.rdata:008F509C aPlayer_ques_93 db 'PLAYER_QUEST_LOG_2_2',0
+.rdata:008F50B1                 align 4
+.rdata:008F50B4 aPlayer_ques_94 db 'PLAYER_QUEST_LOG_2_1',0
+.rdata:008F50C9                 align 4
+.rdata:008F50CC aPlayer_ques_95 db 'PLAYER_QUEST_LOG_1_4',0
+.rdata:008F50E1                 align 4
+.rdata:008F50E4 aPlayer_ques_96 db 'PLAYER_QUEST_LOG_1_3',0
+.rdata:008F50F9                 align 4
+.rdata:008F50FC aPlayer_ques_97 db 'PLAYER_QUEST_LOG_1_2',0
+.rdata:008F5111                 align 4
+.rdata:008F5114 aPlayer_ques_98 db 'PLAYER_QUEST_LOG_1_1',0
+.rdata:008F5129                 align 4
+.rdata:008F512C aPlayer_guild_t db 'PLAYER_GUILD_TIMESTAMP',0
+.rdata:008F5143                 align 4
+.rdata:008F5144 aPlayer_duel_te db 'PLAYER_DUEL_TEAM',0
+.rdata:008F5155                 align 4
+.rdata:008F5158 aPlayer_bytes_3 db 'PLAYER_BYTES_3',0
+.rdata:008F5167                 align 4
+.rdata:008F5168 aPlayer_bytes_2 db 'PLAYER_BYTES_2',0
+.rdata:008F5177                 align 4
+.rdata:008F5178 aPlayer_bytes   db 'PLAYER_BYTES',0
+.rdata:008F5185                 align 4
+.rdata:008F5188 aPlayer_guildra db 'PLAYER_GUILDRANK',0
+.rdata:008F5199                 align 4
+.rdata:008F519C aPlayer_guildid db 'PLAYER_GUILDID',0
+.rdata:008F51AB                 align 4
+.rdata:008F51AC aPlayer_flags   db 'PLAYER_FLAGS',0
+.rdata:008F51B9                 align 4
+.rdata:008F51BC aPlayer_duel_ar db 'PLAYER_DUEL_ARBITER',0 ; DATA XREF: .data:off_BF1810o
+.rdata:008F51D0 aUnit_field_pad db 'UNIT_FIELD_PADDING',0
+.rdata:008F51E3                 align 4
+.rdata:008F51E4 aUnit_field_max db 'UNIT_FIELD_MAXHEALTHMODIFIER',0
+.rdata:008F5201                 align 4
+.rdata:008F5204 aUnit_field_pow db 'UNIT_FIELD_POWER_COST_MULTIPLIER',0
+.rdata:008F5225                 align 4
+.rdata:008F5228 aUnit_field_p_0 db 'UNIT_FIELD_POWER_COST_MODIFIER',0
+.rdata:008F5247                 align 4
+.rdata:008F5248 aUnit_field_m_0 db 'UNIT_FIELD_MAXRANGEDDAMAGE',0
+.rdata:008F5263                 align 4
+.rdata:008F5264 aUnit_field_min db 'UNIT_FIELD_MINRANGEDDAMAGE',0
+.rdata:008F527F                 align 10h
+.rdata:008F5280 aUnit_field_ran db 'UNIT_FIELD_RANGED_ATTACK_POWER_MULTIPLIER',0
+.rdata:008F52AA                 align 4
+.rdata:008F52AC aUnit_field_r_0 db 'UNIT_FIELD_RANGED_ATTACK_POWER_MODS',0
+.rdata:008F52D0 aUnit_field_r_1 db 'UNIT_FIELD_RANGED_ATTACK_POWER',0
+.rdata:008F52EF                 align 10h
+.rdata:008F52F0 aUnit_field_att db 'UNIT_FIELD_ATTACK_POWER_MULTIPLIER',0
+.rdata:008F5313                 align 4
+.rdata:008F5314 aUnit_field_a_0 db 'UNIT_FIELD_ATTACK_POWER_MODS',0
+.rdata:008F5331                 align 4
+.rdata:008F5334 aUnit_field_a_1 db 'UNIT_FIELD_ATTACK_POWER',0
+.rdata:008F534C aUnit_field_byt db 'UNIT_FIELD_BYTES_2',0
+.rdata:008F535F                 align 10h
+.rdata:008F5360 aUnit_field_bas db 'UNIT_FIELD_BASE_HEALTH',0
+.rdata:008F5377                 align 4
+.rdata:008F5378 aUnit_field_b_0 db 'UNIT_FIELD_BASE_MANA',0
+.rdata:008F538D                 align 10h
+.rdata:008F5390 aUnit_field_res db 'UNIT_FIELD_RESISTANCEBUFFMODSNEGATIVE',0
+.rdata:008F53B6                 align 4
+.rdata:008F53B8 aUnit_field_r_2 db 'UNIT_FIELD_RESISTANCEBUFFMODSPOSITIVE',0
+.rdata:008F53DE                 align 10h
+.rdata:008F53E0 aUnit_field_r_3 db 'UNIT_FIELD_RESISTANCES',0
+.rdata:008F53F7                 align 4
+.rdata:008F53F8 aUnit_field_neg db 'UNIT_FIELD_NEGSTAT4',0
+.rdata:008F540C aUnit_field_n_0 db 'UNIT_FIELD_NEGSTAT3',0
+.rdata:008F5420 aUnit_field_n_1 db 'UNIT_FIELD_NEGSTAT2',0
+.rdata:008F5434 aUnit_field_n_2 db 'UNIT_FIELD_NEGSTAT1',0
+.rdata:008F5448 aUnit_field_n_3 db 'UNIT_FIELD_NEGSTAT0',0
+.rdata:008F545C aUnit_field_pos db 'UNIT_FIELD_POSSTAT4',0
+.rdata:008F5470 aUnit_field_p_1 db 'UNIT_FIELD_POSSTAT3',0
+.rdata:008F5484 aUnit_field_p_2 db 'UNIT_FIELD_POSSTAT2',0
+.rdata:008F5498 aUnit_field_p_3 db 'UNIT_FIELD_POSSTAT1',0
+.rdata:008F54AC aUnit_field_p_4 db 'UNIT_FIELD_POSSTAT0',0
+.rdata:008F54C0 aUnit_field_sta db 'UNIT_FIELD_STAT4',0
+.rdata:008F54D1                 align 4
+.rdata:008F54D4 aUnit_field_s_0 db 'UNIT_FIELD_STAT3',0
+.rdata:008F54E5                 align 4
+.rdata:008F54E8 aUnit_field_s_1 db 'UNIT_FIELD_STAT2',0
+.rdata:008F54F9                 align 4
+.rdata:008F54FC aUnit_field_s_2 db 'UNIT_FIELD_STAT1',0
+.rdata:008F550D                 align 10h
+.rdata:008F5510 aUnit_field_s_3 db 'UNIT_FIELD_STAT0',0
+.rdata:008F5521                 align 4
+.rdata:008F5524 aUnit_training_ db 'UNIT_TRAINING_POINTS',0
+.rdata:008F5539                 align 4
+.rdata:008F553C aUnit_npc_emote db 'UNIT_NPC_EMOTESTATE',0
+.rdata:008F5550 aUnit_npc_flags db 'UNIT_NPC_FLAGS',0
+.rdata:008F555F                 align 10h
+.rdata:008F5560 aUnit_created_b db 'UNIT_CREATED_BY_SPELL',0
+.rdata:008F5576                 align 4
+.rdata:008F5578 aUnit_mod_cast_ db 'UNIT_MOD_CAST_SPEED',0
+.rdata:008F558C aUnit_channel_s db 'UNIT_CHANNEL_SPELL',0
+.rdata:008F559F                 align 10h
+.rdata:008F55A0 aUnit_dynamic_f db 'UNIT_DYNAMIC_FLAGS',0 ; DATA XREF: sub_54AD30+1AFo
+.rdata:008F55B3                 align 4
+.rdata:008F55B4 aUnit_field_pet db 'UNIT_FIELD_PETNEXTLEVELEXP',0
+.rdata:008F55CF                 align 10h
+.rdata:008F55D0 aUnit_field_p_5 db 'UNIT_FIELD_PETEXPERIENCE',0
+.rdata:008F55E9                 align 4
+.rdata:008F55EC aUnit_field_p_6 db 'UNIT_FIELD_PET_NAME_TIMESTAMP',0
+.rdata:008F560A                 align 4
+.rdata:008F560C aUnit_field_p_7 db 'UNIT_FIELD_PETNUMBER',0
+.rdata:008F5621                 align 4
+.rdata:008F5624 aUnit_field_b_1 db 'UNIT_FIELD_BYTES_1',0
+.rdata:008F5637                 align 4
+.rdata:008F5638 aUnit_field_m_1 db 'UNIT_FIELD_MAXOFFHANDDAMAGE',0
+.rdata:008F5654 aUnit_field_m_2 db 'UNIT_FIELD_MINOFFHANDDAMAGE',0
+.rdata:008F5670 aUnit_field_m_3 db 'UNIT_FIELD_MAXDAMAGE',0
+.rdata:008F5685                 align 4
+.rdata:008F5688 aUnit_field_m_4 db 'UNIT_FIELD_MINDAMAGE',0
+.rdata:008F569D                 align 10h
+.rdata:008F56A0 aUnit_field_mou db 'UNIT_FIELD_MOUNTDISPLAYID',0
+.rdata:008F56BA                 align 4
+.rdata:008F56BC aUnit_field_nat db 'UNIT_FIELD_NATIVEDISPLAYID',0
+.rdata:008F56D7                 align 4
+.rdata:008F56D8 aUnit_field_dis db 'UNIT_FIELD_DISPLAYID',0
+.rdata:008F56ED                 align 10h
+.rdata:008F56F0 aUnit_field_com db 'UNIT_FIELD_COMBATREACH',0
+.rdata:008F5707                 align 4
+.rdata:008F5708 aUnit_field_bou db 'UNIT_FIELD_BOUNDINGRADIUS',0
+.rdata:008F5722                 align 4
+.rdata:008F5724 aUnit_field_r_4 db 'UNIT_FIELD_RANGEDATTACKTIME',0
+.rdata:008F5740 aUnit_field_b_2 db 'UNIT_FIELD_BASEATTACKTIME',0
+.rdata:008F575A                 align 4
+.rdata:008F575C aUnit_field_aur db 'UNIT_FIELD_AURASTATE',0
+.rdata:008F5771                 align 4
+.rdata:008F5774 aUnit_field_a_2 db 'UNIT_FIELD_AURAAPPLICATIONS',0
+.rdata:008F5790 aUnit_field_a_3 db 'UNIT_FIELD_AURALEVELS',0
+.rdata:008F57A6                 align 4
+.rdata:008F57A8 aUnit_field_a_4 db 'UNIT_FIELD_AURAFLAGS',0
+.rdata:008F57BD                 align 10h
+.rdata:008F57C0 aUnit_field_a_5 db 'UNIT_FIELD_AURA',0
+.rdata:008F57D0 aUnit_field_fla db 'UNIT_FIELD_FLAGS_2',0
+.rdata:008F57E3                 align 4
+.rdata:008F57E4 aUnit_field_f_0 db 'UNIT_FIELD_FLAGS',0
+.rdata:008F57F5                 align 4
+.rdata:008F57F8 aUnit_virtual_i db 'UNIT_VIRTUAL_ITEM_INFO',0
+.rdata:008F580F                 align 10h
+.rdata:008F5810 aUnit_virtual_0 db 'UNIT_VIRTUAL_ITEM_SLOT_DISPLAY',0
+.rdata:008F582F                 align 10h
+.rdata:008F5830 aUnit_field_b_3 db 'UNIT_FIELD_BYTES_0',0
+.rdata:008F5843                 align 4
+.rdata:008F5844 aUnit_field_fac db 'UNIT_FIELD_FACTIONTEMPLATE',0
+.rdata:008F585F                 align 10h
+.rdata:008F5860 aUnit_field_lev db 'UNIT_FIELD_LEVEL',0
+.rdata:008F5871                 align 4
+.rdata:008F5874 aUnit_field_m_5 db 'UNIT_FIELD_MAXPOWER7',0
+.rdata:008F5889                 align 4
+.rdata:008F588C aUnit_field_m_6 db 'UNIT_FIELD_MAXPOWER6',0
+.rdata:008F58A1                 align 4
+.rdata:008F58A4 aUnit_field_m_7 db 'UNIT_FIELD_MAXPOWER5',0
+.rdata:008F58B9                 align 4
+.rdata:008F58BC aUnit_field_m_8 db 'UNIT_FIELD_MAXPOWER4',0
+.rdata:008F58D1                 align 4
+.rdata:008F58D4 aUnit_field_m_9 db 'UNIT_FIELD_MAXPOWER3',0
+.rdata:008F58E9                 align 4
+.rdata:008F58EC aUnit_field__10 db 'UNIT_FIELD_MAXPOWER2',0
+.rdata:008F5901                 align 4
+.rdata:008F5904 aUnit_field__11 db 'UNIT_FIELD_MAXPOWER1',0
+.rdata:008F5919                 align 4
+.rdata:008F591C aUnit_field__12 db 'UNIT_FIELD_MAXHEALTH',0
+.rdata:008F5931                 align 4
+.rdata:008F5934 aUnit_field_p_8 db 'UNIT_FIELD_POWER7',0
+.rdata:008F5946                 align 4
+.rdata:008F5948 aUnit_field_p_9 db 'UNIT_FIELD_POWER6',0
+.rdata:008F595A                 align 4
+.rdata:008F595C aUnit_field__13 db 'UNIT_FIELD_POWER5',0
+.rdata:008F596E                 align 10h
+.rdata:008F5970 aUnit_field__14 db 'UNIT_FIELD_POWER4',0
+.rdata:008F5982                 align 4
+.rdata:008F5984 aUnit_field__15 db 'UNIT_FIELD_POWER3',0
+.rdata:008F5996                 align 4
+.rdata:008F5998 aUnit_field__16 db 'UNIT_FIELD_POWER2',0
+.rdata:008F59AA                 align 4
+.rdata:008F59AC aUnit_field__17 db 'UNIT_FIELD_POWER1',0
+.rdata:008F59BE                 align 10h
+.rdata:008F59C0 aUnit_field_hea db 'UNIT_FIELD_HEALTH',0
+.rdata:008F59D2                 align 4
+.rdata:008F59D4 aUnit_field_c_0 db 'UNIT_FIELD_CHANNEL_OBJECT',0
+.rdata:008F59EE                 align 10h
+.rdata:008F59F0 aUnit_field_per db 'UNIT_FIELD_PERSUADED',0
+.rdata:008F5A05                 align 4
+.rdata:008F5A08 aUnit_field_tar db 'UNIT_FIELD_TARGET',0
+.rdata:008F5A1A                 align 4
+.rdata:008F5A1C aUnit_field_cre db 'UNIT_FIELD_CREATEDBY',0
+.rdata:008F5A31                 align 4
+.rdata:008F5A34 aUnit_field_sum db 'UNIT_FIELD_SUMMONEDBY',0
+.rdata:008F5A4A                 align 4
+.rdata:008F5A4C aUnit_field_c_1 db 'UNIT_FIELD_CHARMEDBY',0
+.rdata:008F5A61                 align 4
+.rdata:008F5A64 aUnit_field_s_4 db 'UNIT_FIELD_SUMMON',0
+.rdata:008F5A76                 align 4
+.rdata:008F5A78 aUnit_field_cha db 'UNIT_FIELD_CHARM',0 ; DATA XREF: .data:off_BF10E0o
+.rdata:008F5A89                 align 4
+.rdata:008F5A8C aContainer_fi_0 db 'CONTAINER_FIELD_SLOT_1',0
+.rdata:008F5AA3                 align 4
+.rdata:008F5AA4 aContainer_alig db 'CONTAINER_ALIGN_PAD',0
+.rdata:008F5AB8 aContainer_fiel db 'CONTAINER_FIELD_NUM_SLOTS',0
+.rdata:008F5AB8                                         ; DATA XREF: .data:off_BF0DACo
+.rdata:008F5AD2                 align 4
+.rdata:008F5AD4 aItem_field_pad db 'ITEM_FIELD_PAD',0
+.rdata:008F5AE3                 align 4
+.rdata:008F5AE4 aItem_field_max db 'ITEM_FIELD_MAXDURABILITY',0
+.rdata:008F5AFD                 align 10h
+.rdata:008F5B00 aItem_field_dur db 'ITEM_FIELD_DURABILITY',0
+.rdata:008F5B16                 align 4
+.rdata:008F5B18 aItem_field_ite db 'ITEM_FIELD_ITEM_TEXT_ID',0
+.rdata:008F5B30 aItem_field_ran db 'ITEM_FIELD_RANDOM_PROPERTIES_ID',0
+.rdata:008F5B50 aItem_field_pro db 'ITEM_FIELD_PROPERTY_SEED',0
+.rdata:008F5B69                 align 4
+.rdata:008F5B6C aItem_field_enc db 'ITEM_FIELD_ENCHANTMENT_12_3',0
+.rdata:008F5B88 aItem_field_e_0 db 'ITEM_FIELD_ENCHANTMENT_12_1',0
+.rdata:008F5BA4 aItem_field_e_1 db 'ITEM_FIELD_ENCHANTMENT_11_3',0
+.rdata:008F5BC0 aItem_field_e_2 db 'ITEM_FIELD_ENCHANTMENT_11_1',0
+.rdata:008F5BDC aItem_field_e_3 db 'ITEM_FIELD_ENCHANTMENT_10_3',0
+.rdata:008F5BF8 aItem_field_e_4 db 'ITEM_FIELD_ENCHANTMENT_10_1',0
+.rdata:008F5C14 aItem_field_e_5 db 'ITEM_FIELD_ENCHANTMENT_9_3',0
+.rdata:008F5C2F                 align 10h
+.rdata:008F5C30 aItem_field_e_6 db 'ITEM_FIELD_ENCHANTMENT_9_1',0
+.rdata:008F5C4B                 align 4
+.rdata:008F5C4C aItem_field_e_7 db 'ITEM_FIELD_ENCHANTMENT_8_3',0
+.rdata:008F5C67                 align 4
+.rdata:008F5C68 aItem_field_e_8 db 'ITEM_FIELD_ENCHANTMENT_8_1',0
+.rdata:008F5C83                 align 4
+.rdata:008F5C84 aItem_field_e_9 db 'ITEM_FIELD_ENCHANTMENT_7_3',0
+.rdata:008F5C9F                 align 10h
+.rdata:008F5CA0 aItem_field__10 db 'ITEM_FIELD_ENCHANTMENT_7_1',0
+.rdata:008F5CBB                 align 4
+.rdata:008F5CBC aItem_field__11 db 'ITEM_FIELD_ENCHANTMENT_6_3',0
+.rdata:008F5CD7                 align 4
+.rdata:008F5CD8 aItem_field__12 db 'ITEM_FIELD_ENCHANTMENT_6_1',0
+.rdata:008F5CF3                 align 4
+.rdata:008F5CF4 aItem_field__13 db 'ITEM_FIELD_ENCHANTMENT_5_3',0
+.rdata:008F5D0F                 align 10h
+.rdata:008F5D10 aItem_field__14 db 'ITEM_FIELD_ENCHANTMENT_5_1',0
+.rdata:008F5D2B                 align 4
+.rdata:008F5D2C aItem_field__15 db 'ITEM_FIELD_ENCHANTMENT_4_3',0
+.rdata:008F5D47                 align 4
+.rdata:008F5D48 aItem_field__16 db 'ITEM_FIELD_ENCHANTMENT_4_1',0
+.rdata:008F5D63                 align 4
+.rdata:008F5D64 aItem_field__17 db 'ITEM_FIELD_ENCHANTMENT_3_3',0
+.rdata:008F5D7F                 align 10h
+.rdata:008F5D80 aItem_field__18 db 'ITEM_FIELD_ENCHANTMENT_3_1',0
+.rdata:008F5D9B                 align 4
+.rdata:008F5D9C aItem_field__19 db 'ITEM_FIELD_ENCHANTMENT_2_3',0
+.rdata:008F5DB7                 align 4
+.rdata:008F5DB8 aItem_field__20 db 'ITEM_FIELD_ENCHANTMENT_2_1',0
+.rdata:008F5DD3                 align 4
+.rdata:008F5DD4 aItem_field__21 db 'ITEM_FIELD_ENCHANTMENT_1_3',0
+.rdata:008F5DEF                 align 10h
+.rdata:008F5DF0 aItem_field__22 db 'ITEM_FIELD_ENCHANTMENT_1_1',0
+.rdata:008F5E0B                 align 4
+.rdata:008F5E0C aItem_field_fla db 'ITEM_FIELD_FLAGS',0
+.rdata:008F5E1D                 align 10h
+.rdata:008F5E20 aItem_field_spe db 'ITEM_FIELD_SPELL_CHARGES',0
+.rdata:008F5E39                 align 4
+.rdata:008F5E3C aItem_field_d_0 db 'ITEM_FIELD_DURATION',0
+.rdata:008F5E50 aItem_field_sta db 'ITEM_FIELD_STACK_COUNT',0
+.rdata:008F5E67                 align 4
+.rdata:008F5E68 aItem_field_gif db 'ITEM_FIELD_GIFTCREATOR',0
+.rdata:008F5E7F                 align 10h
+.rdata:008F5E80 aItem_field_cre db 'ITEM_FIELD_CREATOR',0
+.rdata:008F5E93                 align 4
+.rdata:008F5E94 aItem_field_con db 'ITEM_FIELD_CONTAINED',0
+.rdata:008F5EA9                 align 4
+.rdata:008F5EAC aItem_field_own db 'ITEM_FIELD_OWNER',0 ; DATA XREF: .data:off_BF0DE8o
+.rdata:008F5EBD                 align 10h
+.rdata:008F5EC0 aObject_field_p db 'OBJECT_FIELD_PADDING',0
+.rdata:008F5ED5                 align 4
+.rdata:008F5ED8 aObject_field_s db 'OBJECT_FIELD_SCALE_X',0
+.rdata:008F5EED                 align 10h
+.rdata:008F5EF0 aObject_field_e db 'OBJECT_FIELD_ENTRY',0
+.rdata:008F5F03                 align 4
+.rdata:008F5F04 aObject_field_t db 'OBJECT_FIELD_TYPE',0
+.rdata:008F5F16                 align 4
+.rdata:008F5F18 aObject_field_g db 'OBJECT_FIELD_GUID',0 ; DATA XREF: .data:off_BF0D48o

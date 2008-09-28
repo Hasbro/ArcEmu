@@ -1,0 +1,104 @@
+all mapids are 571;
+
+
+conquest hold: horde
+x: 3248.787842
+y: -2258.225586
+z: 114.686775
+o: 1.229930
+
+voldrune: neutral?
+x: 2907.861816
+y: -2637.029541
+z: 84.655663
+o: 5.694926
+
+dun argol: alliance
+x: 3355.730713
+y: -5083.267578
+z: -5083.267578
+o: 3.790337
+
+baleheim: neutral?
+x: 1506.418335
+y: -5316.882324
+z: 196.106171
+o: 3.861025
+
+nifflevar: neutral?
+x: 958.957520
+y: -5533.570313
+z: 185.650558
+o: 1.249573
+
+new agamand: horde
+x: 398.151825
+y: -4562.311523
+z: 244.576096
+o: 5.922692
+
+westguard keep: alliance
+x: 1397.599243
+y: -3283.619873
+z: 165.539734
+o: 1.885745
+
+new hearthglen: alliance
+x: 2797.506592
+y: -339.175598
+z: 130.530914
+o: 3.326943
+
+moa'ki harbor: horde
+x: 2650.165283
+y: 893.406738
+z: 4.636908
+o: 6.276113
+
+gnomish trading camp: the storm peaks
+x: 6122.661621
+y: -1057.550537
+z: 402.711273
+o: 4.756333
+
+westfall bridge encampment: alliance
+x: 4591.861816
+y: -4226.592773
+z: 178.653702
+o: 2.733925
+
+fort wildervar: alliance
+x: 2371.397217
+y: -5114.707031
+z: 250.425888
+o: 1.582569
+
+wyrmskull village: alliance
+x: 988.923645
+y: -4928.185059
+z: 4.532523
+o: 0.369127
+
+valgarde: alliance
+x: 588.586365
+y: -5102.000488
+z: 5.260494
+o: 1.339092
+
+vengeance landing: horde
+x: 1899.361938
+y: -6113.703613
+z: 18.060083
+o: 4.961326
+
+the stormbreaker: valiance keep: alliance
+x: 2248.419189
+y: 5268.239746
+z: 11.648280
+o: 1.238533
+
+mightstone quarry: horde
+x: 2723.958008
+y: 6085.216309
+z: 71.723701
+o: 0.625917

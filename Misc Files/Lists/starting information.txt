@@ -1,0 +1,1602 @@
+BE RACIALS
+28877
+28730 (mana)
+25046 (energy)
+107
+81
+822
+28734
+
+
+ BE  PALADIN
+
+1. 6603 or 7389
+2. 20154
+3. 635
+4. 28734
+5. 28730
+-. 159 x2
+=. 20857 x4
+
+  ITEMs
+
+LEGS.  24145
+CHEST. 24143
+BOOTS. 24146
+MH.    23346
+
+
+skills:
+204 1/5
+203 1/5
+
+BE MAGE
+1. 6603 or 7389
+2. 133
+3. 168
+4. 28734
+5. 28730
+-. 159 x2
+=. 20857 x4
+
+3018 or 5019 or 6660
+
+ITEMS
+LEGS: 1395
+CHEST: 6140
+BOOTS: 20895
+SHIRT: 6096
+MH:    35
+
+
+skills:
+204 1/5
+203 1/5
+
+ BE HUNTER
+1.6603 or 7389
+2. 2973
+3. 75
+4. 28734
+5. 28730
+6.
+7.
+8.
+9
+-. 159x2
+=. 20857x4
+Other spells:
+
+ITEMS
+LEGS: 20899
+CHEST:
+BOOTS: 20900
+SHIRT: 20901
+MH:   20982
+AMMO: 2512 x200
+RANGED: 20980
+BAG2: 2101
+
+
+skills:
+204 1/5
+203 1/5
+
+ BE  ROUGE
+
+1. 6603 or 7389
+2. 1752
+3. 2098
+4. 2764
+5. 28734
+6. 25046
+-.
+=. 20857 x4
+
+  ITEMs
+
+LEGS.  20896
+CHEST. 20897
+BOOTS. 20898
+MH.    20982
+ranged.25861
+
+
+skills:
+204 1/5
+203 1/5
+
+BE PRIEST
+1. 6603 or 7389
+2. 585
+3. 168
+4. 28734
+5. 28730
+-. 159 x2
+=. 20857 x4
+
+3018 or 5019 or 6660
+
+ITEMS
+LEGS: 52
+CHEST: 6098
+BOOTS: 51
+SHIRT: 53
+MH:    20981
+
+
+skills:
+204 1/5
+203 1/5
+
+BE WARLOCK
+1. 6603 or 7389
+2. 686
+3. 687
+4. 28734
+5. 28730
+-. 159 x2
+=. 20857 x4
+
+3018 or 5019 or 6660
+
+skills:
+204 1/5
+203 1/5
+
+
+ITEMS
+LEGS: 1396
+CHEST: 6129
+BOOTS: 59
+SHIRT: 6097
+MH:    20983
+
+ 
+
+TROLL RACIALS
+20554
+20557
+26290
+81
+20555
+20558
+
+TROLL MAGE
+1. 6603 or 7389
+2. 133
+3. 168
+4. 20554
+-. 115 x2
+=. 117 x4
+3018 or 5019 or 6660
+
+
+ITEMS
+LEGS: 1395
+CHEST: 6140
+BOOTS: 20895
+SHIRT: 6096
+MH:    35
+
+skills:
+204 1/5
+203 1/5
+
+
+TROLL WARRIOR
+1.6603 or 7389
+2. 78
+3. 20554
+4. 2567
+5.
+6.
+7.
+8.
+9
+-.
+=. 117x4
+Other spells:
+STANCE 2457
+
+
+ITEMS
+LEGS: 139
+CHEST:
+BOOTS:
+SHIRT: 6125
+MH:   37
+OH:   2362
+Ranged: 25816
+
+TROLL HUNTER
+1.6603 or 7389
+2. 2973
+3. 75
+4. 20554
+5.
+6.
+7.
+8.
+9
+-. 159x2
+=. 117x4
+Other spells:
+
+ITEMS
+LEGS: 6126
+CHEST:
+BOOTS:
+SHIRT: 127
+MH:   37
+AMMO: 2512 x200
+RANGED: 2504
+BAG2: 2101
+
+TROLL  ROUGE
+
+1. 6603 or 7389
+2. 1752
+3. 2098
+4. 2764
+5. 20554
+6. 
+-.
+=. 20857 x4
+
+  ITEMs
+
+LEGS. 120  
+SHIRT.  2105
+BOOTS. 
+MH.    2092
+ranged.25861
+
+
+skills:
+204 1/5
+203 1/5
+
+TROLL PRIEST
+1. 6603 or 7389
+2. 585
+3. 168
+4. 20554
+5.
+-. 159 x2
+=. 20857 x4
+
+3018 or 5019 or 6660
+
+ITEMS
+LEGS: 52
+CHEST: 6098
+BOOTS: 51
+SHIRT: 53
+MH:    20981
+
+TROLL SHAMAN
+1.6603 or 7389
+2. 403
+3. 331
+4. 20554
+5.
+6.
+7.
+8.
+9
+-. 159x2
+=. 4604x4
+Other spells:
+
+ITEMS
+LEGS: 153
+CHEST:
+BOOTS:
+SHIRT: 154
+MH:   36
+AMMO:
+RANGED:
+BAG2:
+
+
+
+TAUREN RACIALS
+107
+20552
+81
+20550
+4081
+20549
+
+
+
+TAUREN WARRIOR
+1.6603 or 7389
+2. 78
+3. 20549
+4.
+5.
+6.
+7.
+8.
+9
+-.
+=. 4540x4
+Other spells:
+STANCE 2457
+
+
+ITEMS
+LEGS: 139
+CHEST:
+BOOTS:
+SHIRT: 6125
+MH:   2361
+
+
+skills:
+204 1/5
+203 1/5
+
+TAUREN HUNTER
+1.6603 or 7389
+2. 2973
+3. 75
+4. 20549
+5.
+6.
+7.
+8.
+9
+-. 159x2
+=. 117x4
+Other spells:
+
+ITEMS
+LEGS: 6126
+CHEST:
+BOOTS:
+SHIRT: 127
+MH:   37
+AMMO: 2516 x200
+RANGED: 2508
+BAG2: 2102
+
+skills:
+204 1/5
+203 1/5
+
+TAUREN SHAMAN
+1.6603 or 7389
+2. 403
+3. 331
+4. 20549
+5.
+6.
+7.
+8.
+9
+-. 159x2
+=. 4604x4
+Other spells:
+
+ITEMS
+LEGS: 153
+CHEST:
+BOOTS:
+SHIRT: 154
+MH:   36
+AMMO:
+RANGED:
+BAG2:
+
+TAUREN DRUID
+1.6603 or 7389
+2. 5176
+3. 5185
+4. 20549
+5.
+6.
+7.
+8.
+9
+-. 159x2
+=. 4536x4
+Other spells:
+
+ITEMS
+LEGS: 6124
+CHEST: 6139
+BOOTS:
+SHIRT:
+MH:   35
+AMMO:
+RANGED:
+BAG2:
+
+-ORC RACIALS-
+
+20574
+20575
+20573
+20572 (rogue/warrior/hunter)
+33702 (warlock)
+33697 (shaman)
+
+-ORC ROGUE-
+
+~Starter Spells~
+1752
+2093
+2764
+
+~Action Bar~
+1.6603 or 7389
+2.1752
+3.2093
+4.2764
+5.20572
+=.Item 117 x4
+
+~Armor~
+Shirt:2105
+Legs:6137
+Feet:6138
+Main Hand:2092
+Ranged:25861
+
+~Weapon Skills~
+Daggers: (1/5)
+Defense: (1/5)
+Thrown: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+Leather
+
+~Languages~
+Orcish: (300/300)
+
+-ORC WARRIOR-
+
+~Starter Spells~
+78
+
+~Action Bar~
+1.6603 or 7389
+2.78
+3.20572
+=.Item 117 x4
+
+~Armor~
+Shirt:6125
+Legs:139
+Feet:140
+Main Hand:12282
+
+~Weapon Skills~
+Axe: (1/5)
+Defense: (1/5)
+Swords: (1/5)
+Unarmed: (1/5)
+Two-Handed Axes: (1/5)
+
+~Armor Proficiencies~
+Cloth
+Leather
+Mail
+Shield
+
+~Languages~
+Orcish: (300/300)
+
+-ORC WARLOCK-
+
+~Starter Spells~
+686
+687
+
+~Action Bar~
+1.6603 or 7389
+2.686
+3.687
+4.33702
+-.Item 159 x2
+=.Item 117 x4
+
+~Armor~
+Shirt:6129
+Legs:1396
+Feet:59
+Main Hand:2092
+
+~Weapon Skills~
+Daggers: (1/5)
+Defense: (1/5)
+Wands: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+
+~Languages~
+Orcish: (300/300)
+
+-ORC HUNTER-
+
+~Starter Spells~
+2973
+75
+
+~Extra Bag~
+Bag:Item 2101
+Ammo:Item 2512 x200
+
+~Action Bar~
+1.6603 or 7389
+2.2973
+3.75
+4.20572
+-.Item 159 x2
+=.Item 117 x4
+
+~Armor~
+Shirt:127
+Legs:6126
+Feet:6127
+Main Hand:37
+Ranged:2504
+Ammo:2512
+
+~Weapon Skills~
+Axes: (1/5)
+Defense: (1/5)
+Bows: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+Leather
+
+~Languages~
+Orcish: (300/300)
+
+-ORC SHAMAN-
+
+~Starter Spells~
+403
+331
+
+~Action Bar~
+1.6603 or 7389
+2.403
+3.331
+4.33697
+-.Item 159 x2
+=.Item 117 x4
+
+~Armor~
+Shirt:154
+Legs:153
+Main Hand:36
+
+~Weapon Skills~
+Maces: (1/5)
+Defense: (1/5)
+Staves: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+Leather
+Shield
+
+~Languages~
+Orcish: (300/300)
+
+-UNDEAD RACIALS-
+
+7744
+20579
+5227
+20577
+
+-UNDEAD WARRIOR-
+
+~Starter Spells~
+2457
+78
+
+~Action Bar~
+1.6603 or 7389
+2.78
+3.20577
+=.Item 4604 x4
+
+~Armor~
+Shirt:6125
+Legs:139
+Feet:140
+Main Hand:25
+Off Hand:2362
+
+~Weapon Skills~
+Daggers: (1/5)
+Defense: (1/5)
+Swords: (1/5)
+Two-Handed Swords: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+Leather
+Mail
+Shield
+
+~Languages~
+Orcish: (300/300)
+Gutterspeak: (300/300)
+
+-UNDEAD ROGUE-
+
+~Starter Spells~
+1752
+2093
+2764	
+
+~Action Bar~
+1.6603 or 7389
+2.1752
+3.2093
+4.2764
+5.20577
+=.Item 4604 x4
+
+~Armor~
+Shirt:2105
+Legs:6137
+Feet:6138
+Main Hand:2092
+Ranged:25861
+
+~Weapon Skills~
+Daggers: (1/5)
+Defense: (1/5)
+Thrown: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+Leather
+
+~Languages~
+Orcish: (300/300)
+Gutterspeak: (300/300)
+
+-UNDEAD WARLOCK-
+
+~Starter Spells~
+686
+687
+
+~Action Bar~
+1.6603 or 7389
+2.686
+3.687
+4.20577
+-.Item 159 x2
+=.Item 4604 x4
+
+~Armor~
+Shirt:6129
+Legs:1396
+Feet:59
+Main Hand:2092
+
+~Weapon Skills~
+Daggers: (1/5)
+Defense: (1/5)
+Wands: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+
+~Languages~
+Orcish: (300/300)
+Gutterspeak: (300/300)
+
+-UNDEAD MAGE-
+
+~Starter Spells~
+133
+168
+
+~Action Bar~
+1.6603 or 7389
+2.133
+3.168
+4.20577
+-.Item 159 x2
+=.Item 4604 x4
+
+~Armor~
+Chest:6140
+Shirt:6096
+Legs:1395
+Feet:55
+Main Hand:35
+
+~Weapon Skills~
+Staves: (1/5)
+Defense: (1/5)
+Wands: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+
+~Languages~
+Orcish: (300/300)
+Gutterspeak: (300/300)
+
+-UNDEAD PRIEST-
+
+~Starter Spells~
+2050
+585
+
+~Action Bar~
+1.6603 or 7389
+2.585
+3.2050
+4.20577
+-.Item 159 x2
+=.Item 4604 x4
+
+~Armor~
+Chest:6144
+Shirt:53
+Legs:52
+Feet:51
+Main Hand:36
+
+~Weapon Skills~
+Maces: (1/5)
+Defense: (1/5)
+Wands: (1/5)
+Unarmed: (1/5)
+
+~Armor Proficiencies~
+Cloth
+
+~Languages~
+Orcish: (300/300)
+Gutterspeak: (300/300)
+
+
+                    ALLIANCE
+
+HUMAN  RACIALS 
+20600 
+20599 
+20597 
+20598 
+107
+81
+12284
+Language: 668
+HUMAN WARRIOR
+1.6603 or 7389
+2.78  
+3.	
+4.
+5. 
+6.
+7.
+8.
+9
+-.
+=.4540x4
+Other spells:  STANCE ID = 7165    3018
+Wep Prof: 204 1/5
+          203 1/5
+          201 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+
+       
+            
+ITEMS
+LEGS:39
+CHEST:
+BOOTS:40
+SHIRT:38
+MH: 25  
+
+
+HUMAN PALADIN
+1.6603 or 7389
+2.20154
+3.635	
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells: 
+Wep Prof: 199 1/5
+          203 1/5
+          204 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+
+
+
+ITEMS
+LEGS:44
+CHEST:
+BOOTS:43
+SHIRT:45
+MH: 2361 
+
+
+
+HUMAN ROGUE
+1.6603 or 7389
+2.1752
+3.2098	
+4.2764
+5.
+6.
+7.
+8.
+9
+-.
+=.4540x4
+Other spells:    3018
+Wep Proff: 1180 1/5
+	   203 1/5
+           204 1/5
+Armor Proff: 9078
+             9077
+
+       
+
+ITEMS
+LEGS:48
+CHEST:
+BOOTS:47
+SHIRT:49
+MH: 2361 
+
+
+HUMAN PRIEST
+1.6603 or 7389
+2.585
+3.2050
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  5019
+Wep Proff: 198 1/5
+           203 1/5
+Armor Proff: 9078
+Food : 
+       
+       
+
+
+ITEMS
+LEGS:52
+CHEST:6098
+BOOTS:51
+SHIRT:53
+MH: 36 
+
+
+HUMAN MAGE
+1.6603 or 7389
+2.133
+3.168
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  5019
+Wep Proff:  227 1/5
+            203 1/5
+Armor Proff: 9078
+
+          
+
+
+ITEMS
+LEGS:395
+CHEST:56
+BOOTS:55
+SHIRT:6096
+MH: 35
+
+
+HUMAN WARLOCK
+1.6603 or 7389
+2.686
+3.687
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  5019
+Wep Proff: 1180 1/5
+           203 1/5
+Armor Proff: 9078
+ 
+
+ITEMS
+LEGS:1396
+CHEST:57
+BOOTS:59
+SHIRT:6097
+MH: 2092
+
+
+
+
+GNOME RACIALS  
+20592
+20593
+20589
+20591
+81
+Language: 668
+          7340
+GNOME WARRIOR
+1.6603 or 7389
+2.78  
+3.	
+4.
+5. 
+6.
+7.
+8.
+9
+-.
+=.4540 x4
+Other spells:  STANCE ID = 7165      3018
+Wep Prof: 204 1/5
+          203 1/5
+          201 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+
+       
+
+
+ITEMS
+LEGS:39
+CHEST:
+BOOTS:40
+SHIRT:38
+MH: 25  
+
+GNOME ROGUE
+1.6603 or 7389
+2.1752
+3.2098	
+4.2764
+5.
+6.
+7.
+8.
+9
+-.
+=. 4540 x4
+Other spells:    3018
+Wep Proff: 1180 1/5
+	   203 1/5
+           204 1/5
+Armor Proff: 9078
+             9077
+Food : 4540
+       
+
+
+ITEMS
+LEGS:48
+CHEST:
+BOOTS:47
+SHIRT:49
+MH: 2361 
+
+GNOME MAGE
+1.6603 or 7389
+2.133
+3.168
+4.
+5.
+6.
+7.
+8.
+9
+-.159 x 2
+=.4540 x 4
+Other spells:  5019
+Wep Proff:  227 1/5
+            203 1/5
+Armor Proff: 9078
+Food : 4540
+       159
+
+
+ITEMS
+LEGS:395
+CHEST:56
+BOOTS:55
+SHIRT:6096
+MH: 35
+
+
+GNOME WARLOCK
+1.6603 or 7389
+2.686
+3.687
+4.
+5.
+6.
+7.
+8.
+9
+-.159 x 2
+=.4540 x 4
+Other spells:  5019
+Wep Proff: 1180 1/5
+           203 1/5
+Armor Proff: 9078
+Food : 4540
+       159
+
+
+ITEMS
+LEGS:1396
+CHEST:57
+BOOTS:59
+SHIRT:6097
+MH: 2092
+
+DRAENEI    
+28875
+28880
+6562
+28878
+81
+Language: 668
+          29932
+
+
+
+
+DRAENEI WARRIOR
+1.6603 or 7389
+2.78  
+3.	
+4.
+5. 
+6.
+7.
+8.
+9
+-.
+=.4540x4
+Other spells:  STANCE ID = 7165    3018
+Wep Proff : 203 1/5
+            202 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+
+
+
+ITEMS
+LEGS:39
+CHEST:
+BOOTS:40
+SHIRT:38
+MH: 23346 
+
+
+DRAENEI PALADIN
+1.6603 or 7389
+2.20154
+3.635	
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  
+Wep Prof: 199 1/5
+          203 1/5
+          204 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+
+
+
+
+ITEMS
+LEGS:44
+CHEST:
+BOOTS:43
+SHIRT:45
+MH: 2361 
+
+
+DRAENEI HUNTER
+1.6603 or 7389
+2.2973
+3.75
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  3018
+Wep Proff :  201 1/5
+             203 1/5
+             5011 1/5
+Armor Proff: 9078
+             9077
+
+
+
+ITEMS
+LEGS:147
+CHEST:
+BOOTS:129
+SHIRT:148
+MH: 25 
+Range: 23347
+
+
+DRAENEI PRIEST
+1.6603 or 7389
+2.585
+3.2050
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  5019
+Wep Proff: 198 1/5
+           203 1/5
+Armor Proff: 9078
+
+
+
+ITEMS
+LEGS:52
+CHEST:6098
+BOOTS:51
+SHIRT:53
+MH: 36 
+
+
+DRAENEI SHAMAN
+1.6603 or 7389
+2.403
+3.331
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  
+Wep Proff : 203 1/5
+            198 1/5
+Armor Proff: 9116
+             9078
+             9077
+             8737
+
+
+
+
+ITEMS
+LEGS:23344
+CHEST:
+BOOTS:23348
+SHIRT:23345
+MH:  36
+
+
+DRAENEI MAGE
+1.6603 or 7389
+2.133
+3.168
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  5019
+Wep Proff:  227 1/5
+            203 1/5
+Armor Proff: 9078
+
+          
+
+
+ITEMS
+LEGS:395
+CHEST:56
+BOOTS:55
+SHIRT:6096
+MH: 35
+
+
+
+DWARF  
+81
+2481
+4080
+20595
+20594
+Language: 668
+          672
+DWARF WARRIOR
+1.6603 or 7389
+2.78  
+3.	
+4.
+5. 
+6.
+7.
+8.
+9
+-.
+=.4540x4
+Other spells:  STANCE ID = 7165      3018
+Wep Proff : Wep Prof: 204 1/5
+                      203 1/5
+                      196 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+
+       
+            
+
+
+ITEMS
+LEGS:39
+CHEST:
+BOOTS:40
+SHIRT:38
+MH: 12282 
+
+
+DWARF PALADIN
+1.6603 or 7389
+2.20154
+3.635	
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells: 
+Wep Prof: 199 1/5
+          203 1/5
+          204 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+  
+
+
+ITEMS
+LEGS:44
+CHEST:
+BOOTS:43
+SHIRT:45
+MH: 2361 
+
+
+DWARF HUNTER
+1.6603 or 7389
+2.2973
+3.75
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  3018
+Wep Proff: 266 1/5
+           196 1/5
+           203 1/5
+Armor Proff: 9078
+             9077
+
+
+
+ITEMS
+LEGS:147
+CHEST:
+BOOTS:129
+SHIRT:148
+MH: 37 
+Range: 2508
+
+
+DWARF ROGUE
+1.6603 or 7389
+2.1752
+3.2098	
+4.2764
+5.
+6.
+7.
+8.
+9
+-.
+=.4540x4
+Other spells:  
+Wep Proff: 1180 1/5
+	   203 1/5
+           204 1/5
+Armor Proff: 9078
+             9077
+
+       
+
+
+ITEMS
+LEGS:48
+CHEST:
+BOOTS:47
+SHIRT:49
+MH: 2361 
+
+
+DWARF PRIEST
+1.6603 or 7389
+2.585
+3.2050
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  5019
+Wep Proff: 198 1/5
+           203 1/5
+Armor Proff: 9078
+
+
+
+ITEMS
+LEGS:52
+CHEST:6098
+BOOTS:51
+SHIRT:53
+MH: 36 
+
+
+
+
+NIGHTELF   
+81
+20583
+20582
+20580
+20585
+Language: 668
+          671
+NIGHTELF WARRIOR
+1.6603 or 7389
+2.78  
+3.	
+4.
+5. 
+6.
+7.
+8.
+9
+-.
+=.4540
+Other spells:  STANCE ID = 7165      3018
+Wep Prof: 204 1/5
+          203 1/5
+          201 1/5
+Armor Prof: 9078
+            9077
+            8737
+            9116
+
+       
+
+
+ITEMS
+LEGS:39
+CHEST:
+BOOTS:40
+SHIRT:38
+MH: 25  
+
+
+NIGHTELF HUNTER
+1.6603 or 7389
+2.2973
+3.75
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  3018
+Wep Proff : 203 1/5
+            1180 1/5
+            264  1/5
+Armor Proff: 9078
+             9077
+
+
+
+
+ITEMS
+LEGS:147
+CHEST:
+BOOTS:129
+SHIRT:148
+MH: 2092
+Range: 2504
+
+
+NIGHTELF ROGUE
+1.6603 or 7389
+2.1752
+3.2098	
+4.2764
+5.
+6.
+7.
+8.
+9
+-.
+=.4540
+Other spells:    3018
+Wep Proff: 1180 1/5
+	   203 1/5
+           204 1/5
+Armor Proff: 9078
+             9077
+
+       
+
+
+ITEMS
+LEGS:48
+CHEST:
+BOOTS:47
+SHIRT:49
+MH: 2361 
+
+NIGHTELF PRIEST
+1.6603 or 7389
+2.585
+3.2050
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:  5019
+Wep Proff: 198 1/5
+           203 1/5
+Armor Proff: 9078
+
+
+ITEMS
+LEGS:52
+CHEST:6098
+BOOTS:51
+SHIRT:53
+MH: 36 
+
+NIGHTELF DRUID
+1.6603 or 7389
+2.5176
+3.5185
+4.
+5.
+6.
+7.
+8.
+9
+-.159x2
+=.4540x4
+Other spells:
+Wep Proff : 203 1/5
+            227 1/5
+Armor Proff: 9078
+             9077
+
+
+
+ITEMS
+LEGS:52
+CHEST:6098
+BOOTS:51
+SHIRT:53
+MH: 36 
+
+
+
+
+
+
+
+
+
