@@ -92,6 +92,8 @@ SMT_RESIST_DISPEL - check if it is used
 - pet spells are reseted sometimes when using portals and such. They are not saved to db ?
 - accounts get stuck when map crashes
 - cancel lifebloom to get final effect
+- mindcontrol kills caster on fall and breath
+- can't put more then 1 item of same in 1 bag
 
 ==========================================================================
 ! BUGS !
