@@ -1,0 +1,178 @@
+Index: BattlegroundHandler.cpp
+===================================================================
+--- BattlegroundHandler.cpp	(revision 1230)
++++ BattlegroundHandler.cpp	(working copy)
+@@ -82,6 +82,8 @@
+ 		{
+ 			if(strstr(pCreature->GetCreatureInfo()->SubName, "Arena") != NULL)
+ 				t = BATTLEGROUND_ARENA_2V2;
++			else if(strstr(pCreature->GetCreatureInfo()->SubName, "Alterac Valley") != NULL)
++				t = BATTLEGROUND_ALTERAC_VALLEY;
+ 			else if(strstr(pCreature->GetCreatureInfo()->SubName, "Arathi") != NULL)
+ 				t = BATTLEGROUND_ARATHI_BASIN;
+ 			else if(strstr(pCreature->GetCreatureInfo()->SubName, "Eye of the Storm") != NULL)
+Index: BattlegroundMgr.cpp
+===================================================================
+--- BattlegroundMgr.cpp	(revision 1230)
++++ BattlegroundMgr.cpp	(working copy)
+@@ -39,7 +39,7 @@
+ 
+ const static CreateBattlegroundFunc BGCFuncs[BATTLEGROUND_NUM_TYPES] = {
+ 	NULL,                  // 0
+-	NULL,                  // AV
++	&AlteracValley::Create,                  // AV
+ 	&WarsongGulch::Create,      // WSG
+ #ifdef ENABLE_AB
+ 	&ArathiBasin::Create,      // AB
+@@ -828,6 +828,7 @@
+ 	m_ended = false;
+ 	m_started = false;
+ 	m_winningteam = 0;
++	m_losingteam = 0xff;
+ 	m_startTime = (uint32)UNIXTIME;
+ 	m_lastResurrect = (uint32)UNIXTIME;
+ 	m_invisGMs = 0;
+@@ -1264,6 +1265,17 @@
+ 	return go;
+ }
+ 
++Creature *CBattleground::SpawnCreature(uint32 entry,float x, float y, float z, float o)
++{
++	CreatureProto *cp = CreatureProtoStorage.LookupEntry(entry);
++	CreatureInfo *ci = CreatureNameStorage.LookupEntry(entry);
++	Creature *c = m_mapMgr->CreateCreature(entry);
++	
++	c->Load(cp,x, y, z);
++	c->PushToWorld(m_mapMgr);
++	return c;
++}
++
+ void CBattleground::SendChatMessage(uint32 Type, uint64 Guid, const char * Format, ...)
+ {
+ 	char msg[500];
+Index: BattlegroundMgr.h
+===================================================================
+--- BattlegroundMgr.h	(revision 1230)
++++ BattlegroundMgr.h	(working copy)
+@@ -28,6 +28,7 @@
+ class Player;
+ class Map;
+ class Group;
++class Corpse;
+ 
+ enum BattleGroundTypes
+ {
+@@ -76,6 +77,17 @@
+ 	5,							// EotS
+ };
+ 
++// bg score declarations
++#define BG_SCORE_WSG_FLAG_CAPTURES 0
++#define BG_SCORE_WSG_FLAG_RETURNS 1
++#define BG_SCORE_AB_BASE_ASSAULTED 0
++#define BG_SCORE_AB_BASE_DEFENDED 1
++#define BG_SCORE_AV_GRAVEYARDS_ASSAULTED 0
++#define BG_SCORE_AV_GRAVEYARDS_DEFENDED 1
++#define BG_SCORE_AV_TOWERS_ASSAULTED 2
++#define BG_SCORE_AV_TOWERS_DEFENDED 3
++#define BG_SCORE_AV_MINES_CAPTURES 4
++#define BG_SCORE_EOTS_FLAG_CAPTURES 0
+ 
+ #define SOUND_BATTLEGROUND_BEGIN			0xD6F
+ #define SOUND_HORDE_SCORES					8213
+@@ -240,6 +252,9 @@
+ 	uint32 m_invisGMs;
+ 
+ public:
++	map<Creature*, set<uint32> > m_resurrectMap;
++	uint32 m_lastResurrect;
++
+ 	/* Team->Player Map */
+ 	set<Player*> m_players[2];
+ 	void Lock() { m_mainLock.Acquire(); }
+@@ -272,11 +287,8 @@
+ 	/* winner stuff */
+ 	bool m_ended;
+ 	uint8 m_winningteam;
++	uint8 m_losingteam;
+ 
+-	/* resurrect queue */
+-	map<Creature*, set<uint32> > m_resurrectMap;
+-	uint32 m_lastResurrect;
+-
+ 	bool m_isWeekend;
+ 
+ public:
+@@ -388,6 +400,7 @@
+ 	}
+ 
+ 	GameObject * SpawnGameObject(uint32 entry,uint32 MapId , float x, float y, float z, float o, uint32 flags, uint32 faction, float scale);
++	Creature * SpawnCreature(uint32 entry,float x, float y, float z, float o);
+ 	void UpdatePvPData();
+ 
+ 	ARCEMU_INLINE uint32 GetStartTime() { return m_startTime; }
+Index: EventMgr.h
+===================================================================
+--- EventMgr.h	(revision 1230)
++++ EventMgr.h	(working copy)
+@@ -158,6 +158,7 @@
+ 	EVENT_BATTLEGROUND_SPAWN_BUFF,
+ 	EVENT_BATTLEGROUND_COUNTDOWN,
+ 	EVENT_BATTLEGROUND_CLOSE,
++	EVENT_BATTLEGROUND_RESOURCEUPDATE,
+ 	EVENT_PLAYER_EJECT_FROM_INSTANCE,
+ 	EVENT_AB_RESOURCES_UPDATE_TEAM_0,
+ 	EVENT_AB_RESOURCES_UPDATE_TEAM_1,
+@@ -167,6 +168,25 @@
+ 	EVENT_AB_CAPTURE_CP_4,
+ 	EVENT_AB_CAPTURE_CP_5,
+ 	EVENT_AB_RESPAWN_BUFF,
++	EVENT_AV_ADD_REINFORCEMENTS_COLDTOOTH,
++	EVENT_AV_ADD_REINFORCEMENTS_IRONDEEP,
++	EVENT_AV_CAPTURE_CP_0,
++	EVENT_AV_CAPTURE_CP_1,
++	EVENT_AV_CAPTURE_CP_2,
++	EVENT_AV_CAPTURE_CP_3,
++	EVENT_AV_CAPTURE_CP_4,
++	EVENT_AV_CAPTURE_CP_5,
++	EVENT_AV_CAPTURE_CP_6,
++	EVENT_AV_CAPTURE_CP_7,
++	EVENT_AV_CAPTURE_CP_8,
++	EVENT_AV_CAPTURE_CP_9,
++	EVENT_AV_CAPTURE_CP_10,
++	EVENT_AV_CAPTURE_CP_11,
++	EVENT_AV_CAPTURE_CP_12,
++	EVENT_AV_CAPTURE_CP_13,
++	EVENT_AV_CAPTURE_CP_14,
++	EVENT_AV_CAPTURE_CP_15,
++	EVENT_AV_CAPTURE_CP_16,
+ 	EVENT_COMBO_POINT_CLEAR_FOR_TARGET,
+ 	EVENT_ITEM_UPDATE,
+ 	EVENT_PLAYER_JOIN_INSTANCE,
+Index: GameObject.h
+===================================================================
+--- GameObject.h	(revision 1230)
++++ GameObject.h	(working copy)
+@@ -140,6 +140,22 @@
+ 	GAMEOBJECT_TYPE_FLAGDROP		   = 26,
+ };
+ 
++enum GameObjectFlags
++{
++	GO_FLAG_IN_USE          = 0x01,                         //disables interaction while animated
++	GO_FLAG_LOCKED          = 0x02,                         //require key, spell, event, etc to be opened. Makes "Locked" appear in tooltip
++	GO_FLAG_INTERACT_COND   = 0x04,                         //cannot interact (condition to interact)
++	GO_FLAG_TRANSPORT       = 0x08,                         //any kind of transport? Object can transport (elevator, boat, car)
++	GO_FLAG_UNK1            = 0x10,                         //
++	GO_FLAG_NODESPAWN       = 0x20,                         //never despawn, typically for doors, they just change state
++	GO_FLAG_TRIGGERED       = 0x40,                         //typically, summoned objects. Triggered by spell or other events
++};
++
++enum GameObjectDynFlags
++{
++	GO_DYNFLAG_QUEST		= 0x09,
++};
++
+ #define CALL_GO_SCRIPT_EVENT(obj, func) if(obj->GetTypeId() == TYPEID_GAMEOBJECT && static_cast<GameObject*>(obj)->GetScript() != NULL) static_cast<GameObject*>(obj)->GetScript()->func
+ 
+ class SERVER_DECL GameObject : public Object

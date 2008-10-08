@@ -1,0 +1,5 @@
+I am including these because they are sometimes needed in order to fix certain situations.
+
+NCDB_barnes_gossip_fix.sql - This is sometimes needed for the NCDB in order to make it possible
+to talk to barnes to start the Opera quest event. It might work with other databases, however
+this is untested.
