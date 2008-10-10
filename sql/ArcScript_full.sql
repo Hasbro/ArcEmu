@@ -1,4 +1,4 @@
-/* moonplusplus_full.sql
+﻿/* moonplusplus_full.sql
 This file contains every SQL query needed by our blizzlike scripts
 Modded by ArcEmu Development Team */
 
@@ -176,13 +176,6 @@ REPLACE INTO npc_text (`entry`, `prob0`, `text0_0`, `text0_1`, `lang0`, `em0_0`,
 (229901, 1, 'The time has come to face Illidan, $N. Are you ready?', 'The time has come to face Illidan, $N. Are you ready?', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0),
 (229902, 1, 'Be wary, friends. The Betrayer meditates in the court just beyond.', 'Be wary, friends. The Betrayer meditates in the court just beyond.', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0, 0, ' ', ' ', 0, 0, 0, 0, 0, 0, 0);
 
--- Essence of Desire
-DELETE FROM creature_spawns WHERE entry = 23419;
--- Essence of Anger
-DELETE FROM creature_spawns WHERE entry = 23420;
-
--- Akama
-DELETE FROM creature_spawns WHERE entry = 22990;
 
 
 /* Naxxramas */
