@@ -207,6 +207,10 @@
 				>
 			</File>
 			<File
+				RelativePath="..\src\MiscScripts\DarkmoonFaireObjects.cpp"
+				>
+			</File>
+			<File
 				RelativePath="..\src\MiscScripts\GameObjects.cpp"
 				>
 			</File>

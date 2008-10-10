@@ -25,4 +25,7 @@ void SetupQDGoHandlers(ScriptMgr * mgr);
 void SetupRandomScripts(ScriptMgr * mgr);
 void SetupMiscCreatures(ScriptMgr * mgr);
 
+// Game-Events
+void SetupDarkmoonFaireObjects(ScriptMgr * mgr);
+
 #endif

@@ -33,6 +33,9 @@ extern "C" SCRIPT_DECL void _exp_script_register(ScriptMgr* mgr)	// Comment any 
 	SetupQDGoHandlers(mgr);
 	SetupRandomScripts(mgr);
 	SetupMiscCreatures(mgr);
+
+	// Game-Events
+	SetupDarkmoonFaireObjects(mgr);
 }
 
 #ifdef WIN32

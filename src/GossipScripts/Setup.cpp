@@ -37,6 +37,10 @@ extern "C" SCRIPT_DECL void _exp_script_register(ScriptMgr* mgr)
 	SetupShattrathGossip(mgr);
 	SetupStormwindGossip(mgr);
 	SetupTanarisGossip(mgr);
+
+	// Game-Events
+	SetupDarkmoonFaireGossip(mgr);
+	SetupDarkmoonFaireBarker(mgr);
 }
 
 #ifdef WIN32

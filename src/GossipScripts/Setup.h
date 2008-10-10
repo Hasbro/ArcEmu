@@ -29,4 +29,8 @@ void SetupShattrathGossip(ScriptMgr * mgr);
 void SetupStormwindGossip(ScriptMgr * mgr);
 void SetupTanarisGossip(ScriptMgr * mgr);
 
+// Game-Events
+void SetupDarkmoonFaireGossip(ScriptMgr * mgr);
+void SetupDarkmoonFaireBarker(ScriptMgr * mgr);
+
 #endif
