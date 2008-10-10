@@ -341,4 +341,13 @@ INSERT INTO `gameobject_spawns` VALUES
 	-- Orc Table Cooker Fire 01
 	('400130','180337','1','1333.81','-4419.02','26.8051','3.85396','0','0','0.937234','-0.348701','1','0','0','1','0');
 
+/* OBJECT LOOT */
+DELETE FROM `objectloot` WHERE `entryid` IN ('180370', '180371', '180372', '180373', '180374');
+INSERT INTO `objectloot` VALUES
+	('', '180372', '19995', '100', '0', '5', '10', '0'),			-- Harvest Boar
+	('', '180371', '19996', '100', '0', '1', '10', '0'),			-- Harvest Fish
+	('', '180370', '19994', '100', '0', '5', '10', '0'),			-- Harvest Fruit
+	('', '180373', '19997', '100', '0', '1', '10', '0'),			-- Harvest Nectar (Ironforge)
+	('', '180374', '19997', '100', '0', '1', '10', '0');			-- Harvest Nectar (Orgrimmar)
+	
 /* END OF FILE */
