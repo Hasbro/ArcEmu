@@ -1141,7 +1141,7 @@ public:
 						_unit->SetUInt64Value(UNIT_FIELD_FLAGS, UNIT_FLAG_NOT_ATTACKABLE_2);
 						_unit->GetAIInterface()->SetAllowedToEnterCombat(false);
 						_unit->GetAIInterface()->SetAIState(STATE_IDLE);
-						_unit->GetAIInterface()->SetNextTarget(NULL);
+						//_unit->GetAIInterface()->SetNextTarget(NULL);
 						/*_unit->GetAIInterface()->WipeTargetList();	// it's strange that if Akama goes out of combat he affects Illidan so he won't cast or update ai correctly
 						_unit->GetAIInterface()->WipeHateList();*/
 
@@ -1483,7 +1483,7 @@ public:
 					//_unit->WipeTargetList();
 					//_unit->WipeHateList();
 
-					Illidan->GetAIInterface()->SetNextTarget(NULL);
+					//Illidan->GetAIInterface()->SetNextTarget(NULL);
 					Illidan->Emote(EMOTE_ONESHOT_CUSTOMSPELL06);
 					if(Illidan->GetCurrentSpell() != NULL)
 						Illidan->GetCurrentSpell()->cancel();
@@ -1958,7 +1958,7 @@ public:
 			_unit->GetAIInterface()->SetAIState(STATE_IDLE);
 			_unit->GetAIInterface()->disable_melee = true;
 			_unit->SetUInt32Value(UNIT_NPC_EMOTESTATE, 0);
-			_unit->GetAIInterface()->SetNextTarget(NULL);
+			//_unit->GetAIInterface()->SetNextTarget(NULL);
 			_unit->GetAIInterface()->m_canMove = false;
 			_unit->SetUInt32Value(UNIT_FIELD_HEALTH, 1);
 			_unit->GetAIInterface()->StopMovement(0);	// needed?
@@ -2925,7 +2925,7 @@ protected:
 	Unit* FoA2;
 };
 
-void SetupTheBlackTemple(ScriptMgr * mgr)
+void SetupBlackTemple(ScriptMgr * mgr)
 {
 	GossipScript * AG = (GossipScript*) new AkamaGossip();
 	mgr->register_gossip_script(CN_AKAMA, AG);
