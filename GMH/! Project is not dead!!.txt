@@ -1,6 +1,0 @@
-This project is not dead! We are currently going under a rewrite as this will probably fix several things and will make the addon more stable and require less Memory requirement in WoW and make the addon compact in size.
-
-
-Thank you,
-
-GMH Developers
