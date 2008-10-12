@@ -76,7 +76,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>WaypointHide()
+          <OnClick>WaypointsHide()
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -146,7 +146,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>WaypointAdd()
+          <OnClick>WaypointsAdd()
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -216,7 +216,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>WaypointShow()
+          <OnClick>WaypointsShow()
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -286,7 +286,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>WaypointDel()
+          <OnClick>WaypointsDel()
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
