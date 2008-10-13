@@ -410,7 +410,7 @@ end
 -- Fired when a server message is sent to the client
 function Chat_OnEvent(event, text)
 	--Detects if you tried to advance a skill but didnt get it 
-	--[[if latestSkillID=="" and text=="Does not have skill line, adding." then
+	if latestSkillID=="" and text=="Does not have skill line, adding." then
 	elseif text=="Does not have skill line, adding." then
 		outSAY(".character advancesk "..latestSkillID.." "..latestSkillLevel);
 		latestSkillID="";
@@ -430,7 +430,7 @@ function Chat_OnEvent(event, text)
             getglobal("ItemFormSearchButton"..i):Hide();
         end
         i = 1;
-    end]]
+    end
 end
 
 -- Function to update each button when a result is recieved by the client
