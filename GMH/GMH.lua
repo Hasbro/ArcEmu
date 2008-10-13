@@ -96,13 +96,16 @@ end
 function FirstAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
-firstannounce=".announce "..SetAnnounceText:GetText();    
+firstannounce=".announce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("1st Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);
 end
 if ScreenAnnounceSetCheck:GetChecked() then
-firstannounce=".wannounce "..SetAnnounceText:GetText();    
+firstannounce=".wannounce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("1st Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 if GMAnnounceSetCheck:GetChecked() then
-firstannounce=".gmannounce "..SetAnnounceText:GetText();    
+firstannounce=".gmannounce "..SetAnnounceText:GetText(); 
+UIErrorsFrame:AddMessage("1st Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 else
 UIErrorsFrame:AddMessage("Please choose where to Announce!", 1.0, 0.0, 0.0, 53, 2);
@@ -112,13 +115,16 @@ end
 function SecondAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
-secondannounce=".announce "..SetAnnounceText:GetText();    
+secondannounce=".announce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("2nd Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 if ScreenAnnounceSetCheck:GetChecked() then
-secondannounce=".wannounce "..SetAnnounceText:GetText();    
+secondannounce=".wannounce "..SetAnnounceText:GetText(); 
+UIErrorsFrame:AddMessage("2nd Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 if GMAnnounceSetCheck:GetChecked() then
-secondannounce=".gmannounce "..SetAnnounceText:GetText();    
+secondannounce=".gmannounce "..SetAnnounceText:GetText(); 
+UIErrorsFrame:AddMessage("2nd Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 else
 UIErrorsFrame:AddMessage("Please choose where to Announce!", 1.0, 0.0, 0.0, 53, 2);
@@ -128,29 +134,35 @@ end
 function ThirdAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
-thirdannounce=".announce "..SetAnnounceText:GetText();    
+thirdannounce=".announce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("3rd Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 if ScreenAnnounceSetCheck:GetChecked() then
-thirdannounce=".wannounce "..SetAnnounceText:GetText();    
+thirdannounce=".wannounce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("3rd Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 if GMAnnounceSetCheck:GetChecked() then
-thirdannounce=".gmannounce "..SetAnnounceText:GetText();    
+thirdannounce=".gmannounce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("3rd Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 else
 UIErrorsFrame:AddMessage("Please choose where to Announce!", 1.0, 0.0, 0.0, 53, 2);
 end     
 end
 
-function ForthAnnounce()
+function FourthAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
-forthannounce=".announce "..SetAnnounceText:GetText();    
+forthannounce=".announce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("4th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 if ScreenAnnounceSetCheck:GetChecked() then
-forthannounce=".wannounce "..SetAnnounceText:GetText();    
+forthannounce=".wannounce "..SetAnnounceText:GetText(); 
+UIErrorsFrame:AddMessage("4th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 if GMAnnounceSetCheck:GetChecked() then
-forthannounce=".gmannounce "..SetAnnounceText:GetText();    
+forthannounce=".gmannounce "..SetAnnounceText:GetText(); 
+UIErrorsFrame:AddMessage("4th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 else
 UIErrorsFrame:AddMessage("Please choose where to Announce!", 1.0, 0.0, 0.0, 53, 2);
@@ -160,13 +172,16 @@ end
 function FifthAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
-fifthannounce=".announce "..SetAnnounceText:GetText();    
+fifthannounce=".announce "..SetAnnounceText:GetText();
+UIErrorsFrame:AddMessage("5th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 if ScreenAnnounceSetCheck:GetChecked() then
-fifthannounce=".wannounce "..SetAnnounceText:GetText();    
+fifthannounce=".wannounce "..SetAnnounceText:GetText(); 
+UIErrorsFrame:AddMessage("5th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 if GMAnnounceSetCheck:GetChecked() then
-fifthannounce=".gmannounce "..SetAnnounceText:GetText();    
+fifthannounce=".gmannounce "..SetAnnounceText:GetText(); 
+UIErrorsFrame:AddMessage("5th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 else
 UIErrorsFrame:AddMessage("Please choose where to Announce!", 1.0, 0.0, 0.0, 53, 2);
@@ -395,7 +410,7 @@ end
 -- Fired when a server message is sent to the client
 function Chat_OnEvent(event, text)
 	--Detects if you tried to advance a skill but didnt get it 
-	if latestSkillID=="" and text=="Does not have skill line, adding." then
+	--[[if latestSkillID=="" and text=="Does not have skill line, adding." then
 	elseif text=="Does not have skill line, adding." then
 		outSAY(".character advancesk "..latestSkillID.." "..latestSkillLevel);
 		latestSkillID="";
@@ -415,7 +430,7 @@ function Chat_OnEvent(event, text)
             getglobal("ItemFormSearchButton"..i):Hide();
         end
         i = 1;
-    end
+    end]]
 end
 
 -- Function to update each button when a result is recieved by the client

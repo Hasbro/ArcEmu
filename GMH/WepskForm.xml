@@ -174,7 +174,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>WepskForm:Hide(); SkillForm:Show(); WeaponSkillLevel:SetText("");
+          <OnClick>WepskForm:Hide(); SkillForm:Show(); WeaponSkillLvl:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -244,7 +244,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnSwords(); WeaponSkillLevel:ClearFocus();
+          <OnClick>LearnSwords(); WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -315,7 +315,7 @@
         </Anchors>
         <Scripts>
           <OnClick>LearnDualWield()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -386,7 +386,7 @@
         </Anchors>
         <Scripts>
           <OnClick>LearnStaves()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -457,7 +457,7 @@
         </Anchors>
         <Scripts>
           <OnClick>LearnUnarmed()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -528,7 +528,7 @@
         </Anchors>
         <Scripts>
           <OnClick>LearnTwoHandedAxes()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -599,7 +599,7 @@
         </Anchors>
         <Scripts>
           <OnClick>LearnDaggers()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -670,7 +670,7 @@
         </Anchors>
         <Scripts>
           <OnClick>LearnCrossbows();
-WeaponSkillLevel:ClearFocus();
+WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -740,7 +740,7 @@ WeaponSkillLevel:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnWands(); WeaponSkillLevel:ClearFocus();
+          <OnClick>LearnWands(); WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -810,8 +810,8 @@ WeaponSkillLevel:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnPolarms();
-WeaponSkillLevel:ClearFocus();
+          <OnClick>LearnPolearms();
+WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -881,7 +881,7 @@ WeaponSkillLevel:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnGuns(); WeaponSkillLevel:ClearFocus();
+          <OnClick>LearnGuns(); WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -952,7 +952,7 @@ WeaponSkillLevel:ClearFocus();
         </Anchors>
         <Scripts>
           <OnClick>LearnTwoHandedSwords()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1023,7 +1023,7 @@ WeaponSkillLevel:ClearFocus();
         </Anchors>
         <Scripts>
           <OnClick>LearnFistWeapons()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1094,7 +1094,7 @@ WeaponSkillLevel:ClearFocus();
         </Anchors>
         <Scripts>
           <OnClick>LearnTwoHandedMaces()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1165,7 +1165,7 @@ WeaponSkillLevel:ClearFocus();
         </Anchors>
         <Scripts>
           <OnClick>LearnBows()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1236,7 +1236,7 @@ WeaponSkillLevel:ClearFocus();
         </Anchors>
         <Scripts>
           <OnClick>LearnThrown()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1307,7 +1307,7 @@ WeaponSkillLevel:ClearFocus();
         </Anchors>
         <Scripts>
           <OnClick>LearnAxes()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1378,7 +1378,7 @@ WeaponSkillLevel:ClearFocus();
         </Anchors>
         <Scripts>
           <OnClick>LearnMaces()
-; WeaponSkillLevel:ClearFocus();
+; WeaponSkillLvl:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

@@ -320,6 +320,8 @@
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
+          <OnEscapePressed>PlayerName2:ClearFocus();
+</OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
@@ -419,8 +421,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SayFifthAnnounce()
-</OnClick>
+          <OnClick>if AnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+SayFifthAnnounce()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -489,7 +494,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SayFourthAnnounce()
+          <OnClick>if AnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+SayFourthAnnounce()
+end
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -559,7 +568,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SayFirstAnnounce();
+          <OnClick>if AnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+SayFirstAnnounce();
+end
+
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -811,7 +825,10 @@
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnEnterPressed>AnnounceChecked();</OnEnterPressed>
+          <OnEnterPressed>AnnounceChecked();
+</OnEnterPressed>
+          <OnEscapePressed>this:ClearFocus();
+</OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
@@ -997,7 +1014,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SaySecondAnnounce();
+          <OnClick>if AnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+SaySecondAnnounce();
+end
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1067,7 +1088,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SayThirdAnnounce();
+          <OnClick>if AnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+SayThirdAnnounce();
+end
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

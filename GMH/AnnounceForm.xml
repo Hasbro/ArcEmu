@@ -136,12 +136,13 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnClick>if ScreenAnnounceSetCheck:GetChecked() then 
+          <OnClick>if ScreenAnnounceSetCheck:GetChecked() then
 ScreenAnnounceSetCheck:SetChecked(false);
 end
-if GMAnnounceSetCheck:GetChecked() then 
+if GMAnnounceSetCheck:GetChecked() then
 GMAnnounceSetCheck:SetChecked(false);
-end</OnClick>
+end
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-CheckBox-Up" />
         <PushedTexture file="Interface\Buttons\UI-CheckBox-Down" />
@@ -297,7 +298,11 @@ end</OnClick>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>FirstAnnounce();
+          <OnClick>if SetAnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+FirstAnnounce();
+end
 SetAnnounceText:ClearFocus();
 </OnClick>
         </Scripts>
@@ -368,8 +373,12 @@ SetAnnounceText:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SecondAnnounce()
-; SetAnnounceText:ClearFocus();
+          <OnClick>if SetAnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+SecondAnnounce();
+end
+SetAnnounceText:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -439,8 +448,12 @@ SetAnnounceText:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ThirdAnnounce()
-; SetAnnounceText:ClearFocus();
+          <OnClick>if SetAnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 1.0, 0.0, 0.0, 53, 2);
+else
+ThirdAnnounce();
+end
+SetAnnounceText:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -510,8 +523,12 @@ SetAnnounceText:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ForthAnnounce()
-; SetAnnounceText:ClearFocus();
+          <OnClick>if SetAnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 0.0, 1.0, 0.0, 53, 2);
+else
+FourthAnnounce();
+end
+SetAnnounceText:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -581,8 +598,12 @@ SetAnnounceText:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>FifthAnnounce()
-; SetAnnounceText:ClearFocus();
+          <OnClick>if SetAnnounceText:GetNumLetters() &lt; 4 then
+UIErrorsFrame:AddMessage("Only 4 or more letters allowed!", 0.0, 1.0, 0.0, 53, 2);
+else
+FifthAnnounce();
+end
+SetAnnounceText:ClearFocus();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -679,12 +700,13 @@ SetAnnounceText:ClearFocus();
           </Layer>
         </Layers>
         <Scripts>
-          <OnClick>if AnnounceSetCheck:GetChecked() then 
+          <OnClick>if AnnounceSetCheck:GetChecked() then
 AnnounceSetCheck:SetChecked(false);
 end
-if GMAnnounceSetCheck:GetChecked() then 
+if GMAnnounceSetCheck:GetChecked() then
 GMAnnounceSetCheck:SetChecked(false);
-end</OnClick>
+end
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-CheckBox-Up" />
         <PushedTexture file="Interface\Buttons\UI-CheckBox-Down" />
@@ -765,12 +787,13 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnClick>if ScreenAnnounceSetCheck:GetChecked() then 
+          <OnClick>if ScreenAnnounceSetCheck:GetChecked() then
 ScreenAnnounceSetCheck:SetChecked(false);
 end
-if AnnounceSetCheck:GetChecked() then 
+if AnnounceSetCheck:GetChecked() then
 AnnounceSetCheck:SetChecked(false);
-end</OnClick>
+end
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-CheckBox-Up" />
         <PushedTexture file="Interface\Buttons\UI-CheckBox-Down" />
