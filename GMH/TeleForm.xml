@@ -215,7 +215,8 @@
 </OnLoad>
           <OnEscapePressed>ToPlayerName:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus(); ZoneName:SetFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus(); ZoneName:SetFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -281,7 +282,8 @@
 </OnEnterPressed>
           <OnEscapePressed>ZoneName:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -309,7 +311,18 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();Tele()
+          <OnClick>if ZoneName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter a location!", 1.0, 0.0, 0.0, 53, 2);
+else
+ToPlayerName:ClearFocus();
+ZoneName:ClearFocus();
+MapID:ClearFocus();
+XCord:ClearFocus();
+YCord:ClearFocus();
+ZCord:ClearFocus();
+Tele();
+end
+
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -482,8 +495,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();GoName()
-</OnClick>
+          <OnClick>if ToPlayerName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter a player's name!", 1.0, 0.0, 0.0, 53, 2);
+else
+ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();GoName()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -552,7 +568,17 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();NameGo();
+          <OnClick>if ToPlayerName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter a player's name!", 1.0, 0.0, 0.0, 53, 2);
+else
+ToPlayerName:ClearFocus();
+ZoneName:ClearFocus();
+MapID:ClearFocus();
+XCord:ClearFocus();
+YCord:ClearFocus();
+ZCord:ClearFocus();
+NameGo();
+end
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -658,7 +684,8 @@
 </OnLoad>
           <OnEscapePressed>MapID:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus(); XCord:SetFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus(); XCord:SetFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -755,7 +782,8 @@
 </OnLoad>
           <OnEscapePressed>XCord:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus();YCord:SetFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus();YCord:SetFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -819,7 +847,8 @@
 </OnLoad>
           <OnEscapePressed>ZCord:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -883,7 +912,8 @@
 </OnLoad>
           <OnEscapePressed>YCord:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus(); ZCord:SetFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus(); ZCord:SetFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -1010,8 +1040,17 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();AddPort()
-</OnClick>
+          <OnClick>if ZoneName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter a name for location!", 1.0, 0.0, 0.0, 53, 2);
+else
+ToPlayerName:ClearFocus();
+ZoneName:ClearFocus();
+MapID:ClearFocus();
+XCord:ClearFocus();
+YCord:ClearFocus();
+ZCord:ClearFocus();
+AddPort();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1080,7 +1119,17 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();DelPort()
+          <OnClick>if ZoneName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter a location name to delete!", 1.0, 0.0, 0.0, 53, 2);
+else
+ToPlayerName:ClearFocus();
+ZoneName:ClearFocus();
+MapID:ClearFocus();
+XCord:ClearFocus();
+YCord:ClearFocus();
+ZCord:ClearFocus();
+DelPort();
+end
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1150,8 +1199,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();PortPlayer()
-</OnClick>
+          <OnClick>if ToPlayerName:GetNumLetters() &lt; 1 and ZoneName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter a player and the location's name!", 1.0, 0.0, 0.0, 53, 2);
+else
+ToPlayerName:ClearFocus();ZoneName:ClearFocus();MapID:ClearFocus();XCord:ClearFocus();YCord:ClearFocus();ZCord:ClearFocus();PortPlayer()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1220,8 +1272,15 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>WorldPort();
-</OnClick>
+          <OnClick>if MapID:GetNumLetters() &lt; 1 and XCord:GetNumLetters() &lt; 1 and YCord:GetNumLetters() &lt; 1 and ZCord:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the Map, X, Y, and Z fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+WorldPort();
+MapID:ClearFocus();
+XCord:ClearFocus();
+YCord:ClearFocus();
+ZCord:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1277,7 +1336,7 @@
           </Shadow>
         </DisabledFont>
       </Button>
-      <Button name="$parentComponent1" hidden="true" text="Get Coords">
+      <Button name="$parentComponent1" text="Get Coords">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
           <AbsDimension x="150" y="25" />

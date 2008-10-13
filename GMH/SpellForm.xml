@@ -76,7 +76,8 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnAll();</OnClick>
+          <OnClick>LearnAll();
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -282,10 +283,10 @@
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnTabPressed>this:ClearFocus();
-</OnTabPressed>
           <OnEscapePressed>SpelllNumber:ClearFocus();
 </OnEscapePressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -313,9 +314,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnSpell()
+          <OnClick>if SpellNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnSpell()
 ; SpellNumber:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -384,9 +388,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>UnlearnSpell()
+          <OnClick>if SpellNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+UnlearnSpell()
 ; SpellNumber:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

@@ -244,8 +244,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnSwords(); WeaponSkillLvl:ClearFocus();
-</OnClick>
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnSwords(); WeaponSkillLvl:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -314,9 +317,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnDualWield()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnDualWield()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -385,9 +391,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnStaves()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnStaves()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -456,9 +465,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnUnarmed()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnUnarmed()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -527,9 +539,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnTwoHandedAxes()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnTwoHandedAxes()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -598,9 +613,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnDaggers()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnDaggers()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -669,9 +687,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnCrossbows();
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnCrossbows();
 WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -740,8 +761,11 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnWands(); WeaponSkillLvl:ClearFocus();
-</OnClick>
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnWands(); WeaponSkillLvl:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -810,9 +834,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnPolearms();
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnPolearms();
 WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -881,8 +908,11 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnGuns(); WeaponSkillLvl:ClearFocus();
-</OnClick>
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnGuns(); WeaponSkillLvl:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -951,9 +981,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnTwoHandedSwords()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnTwoHandedSwords()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1022,9 +1055,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnFistWeapons()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnFistWeapons()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1093,9 +1129,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnTwoHandedMaces()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnTwoHandedMaces()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1164,9 +1203,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnBows()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnBows()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1235,9 +1277,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnThrown()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnThrown()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1306,9 +1351,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnAxes()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnAxes()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1377,9 +1425,12 @@ WeaponSkillLvl:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnMaces()
+          <OnClick>if WeaponSkillLvl:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnMaces()
 ; WeaponSkillLvl:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

@@ -76,9 +76,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnLeatherworking()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnLeatherworking()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -315,9 +318,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnBlackSmithing()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnBlackSmithing()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -386,9 +392,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnTailoring()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnTailoring()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -457,9 +466,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnEngineering()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnEngineering()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -528,9 +540,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnEnchanting()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnEnchanting()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -599,9 +614,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnSkinning()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnSkinning()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -670,9 +688,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnAlchemy()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnAlchemy()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -741,9 +762,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnFirstAid()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnFirstAid()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -812,9 +836,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnMining()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnMining()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -883,9 +910,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnCooking()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnCooking()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -954,9 +984,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnHerbalism()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnHerbalism()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1025,9 +1058,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnJewel()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnJewel()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1096,9 +1132,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnFishing()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnFishing()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1167,9 +1206,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnPoisons()
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnPoisons()
 ; SkillLevel:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

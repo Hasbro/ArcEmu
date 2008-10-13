@@ -76,8 +76,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModEnergy(); 
-ModifyEditBox:ClearFocus();</OnClick>
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModEnergy();
+ModifyEditBox:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -146,8 +150,12 @@ ModifyEditBox:ClearFocus();</OnClick>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModRage(); 
-ModifyEditBox:ClearFocus();</OnClick>
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModRage();
+ModifyEditBox:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -216,9 +224,12 @@ ModifyEditBox:ClearFocus();</OnClick>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModHP()
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModHP()
 ; ModifyEditBox:ClearFocus()
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -358,9 +369,12 @@ GameTooltip:Show();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModMana(); 
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModMana();
 ModifyEditBox:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -499,9 +513,12 @@ ModifyEditBox:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModResistance();
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModResistance();
 ModifyEditBox:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -570,9 +587,12 @@ ModifyEditBox:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModDamage()
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModDamage()
 ; ModifyEditBox:ClearFocus()
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -641,9 +661,12 @@ ModifyEditBox:ClearFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModDisplay();
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModDisplay();
 ModifyEditBox:ClearFocus()
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -712,9 +735,12 @@ ModifyEditBox:ClearFocus()
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModArmor()
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModArmor()
 ; ModifyEditBox:ClearFocus()
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -783,8 +809,11 @@ ModifyEditBox:ClearFocus()
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModSpeed(); ModifyEditBox:ClearFocus()
-</OnClick>
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModSpeed(); ModifyEditBox:ClearFocus()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -853,8 +882,11 @@ ModifyEditBox:ClearFocus()
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModScale(); ModifyEditBox:ClearFocus()
-</OnClick>
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModScale(); ModifyEditBox:ClearFocus()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -923,8 +955,11 @@ ModifyEditBox:ClearFocus()
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModSpirit(); ModifyEditBox:ClearFocus()
-</OnClick>
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModSpirit(); ModifyEditBox:ClearFocus()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -993,8 +1028,11 @@ ModifyEditBox:ClearFocus()
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModTP(); ModifyEditBox:ClearFocus()
-</OnClick>
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModTP(); ModifyEditBox:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1063,8 +1101,11 @@ ModifyEditBox:ClearFocus()
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModFaction(); ModifyEditBox:ClearFocus()
-</OnClick>
+          <OnClick>if ModifyEditBox:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+ModFaction(); ModifyEditBox:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

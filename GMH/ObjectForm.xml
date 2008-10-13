@@ -202,7 +202,8 @@
 </OnLoad>
           <OnEscapePressed>ObjectNumber:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>

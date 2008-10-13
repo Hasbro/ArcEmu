@@ -352,9 +352,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>RemoveItemVendor()
+          <OnClick>if NPCItemNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+RemoveItemVendor()
 ; NPCItemNumber:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -423,9 +426,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>AddItemVendor()
+          <OnClick>if NPCItemNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+AddItemVendor()
 ; NPCItemNumber:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -530,7 +536,8 @@
 </OnLoad>
           <OnEscapePressed>NPCItemNumber:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -591,9 +598,12 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SpawnNPC()
+          <OnClick>if NPCNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+SpawnNPC()
 ; NPCNumber:ClearFocus();
-</OnClick>
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -698,7 +708,8 @@
 </OnLoad>
           <OnEscapePressed>NPCNumber:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>this:ClearFocus();</OnTabPressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>

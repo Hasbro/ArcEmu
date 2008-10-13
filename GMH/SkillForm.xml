@@ -417,8 +417,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>LearnSkill(); SkillNumber:ClearFocus(); SkillLvl:ClearFocus(); SkillMax:ClearFocus();
-</OnClick>
+          <OnClick>if SkillNumber:GetNumLetters() &lt; 1 and SkillLvl:GetNumLetters() &lt; 1 and SkillMax:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnSkill(); SkillNumber:ClearFocus(); SkillLvl:ClearFocus(); SkillMax:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -487,9 +490,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>UnLearnSkill()
-; SkillNumber:ClearFocus(); SkillLvl:ClearFocus(); SkillMax:ClearFocus();
-</OnClick>
+          <OnClick>if SkillNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+UnLearnSkill(); SkillNumber:ClearFocus(); SkillLvl:ClearFocus(); SkillMax:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -624,9 +629,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>AdvanceAll()
-; SkillsBy:ClearFocus();
-</OnClick>
+          <OnClick>if SkillsBy:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+AdvanceAll(); SkillsBy:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

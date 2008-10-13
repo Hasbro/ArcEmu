@@ -712,8 +712,11 @@ ItemQuantity1:SetFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>AddItemSet()
-</OnClick>
+          <OnClick>if ItemSetNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter an item set number!", 1.0, 0.0, 0.0, 53, 2);
+else
+AddItemSet()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -847,9 +850,12 @@ ItemQuantity1:SetFocus();
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>RemoveItem()
-; ItemNumber:ClearFocus();
-</OnClick>
+          <OnClick>if ItemNumber:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please enter an item number!", 1.0, 0.0, 0.0, 53, 2);
+else
+RemoveItem();
+ItemNumber:ClearFocus();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

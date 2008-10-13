@@ -76,7 +76,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>IPAddress1:ClearFocus(); Duration1:ClearFocus(); DelIPBan();</OnClick>
+          <OnClick>if IPAddress1:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+IPAddress1:ClearFocus(); Duration1:ClearFocus(); DelIPBan();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -145,7 +149,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>IPAddress1:ClearFocus(); Duration1:ClearFocus(); AddIPBan(); </OnClick>
+          <OnClick>if IPAddress1:GetNumLetters() &lt; 1 and Duration1:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+IPAddress1:ClearFocus(); Duration1:ClearFocus(); AddIPBan();
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -246,9 +254,12 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>this:SetAutoFocus(false);</OnLoad>
-          <OnEscapePressed>this:ClearFocus();</OnEscapePressed>
-          <OnTabPressed>this:ClearFocus();</OnTabPressed>
+          <OnLoad>this:SetAutoFocus(false);
+</OnLoad>
+          <OnEscapePressed>this:ClearFocus();
+</OnEscapePressed>
+          <OnTabPressed>this:ClearFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -341,9 +352,12 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>this:SetAutoFocus(false);</OnLoad>
-          <OnEscapePressed>this:ClearFocus();</OnEscapePressed>
-          <OnTabPressed>this:ClearFocus(); Duration1:SetFocus();</OnTabPressed>
+          <OnLoad>this:SetAutoFocus(false);
+</OnLoad>
+          <OnEscapePressed>this:ClearFocus();
+</OnEscapePressed>
+          <OnTabPressed>this:ClearFocus(); Duration1:SetFocus();
+</OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
           <FontHeight>
@@ -507,8 +521,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>CharName:ClearFocus(); BanReason:ClearFocus(); BanPlayer()
-</OnClick>
+          <OnClick>if CharName:GetNumLetters() &lt; 1 and BanReason:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+CharName:ClearFocus(); BanReason:ClearFocus(); BanPlayer()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -740,8 +757,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>CharName:ClearFocus(); BanReason:ClearFocus(); KickPlayer()
-</OnClick>
+          <OnClick>if CharName:GetNumLetters() &lt; 1 and BanReason:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+CharName:ClearFocus(); BanReason:ClearFocus(); KickPlayer()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -810,8 +830,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>CharName:ClearFocus(); BanReason:ClearFocus(); ParPlayer()
-</OnClick>
+          <OnClick>if CharName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+CharName:ClearFocus(); BanReason:ClearFocus(); ParPlayer()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -880,8 +903,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>CharName:ClearFocus(); BanReason:ClearFocus(); UnParPlayer()
-</OnClick>
+          <OnClick>if CharName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+CharName:ClearFocus(); BanReason:ClearFocus(); UnParPlayer()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -950,8 +976,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>CharName:ClearFocus(); BanReason:ClearFocus(); UnBanPlayer()
-</OnClick>
+          <OnClick>if CharName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+CharName:ClearFocus(); BanReason:ClearFocus(); UnBanPlayer()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -1020,8 +1049,11 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>CharName:ClearFocus(); BanReason:ClearFocus(); PInfo()
-</OnClick>
+          <OnClick>if CharName:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+CharName:ClearFocus(); BanReason:ClearFocus(); PInfo()
+end</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
