@@ -4,7 +4,7 @@
 --$Revision: 15 $
 --**********************************************************************
 
-chanvar = "GUILD";
+chanvar = "SAY";
 
 function OpenMain(self)
     if( view == 1 ) then
@@ -63,14 +63,15 @@ function outSAY(text)
 SendChatMessage(""..text, chanvar, nil, nil);
 end
 
-function GMHelperOnLoad(self)
+function GMHelperOnLoad()
 this:RegisterForDrag("RightButton");
 --[[JoinChannelByName("gm_sync_channel", "lhjf448gfdw279hgfw6");]]
 --JoinChannelByName("gm_sync_channel", ChatFrame1:GetID());
 end
 
-function GMHelper_Loaded(self)
-UIErrorsFrame:AddMessage("GM Helper v2.0.0 loaded!", 0.0, 1.0, 0.0, 53, 2);
+function GMHelper_Loaded()
+--DEFAULT_CHAT_FRAME:AddMessage("GM Helper v0.9.1 loaded!");
+--UIErrorsFrame:AddMessage("GM Helper v0.9.1 loaded!", 0.0, 1.0, 0.0, 53, 2);
 --OpenMain(self);
 --addonopen = 1;
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");
