@@ -35,10 +35,6 @@ BattlegroundForm.xml
 ModifyForm.xml
 QuickItemForm.xml
 Skill2Form.xml
-TicketShowForm.xml
-TicketView.xml
-TicketTracker.xml
-TicketTracker.lua
 WaypointForm.xml
 
 

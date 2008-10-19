@@ -198,11 +198,11 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>ObjectNumber:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -334,7 +334,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ObjectForm:Hide(); OpenMain(); ObjectNumber:SetText("");
+          <OnClick>ObjectForm:Hide(); OpenMain(self); ObjectNumber:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -497,11 +497,11 @@ ObjectNumber:ClearFocus();
       </Frame>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

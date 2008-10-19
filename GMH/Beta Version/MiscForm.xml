@@ -76,7 +76,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>MiscForm:Hide(); OpenMain();
+          <OnClick>MiscForm:Hide(); OpenMain(self);
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -347,10 +347,10 @@
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()</OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnLoad>GMHelperOnLoad(self)</OnLoad>
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

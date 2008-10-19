@@ -182,11 +182,11 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>RevivePlayer:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -215,7 +215,7 @@ end</OnClick>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>PlayerForm:Hide(); OpenMain(); PlayerLevel:SetText(""); GuildName:SetText(""); RevivePlayer:SetText("");
+          <OnClick>PlayerForm:Hide(); OpenMain(self); PlayerLevel:SetText(""); GuildName:SetText(""); RevivePlayer:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -391,11 +391,11 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>PlayerLevel:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -456,11 +456,11 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>GuildName:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -551,11 +551,11 @@ end</OnClick>
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

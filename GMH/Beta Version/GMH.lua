@@ -29,8 +29,8 @@ CommForm:Hide();
 ItemForm:Hide();
 MiscForm:Hide();
 ObjectForm:Hide();
-TicketTracker:Hide();
-TicketView:Hide();
+--TicketTracker:Hide();
+--TicketView:Hide();
 TeleForm:Hide();
 ProfessionsForm:Hide();
 RidingForm:Hide();
@@ -49,7 +49,7 @@ WaypointsForm:Hide();
 PlaySound("INTERFACESOUND_CHARWINDOWCLOSE");
 addonopen = 0;
 else
-OpenMain();
+OpenMain(self);
 PlaySound("INTERFACESOUND_CHARWINDOWOPEN");
 addonopen = 1;
 end
@@ -64,14 +64,14 @@ SendChatMessage(""..text, chanvar, nil, nil);
 end
 
 function GMHelperOnLoad(self)
- self:RegisterForDrag("RightButton");
+this:RegisterForDrag("RightButton");
 --[[JoinChannelByName("gm_sync_channel", "lhjf448gfdw279hgfw6");]]
 --JoinChannelByName("gm_sync_channel", ChatFrame1:GetID());
 end
 
 function GMHelper_Loaded(self)
 UIErrorsFrame:AddMessage("GM Helper v2.0.0 loaded!", 0.0, 1.0, 0.0, 53, 2);
---OpenMain();
+--OpenMain(self);
 --addonopen = 1;
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");
 end
@@ -454,7 +454,7 @@ end
 -- When a button is rolled over, show tooltip and update vars based on user cache
 function ResultButton_OnEnter(button_number)
     GameTooltip:ClearLines();
-    GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(self:GetWidth() / 2), 24);
+    GameTooltip:SetOwner(this, "ANCHOR_RIGHT", -(this:GetWidth() / 2), 24);
     GameTooltip:SetHyperlink("item:"..item_search_results[button_number]..":0:0:0:0:0:0:0");
     if GetItemInfo(item_search_results[button_number]) then
         itemNameReal[button_number], itemLink[button_number], itemRarity[button_number], itemLevel[button_number], itemMinLevel[button_number], itemType[button_number], itemSubType[button_number], itemStackCount[button_number], itemEquipLoc[button_number], itemTexture[button_number] = GetItemInfo(item_search_results[button_number]);

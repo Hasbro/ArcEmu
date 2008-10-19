@@ -179,7 +179,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SpellForm:Hide(); OpenMain(); SpellNumber:SetText("");
+          <OnClick>SpellForm:Hide(); OpenMain(self); SpellNumber:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -281,11 +281,11 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>SpelllNumber:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -451,11 +451,11 @@ end</OnClick>
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

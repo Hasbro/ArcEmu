@@ -109,7 +109,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>TeleForm:Hide(); OpenMain(); ToPlayerName:SetText(""); ZoneName:SetText(""); MapID:SetText(""); XCord:SetText(""); YCord:SetText(""); ZCord:SetText("");
+          <OnClick>TeleForm:Hide(); OpenMain(self); ToPlayerName:SetText(""); ZoneName:SetText(""); MapID:SetText(""); XCord:SetText(""); YCord:SetText(""); ZCord:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -211,11 +211,11 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>ToPlayerName:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus(); ZoneName:SetFocus();
+          <OnTabPressed>this:ClearFocus(); ZoneName:SetFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -276,13 +276,13 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEnterPressed>ZoneName:ClearFocus();Tele()
 </OnEnterPressed>
           <OnEscapePressed>ZoneName:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -680,11 +680,11 @@ end
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>MapID:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus(); XCord:SetFocus();
+          <OnTabPressed>this:ClearFocus(); XCord:SetFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -778,11 +778,11 @@ end
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>XCord:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();YCord:SetFocus();
+          <OnTabPressed>this:ClearFocus();YCord:SetFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -843,11 +843,11 @@ end
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>ZCord:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -908,11 +908,11 @@ end
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>YCord:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus(); ZCord:SetFocus();
+          <OnTabPressed>this:ClearFocus(); ZCord:SetFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -1409,11 +1409,11 @@ GPS();
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

@@ -44,8 +44,8 @@
 	<HighlightTexture alphaMode="ADD" file="Interface\Minimap\UI-Minimap-ZoomButton-Highlight"/>
 	<Scripts>
 		<OnLoad>
-			self:RegisterForClicks("LeftButtonUp","RightButtonUp");
-			self:RegisterForDrag("RightButton");
+			this:RegisterForClicks("LeftButtonUp","RightButtonUp");
+			this:RegisterForDrag("RightButton");
 		</OnLoad>
 		<OnEnter>
 			GameTooltip:SetOwner(this, "ANCHOR_LEFT");
@@ -58,16 +58,16 @@
 			GameTooltip:Hide();
 		</OnLeave>
 		<OnClick>
-			TogleAddon()
+			TogleAddon(self)
 		</OnClick>
 <OnLoad>
-self:RegisterForDrag("RightButton");
+this:RegisterForDrag("RightButton");
 </OnLoad>
 		<OnDragStart>
-				self:StartMoving();
+				this:StartMoving();
 		</OnDragStart>
 		<OnDragStop>
-				self:StopMovingOrSizing();
+				this:StopMovingOrSizing();
 		</OnDragStop>
 	</Scripts>
 </Button>

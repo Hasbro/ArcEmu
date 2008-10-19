@@ -3125,7 +3125,7 @@
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>self:RegisterEvent("CHAT_MSG_SYSTEM");
+      <OnLoad>this:RegisterEvent("CHAT_MSG_SYSTEM");
 </OnLoad>
       <OnEvent>Chat_OnEvent(event, arg1);
 </OnEvent>

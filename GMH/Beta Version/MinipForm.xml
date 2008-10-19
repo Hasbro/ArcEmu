@@ -1185,11 +1185,11 @@
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>self:RegisterForDrag("RightButton");
+      <OnLoad>this:RegisterForDrag("RightButton");
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
       <OnClick>Minip:Hide(); FullForm:Show();
 </OnClick>

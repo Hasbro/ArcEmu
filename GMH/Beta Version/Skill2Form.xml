@@ -207,59 +207,59 @@ local cb_init_fn = function()
   local info
   info = {}
   info.text = "Alchemy"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Blacksmithing"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Enchanting"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Engineering"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Herbalism"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Jewelcrafting"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Leatherworking"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Mining"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Skinning"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Tailoring"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Cooking"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Fishing"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "FirstAid"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
   info = {}
   info.text = "Poisons"
-  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, self:GetID(), 0);  end
+  info.func = function() UIDropDownMenu_SetSelectedID(ProfessionCombo, this:GetID(), 0);  end
   UIDropDownMenu_AddButton(info);
 end
 UIDropDownMenu_Initialize(this, cb_init_fn)
@@ -384,7 +384,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>Skill2Form:Hide(); ProfessionsForm:Hide(); OpenMain(); SkillLevel1:SetText("");
+          <OnClick>Skill2Form:Hide(); ProfessionsForm:Hide(); OpenMain(self); SkillLevel1:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -750,11 +750,11 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnEscapePressed>self:ClearFocus();
+          <OnEscapePressed>this:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -772,13 +772,13 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       </EditBox>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
       <OnShow>UIErrorsFrame:AddMessage("This Form is under Development!! Not 100% Working!", 1.0, 0.0, 0.0, 53, 5);
 </OnShow>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

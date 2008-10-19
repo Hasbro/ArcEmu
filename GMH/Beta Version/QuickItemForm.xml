@@ -835,13 +835,13 @@
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
       <OnShow>UIErrorsFrame:AddMessage("Currently, when you press a Class button for T6, it will give all the T6 for that class. This is only temporary until a fix is found.", 1.0, 0.0, 0.0, 53, 15);
 </OnShow>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

@@ -77,7 +77,7 @@
         </Anchors>
         <Scripts>
           <OnClick>BattlegroundForm:Hide();
-OpenMain();
+OpenMain(self);
 
 </OnClick>
         </Scripts>
@@ -417,11 +417,11 @@ OpenMain();
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

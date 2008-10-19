@@ -215,11 +215,11 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnEscapePressed>self:ClearFocus();
+          <OnEscapePressed>this:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -248,7 +248,7 @@ end</OnClick>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ProfessionsForm:Hide(); OpenMain(); SkillLevel:SetText("");
+          <OnClick>ProfessionsForm:Hide(); OpenMain(self); SkillLevel:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -1335,11 +1335,11 @@ end</OnClick>
       </Frame>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

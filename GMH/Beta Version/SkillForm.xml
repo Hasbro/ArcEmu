@@ -142,7 +142,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SkillForm:Hide(); OpenMain(); SkillNumber:SetText(""); SkillLvl:SetText(""); SkillMax:SetText(""); SkillsBy:SetText("");
+          <OnClick>SkillForm:Hide(); OpenMain(self); SkillNumber:SetText(""); SkillLvl:SetText(""); SkillMax:SetText(""); SkillsBy:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -244,11 +244,11 @@
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>SkillNumber:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus(); SkillLvl:SetFocus();
+          <OnTabPressed>this:ClearFocus(); SkillLvl:SetFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -734,11 +734,11 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>SkillMax:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -799,11 +799,11 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>SkillBy:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus();
+          <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -897,11 +897,11 @@ end</OnClick>
           </Layer>
         </Layers>
         <Scripts>
-          <OnLoad>self:SetAutoFocus(false);
+          <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
           <OnEscapePressed>SkillLevel:ClearFocus();
 </OnEscapePressed>
-          <OnTabPressed>self:ClearFocus(); SkillMax:SetFocus();
+          <OnTabPressed>this:ClearFocus(); SkillMax:SetFocus();
 </OnTabPressed>
         </Scripts>
         <FontString font="Fonts\ARIALN.TTF">
@@ -1092,11 +1092,11 @@ end</OnClick>
       </Frame>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()
+      <OnLoad>GMHelperOnLoad(self)
 </OnLoad>
-      <OnDragStart>self:StartMoving()
+      <OnDragStart>this:StartMoving()
 </OnDragStart>
-      <OnDragStop>self:StopMovingOrSizing()
+      <OnDragStop>this:StopMovingOrSizing()
 </OnDragStop>
     </Scripts>
   </Frame>

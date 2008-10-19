@@ -239,7 +239,7 @@ tB_Reset();
                 </Anchors>
                 <Scripts>
                   <OnClick>
-						local parent = self:GetParent();
+						local parent = this:GetParent();
 						parent:SetValue(parent:GetValue() - (parent:GetHeight() / 2));
 						PlaySound("UChatScrollButton");
 					</OnClick>
@@ -266,7 +266,7 @@ tB_Reset();
                 </Anchors>
                 <Scripts>
                   <OnClick>
-						local parent = self:GetParent();
+						local parent = this:GetParent();
 						parent:SetValue(parent:GetValue() + (parent:GetHeight() / 2));
 						PlaySound("UChatScrollButton");
 					</OnClick>
@@ -287,7 +287,7 @@ tB_Reset();
             </Frames>
             <Scripts>
               <OnValueChanged>
-				self:GetParent():SetVerticalScroll(arg1);
+				this:GetParent():SetVerticalScroll(arg1);
 			</OnValueChanged>
             </Scripts>
             <ThumbTexture name="$parentThumbTexture" file="Interface\Buttons\UI-ScrollBar-Knob">
@@ -303,7 +303,7 @@ tB_Reset();
 </OnLoad>
           <OnMouseWheel>ScrollFrameTemplate_OnMouseWheel(arg1);
 </OnMouseWheel>
-          <OnVerticalScroll>local scrollbar = getglobal(self:GetName().."ScrollBar");
+          <OnVerticalScroll>local scrollbar = getglobal(this:GetName().."ScrollBar");
 scrollbar:SetValue(arg1);
 local min;
 local max;
@@ -1319,7 +1319,7 @@ FullForm:Show();
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelper_Loaded()</OnLoad>
+      <OnLoad>GMHelper_Loaded(self)</OnLoad>
       <OnShow>tB_Reset();
 </OnShow>
     </Scripts>
