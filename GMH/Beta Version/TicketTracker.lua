@@ -100,8 +100,14 @@ function TT_Delete(name)
 end
 
 --Set up to receive ticket info.
+if IS_WRATH == nil then IS_WRATH = (select(4, GetBuildInfo()) >= 30000) end
 local ORIG_ChatFrame_MessageEventHandler = ChatFrame_MessageEventHandler;
-function ChatFrame_MessageEventHandler(event)
+function ChatFrame_MessageEventHandler(...)
+  if IS_WRATH then
+    _,event,arg1 = ...
+  else
+    event = ...
+  end 
     if event == "CHAT_MSG_CHANNEL" and arg9 == TicketChannel then
         junk,msg = strsplit(" ",arg1);
         args = {strsplit(",",msg)};
@@ -124,7 +130,7 @@ function ChatFrame_MessageEventHandler(event)
             TicketViewPanel1Message:AddMessage("|Hplayer:"..args[2].."|h["..args[2].."]|h: "..string.sub(arg1,len));
         end
     else
-        ORIG_ChatFrame_MessageEventHandler(event);
+        ORIG_ChatFrame_MessageEventHandler(...);
     end
 end
 

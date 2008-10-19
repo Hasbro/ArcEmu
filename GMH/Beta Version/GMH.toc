@@ -36,6 +36,10 @@ ModifyForm.xml
 QuickItemForm.xml
 Skill2Form.xml
 WaypointForm.xml
+TicketShowForm.xml
+TicketView.xml
+TicketTracker.xml
+TicketTracker.lua
 
 
 

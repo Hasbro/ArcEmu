@@ -203,6 +203,18 @@
             </Offset>
           </Shadow>
         </DisabledFont>
+		<FontString name="FullItemBtn_Text" inherits="GameFontNormal" text="Ports">
+							<Size>
+								<AbsDimension x="70" y="0"/>
+							</Size>
+							<Anchors>
+								<Anchor point="CENTER" relativeTo="FullItemBtn" relativePoint="CENTER">
+									<Offset>
+										<AbsDimension x="-25" y="5"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>	
       </Button>
       <Button name="FullSkillBtn" text="Skills">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
