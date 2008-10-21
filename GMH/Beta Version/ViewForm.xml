@@ -77,7 +77,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>view=1;ViewForm:Hide();OpenMain(self);
+          <OnClick>view=1;ViewForm:Hide();OpenMain();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -147,7 +147,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>view=3;ViewForm:Hide();OpenMain(self);
+          <OnClick>view=3;ViewForm:Hide();OpenMain();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -217,7 +217,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>view=2;ViewForm:Hide();OpenMain(self);
+          <OnClick>view=2;ViewForm:Hide();OpenMain();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

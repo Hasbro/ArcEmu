@@ -110,7 +110,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>TeleForm:Hide(); OpenMain(self); ToPlayerName:SetText(""); ZoneName:SetText(""); MapID:SetText(""); XCord:SetText(""); YCord:SetText(""); ZCord:SetText("");
+          <OnClick>TeleForm:Hide(); OpenMain(); ToPlayerName:SetText(""); ZoneName:SetText(""); MapID:SetText(""); XCord:SetText(""); YCord:SetText(""); ZCord:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

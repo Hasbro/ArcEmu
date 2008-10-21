@@ -1,9 +1,0 @@
-## Interface: 30000
-## Title: AddonHelper
-## Author: Maven
-## Version: 1.0.0
-## Notes: Just a test addon so I don't have to type out stuff for developing my other addons.
-## DefaultState: Enabled
-## LoadOnDemand: 0
-AddonHelperForm.xml
-AddonHelper.lua

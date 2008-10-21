@@ -77,7 +77,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>CommForm:Hide(); OpenMain(self); AnnounceText:SetText(""); PlayerName2:SetText("");
+          <OnClick>CommForm:Hide(); OpenMain(); AnnounceText:SetText(""); PlayerName2:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

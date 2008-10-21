@@ -110,7 +110,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>RidingForm:Hide(); OpenMain(self); RidingLevel:SetText("");
+          <OnClick>RidingForm:Hide(); OpenMain(); RidingLevel:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

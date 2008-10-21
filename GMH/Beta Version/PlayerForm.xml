@@ -216,7 +216,7 @@ end</OnClick>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>PlayerForm:Hide(); OpenMain(self); PlayerLevel:SetText(""); GuildName:SetText(""); RevivePlayer:SetText("");
+          <OnClick>PlayerForm:Hide(); OpenMain(); PlayerLevel:SetText(""); GuildName:SetText(""); RevivePlayer:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

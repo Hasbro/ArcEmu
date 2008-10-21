@@ -271,7 +271,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ItemForm:Hide(); OpenMain(self); ItemNumber:SetText(""); ItemSetNumber:SetText(""); Gold:SetText(""); Silver:SetText(""); Copper:SetText("");
+          <OnClick>ItemForm:Hide(); OpenMain(); ItemNumber:SetText(""); ItemSetNumber:SetText(""); Gold:SetText(""); Silver:SetText(""); Copper:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

@@ -444,7 +444,7 @@ end</OnClick>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ModifyForm:Hide(); OpenMain(self); ModifyEditBox:SetText("");
+          <OnClick>ModifyForm:Hide(); OpenMain(); ModifyEditBox:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

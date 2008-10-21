@@ -358,7 +358,7 @@
         </Anchors>
         <Scripts>
           <OnClick>WaypointsForm:Hide();
-OpenMain(self);
+OpenMain();
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

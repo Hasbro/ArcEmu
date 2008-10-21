@@ -385,7 +385,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>Skill2Form:Hide(); ProfessionsForm:Hide(); OpenMain(self); SkillLevel1:SetText("");
+          <OnClick>Skill2Form:Hide(); ProfessionsForm:Hide(); OpenMain(); SkillLevel1:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

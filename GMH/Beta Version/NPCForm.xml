@@ -250,7 +250,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>NPCForm:Hide(); OpenMain(self); NPCNumber:SetText(""); NPCItemNumber:SetText("");
+          <OnClick>NPCForm:Hide(); OpenMain(); NPCNumber:SetText(""); NPCItemNumber:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

@@ -335,7 +335,7 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>ObjectForm:Hide(); OpenMain(self); ObjectNumber:SetText("");
+          <OnClick>ObjectForm:Hide(); OpenMain(); ObjectNumber:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">

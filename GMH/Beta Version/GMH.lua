@@ -6,7 +6,7 @@
 
 chanvar = "SAY";
 
-function OpenMain(self)
+function OpenMain()
     if( view == 1 ) then
         FullForm:Show();
     elseif( view == 2 ) then
@@ -18,7 +18,7 @@ function OpenMain(self)
     end
 end
 
-function TogleAddon(self)
+function TogleAddon()
 if( addonopen == 1 ) then
 ItemFormSearch:Hide();
 FullForm:Hide();
@@ -49,7 +49,7 @@ WaypointsForm:Hide();
 PlaySound("INTERFACESOUND_CHARWINDOWCLOSE");
 addonopen = 0;
 else
-OpenMain(self);
+OpenMain();
 PlaySound("INTERFACESOUND_CHARWINDOWOPEN");
 addonopen = 1;
 end
@@ -72,7 +72,7 @@ end
 function GMHelper_Loaded()
 --DEFAULT_CHAT_FRAME:AddMessage("GM Helper v0.9.1 loaded!");
 --UIErrorsFrame:AddMessage("GM Helper v0.9.1 loaded!", 0.0, 1.0, 0.0, 53, 2);
---OpenMain(self);
+--OpenMain();
 --addonopen = 1;
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");
 end

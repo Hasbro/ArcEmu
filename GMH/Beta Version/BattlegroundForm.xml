@@ -78,7 +78,7 @@
         </Anchors>
         <Scripts>
           <OnClick>BattlegroundForm:Hide();
-OpenMain(self);
+OpenMain();
 
 </OnClick>
         </Scripts>
