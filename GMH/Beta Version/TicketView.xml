@@ -64,6 +64,105 @@
       </Layer>
     </Layers>
     <Frames>
+      <Frame name="$parentLabel3">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="61" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="392" y="-266" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Close">
+              <Anchors>
+                <Anchor point="TOPLEFT" />
+                <Anchor point="BOTTOMRIGHT" />
+              </Anchors>
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
+      <Frame name="$parentLabel2">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="65" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="321" y="-266" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Delete">
+              <Anchors>
+                <Anchor point="TOPLEFT" />
+                <Anchor point="BOTTOMRIGHT" />
+              </Anchors>
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
+      <Frame name="$parentLabel1">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="77" y="18" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="28" y="-266" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Revive">
+              <Anchors>
+                <Anchor point="TOPLEFT" />
+                <Anchor point="BOTTOMRIGHT" />
+              </Anchors>
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
       <Button name="$parentButton4" text="Revive">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -77,7 +176,8 @@
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SendChatMessage("!reviveplr "..TT_Name);</OnClick>
+          <OnClick>SendChatMessage("!reviveplr "..TT_Name);
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -92,46 +192,20 @@
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
         <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        <NormalFont />
+        <HighlightFont />
+        <DisabledFont />
       </Button>
       <Button name="$parentButton3" text="Whisper">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4973-d66d-444e-bb2d-1ad102c87fed" />-->
@@ -377,46 +451,20 @@ SendChatMessage("!gm blockwhispers "..TT_Name);
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
         <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        <NormalFont />
+        <HighlightFont />
+        <DisabledFont />
       </Button>
       <Frame name="$parentPanel1">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4972-d66d-444e-bb2d-1ad102c87fed" />-->
@@ -505,50 +553,25 @@ SendChatMessage("!gm blockwhispers "..TT_Name);
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
         <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        <NormalFont />
+        <HighlightFont />
+        <DisabledFont />
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelperOnLoad()</OnLoad>
+      <OnLoad>GMHelperOnLoad()
+</OnLoad>
     </Scripts>
   </Frame>
 </Ui>

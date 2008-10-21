@@ -63,6 +63,72 @@
       </Layer>
     </Layers>
     <Frames>
+      <Frame name="$parentLabel2">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="100" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="160" y="-327" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Close">
+              <Anchors>
+                <Anchor point="TOPLEFT" />
+                <Anchor point="BOTTOMRIGHT" />
+              </Anchors>
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
+      <Frame name="$parentLabel1">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="100" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="29" y="-327" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Refresh">
+              <Anchors>
+                <Anchor point="TOPLEFT" />
+                <Anchor point="BOTTOMRIGHT" />
+              </Anchors>
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
       <Button name="$parentButton1" text="Refresh">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -93,46 +159,20 @@ tB_Reset();
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
         <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        <NormalFont />
+        <HighlightFont />
+        <DisabledFont />
       </Button>
       <Frame name="lblNoTicket">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
@@ -239,7 +279,7 @@ tB_Reset();
                 </Anchors>
                 <Scripts>
                   <OnClick>
-						local parent = this:GetParent();
+						local parent = self:GetParent();
 						parent:SetValue(parent:GetValue() - (parent:GetHeight() / 2));
 						PlaySound("UChatScrollButton");
 					</OnClick>
@@ -266,7 +306,7 @@ tB_Reset();
                 </Anchors>
                 <Scripts>
                   <OnClick>
-						local parent = this:GetParent();
+						local parent = self:GetParent();
 						parent:SetValue(parent:GetValue() + (parent:GetHeight() / 2));
 						PlaySound("UChatScrollButton");
 					</OnClick>
@@ -287,7 +327,7 @@ tB_Reset();
             </Frames>
             <Scripts>
               <OnValueChanged>
-				this:GetParent():SetVerticalScroll(arg1);
+				self:GetParent():SetVerticalScroll(value);
 			</OnValueChanged>
             </Scripts>
             <ThumbTexture name="$parentThumbTexture" file="Interface\Buttons\UI-ScrollBar-Knob">
@@ -1246,7 +1286,7 @@ end
         </DisabledFont>
         <PushedTextOffset x="0" y="0" />
       </Button>
-      <Button name="$parentButton11" text="Close">
+      <Button name="Close" text="Close">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
           <AbsDimension x="100" y="22" />
@@ -1276,50 +1316,25 @@ FullForm:Show();
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
         <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        <NormalFont />
+        <HighlightFont />
+        <DisabledFont />
       </Button>
     </Frames>
     <Scripts>
-      <OnLoad>GMHelper_Loaded()</OnLoad>
+      <OnLoad>GMHelper_Loaded()
+</OnLoad>
       <OnShow>tB_Reset();
 </OnShow>
     </Scripts>
