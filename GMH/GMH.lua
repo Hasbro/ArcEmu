@@ -781,7 +781,7 @@ end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- PlayerScript
  function CreateGuild()
-result=".guild create %t"..GuildName:GetText();  
+result=".guild create "..GuildName:GetText();  
 outSAY(result);
 end
 
