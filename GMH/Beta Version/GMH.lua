@@ -4,7 +4,7 @@
 --$Revision: 15 $
 --**********************************************************************
 
-chanvar = "SAY";
+chanvar = "GUILD";
 
 function OpenMain()
     if( view == 1 ) then
@@ -29,8 +29,8 @@ CommForm:Hide();
 ItemForm:Hide();
 MiscForm:Hide();
 ObjectForm:Hide();
---TicketTracker:Hide();
---TicketView:Hide();
+TicketTracker:Hide();
+TicketView:Hide();
 TeleForm:Hide();
 ProfessionsForm:Hide();
 RidingForm:Hide();
@@ -71,7 +71,7 @@ end
 
 function GMHelper_Loaded()
 --DEFAULT_CHAT_FRAME:AddMessage("GM Helper v0.9.1 loaded!");
---UIErrorsFrame:AddMessage("GM Helper v0.9.1 loaded!", 0.0, 1.0, 0.0, 53, 2);
+UIErrorsFrame:AddMessage("GM Helper v0.9.1 loaded!", 0.0, 1.0, 0.0, 53, 2);
 --OpenMain();
 --addonopen = 1;
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");
@@ -86,7 +86,7 @@ BINDING_HEADER_GMHelper = "GM Helper";
 BINDING_NAME_TOGLEADDON = "Togles GM Helper";
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 -- AnnounceScript
-function SetAnnouncementChecked(self)
+function SetAnnouncementChecked()
 if (AnnounceCheck:GetChecked() or ScreenCheck:GetChecked() or GMAnnounceCheck:GetChecked() ) then
 Announce();
 else
@@ -94,7 +94,7 @@ UIErrorsFrame:AddMessage("Please choose where to Announce!", 1.0, 0.0, 0.0, 53, 
 end
 end
 
-function FirstAnnounce(self)
+function FirstAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
 firstannounce=".announce "..SetAnnounceText:GetText();
@@ -113,7 +113,7 @@ UIErrorsFrame:AddMessage("Please choose where to Announce!", 1.0, 0.0, 0.0, 53, 
 end
 end
 
-function SecondAnnounce(self)
+function SecondAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
 secondannounce=".announce "..SetAnnounceText:GetText();
@@ -782,7 +782,7 @@ end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- PlayerScript
  function CreateGuild()
-result=".guild create %t"..GuildName:GetText();  
+result=".guild create "..GuildName:GetText();  
 outSAY(result);
 end
 
