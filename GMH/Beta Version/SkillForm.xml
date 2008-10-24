@@ -429,9 +429,6 @@
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />
@@ -538,9 +535,6 @@
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />
@@ -582,9 +576,6 @@
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />
@@ -630,9 +621,6 @@ end
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />
@@ -678,9 +666,6 @@ end
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />
@@ -792,9 +777,6 @@ end
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />
@@ -1010,7 +992,7 @@ end
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnEscapePressed>SkillLevel:ClearFocus();
+          <OnEscapePressed>this:ClearFocus();
 </OnEscapePressed>
           <OnTabPressed>this:ClearFocus(); SkillMax:SetFocus();
 </OnTabPressed>
@@ -1064,9 +1046,6 @@ end
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />
@@ -1108,9 +1087,6 @@ end
               </Offset>
             </Anchor>
           </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
         </ButtonText>
         <NormalFont />
         <HighlightFont />

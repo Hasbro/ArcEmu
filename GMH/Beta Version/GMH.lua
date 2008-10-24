@@ -70,8 +70,8 @@ this:RegisterForDrag("RightButton");
 end
 
 function GMHelper_Loaded()
---DEFAULT_CHAT_FRAME:AddMessage("GM Helper v0.9.1 loaded!");
-UIErrorsFrame:AddMessage("GM Helper v0.9.1 loaded!", 0.0, 1.0, 0.0, 53, 2);
+--DEFAULT_CHAT_FRAME:AddMessage("GM Helper v0.10.0 loaded!");
+UIErrorsFrame:AddMessage("GM Helper v0.10.0 loaded!", 0.0, 1.0, 0.0, 53, 2);
 --OpenMain();
 --addonopen = 1;
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");

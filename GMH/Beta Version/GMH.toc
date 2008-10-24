@@ -1,5 +1,5 @@
 ## Interface: 30000
-## Title: GMH (GameMaster's Helper) v0.9.1
+## Title: GMH (GameMaster's Helper) v0.10.0
 ## Author: Stephen "Skate" Lovik | Skyler "Maven"
 ## Version: 0.9.1
 ## Notes: An addon to manage GM commands in an A.R.C. Emu based World of Warcraft private server.
@@ -40,7 +40,3 @@ TicketShowForm.xml
 TicketView.xml
 TicketTracker.xml
 TicketTracker.lua
-
-
-
-
