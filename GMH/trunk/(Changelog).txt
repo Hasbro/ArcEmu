@@ -1,4 +1,7 @@
-Version 0.9.0 (ArcEmu) (Release date: ETA 10/19/08) -
+Version 0.10.0 -
+*3.0.2 compatibility
+-------------------------------------------------------------------------------------------------------------
+Version 0.9.0 -
 *Moved all the lua files into GMH.lua* -Maven
 *Some functions didn't seem to be registering...moved the TicketTracker lua back to it's own script and renamed the Waypoint functions so it'll work* -Maven
 *When you are in an EditBox in CommForm and press escape, it will clear focus...This should have already been in there* -Maven
@@ -6,5 +9,3 @@ Version 0.9.0 (ArcEmu) (Release date: ETA 10/19/08) -
 *When you are in the AnnounceForm and editing your announces, a confirmation will appear if you press the button and it goes through perfectly* -Maven
 *All buttons that have an EditBox assigned, will now check it's box to see how many letters it has. If it has 1 or more, the function will go through. If it has none, you will receive an error message. CommForm and AnnounceForm have a 4 or more rule* -Maven
 -------------------------------------------------------------------------------------------------------------
-Version 0.8.0 (ArcEmu) (Release date: NA)
-*Beta Release - Changelog unavailable*
