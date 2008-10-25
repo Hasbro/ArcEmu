@@ -18,7 +18,7 @@ function OpenMain()
     end
 end
 
-function TogleAddon()
+function ToggleAddon()
 if( addonopen == 1 ) then
 ItemFormSearch:Hide();
 FullForm:Hide();
@@ -83,7 +83,7 @@ end
 
 -- Binding Variables
 BINDING_HEADER_GMHelper = "GM Helper";
-BINDING_NAME_TOGLEADDON = "Togles GM Helper";
+BINDING_NAME_ToggleAddon = "Togles GM Helper";
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 -- AnnounceScript
 function SetAnnouncementChecked()

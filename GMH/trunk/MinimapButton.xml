@@ -59,7 +59,7 @@
 			GameTooltip:Hide();
 		</OnLeave>
 		<OnClick>
-			TogleAddon()
+			ToggleAddon()
 		</OnClick>
 <OnLoad>
 this:RegisterForDrag("RightButton");
