@@ -3,7 +3,7 @@
   <Frame name="ObjectForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="189" y="249" />
+      <AbsDimension x="189" y="269" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -63,6 +63,79 @@
       </Layer>
     </Layers>
     <Frames>
+      <Frame name="$parentLabel5">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="144" y="19" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="23" y="-115" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Layers>
+          <Layer>
+            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Lookup Object">
+              <Anchors>
+                <Anchor point="TOPLEFT" />
+                <Anchor point="BOTTOMRIGHT" />
+              </Anchors>
+              <FontHeight>
+                <AbsValue val="12" />
+              </FontHeight>
+              <Color r="1" g="0.8196079" b="0" />
+              <Shadow>
+                <Color r="0" g="0" b="0" />
+                <Offset>
+                  <AbsDimension x="1" y="-1" />
+                </Offset>
+              </Shadow>
+            </FontString>
+          </Layer>
+        </Layers>
+      </Frame>
+      <Button name="$parentButton2" text="Lookup Object">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="144" y="19" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="23" y="-115" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont />
+        <HighlightFont />
+        <DisabledFont />
+      </Button>
       <Frame name="$parentLabel4">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -71,7 +144,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="49" y="-209" />
+              <AbsDimension x="49" y="-234" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -104,7 +177,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-181" />
+              <AbsDimension x="23" y="-206" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -137,7 +210,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-153" />
+              <AbsDimension x="23" y="-178" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -203,7 +276,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-115" />
+              <AbsDimension x="23" y="-140" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -223,7 +296,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-181" />
+              <AbsDimension x="23" y="-206" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -327,18 +400,18 @@
       <Frame name="DeleteObjectLabel">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="18" />
+          <AbsDimension x="144" y="25" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-35" />
+              <AbsDimension x="23" y="-28" />
             </Offset>
           </Anchor>
         </Anchors>
         <Layers>
           <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Object Number">
+            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Object Number or Name">
               <Anchors>
                 <Anchor point="TOPLEFT" />
                 <Anchor point="BOTTOMRIGHT" />
@@ -365,7 +438,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-153" />
+              <AbsDimension x="23" y="-178" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -409,7 +482,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="49" y="-209" />
+              <AbsDimension x="49" y="-234" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -498,7 +571,7 @@ ObjectNumber:ClearFocus();
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="61" y="-115" />
+              <AbsDimension x="61" y="-140" />
             </Offset>
           </Anchor>
         </Anchors>

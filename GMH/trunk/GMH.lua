@@ -669,6 +669,11 @@ function NPCInfo()
 result=".npc info";
 outSAY(result);
 end
+
+function NPCLookup()
+result=".lookup creature"..NPCNumber:GetText();
+outSAY(result);
+end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- ObjectScript
 
@@ -703,6 +708,11 @@ if NoSaveCheck:GetChecked() then
         result=".go spawn "..ObjectNumber:GetText().." 1";
         outSAY(result)
 end
+end
+
+function LookupObject()
+result=".lookup object "..ObjectNumber:GetText();
+outSAY(result)
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- OverridesScript
@@ -1044,6 +1054,11 @@ result=".character removesk "..SkillNumber:GetText();
 outSAY(result);
 end
 
+function LookupSkill()
+result=".lookup skill "..SkillNumber:GetText();    
+outSAY(result);
+end
+
 function AdvanceAll()
 result=".character advanceallskills "..SkillsBy:GetText();   
 outSAY(result);
@@ -1065,6 +1080,12 @@ function LearnAll()
 result=".character learn all";
 outSAY(result);
 end
+
+function LookupSpell()
+result=".lookup spell "..SpellNumber:GetText();    
+outSAY(result);
+end
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- TeleScript
 
