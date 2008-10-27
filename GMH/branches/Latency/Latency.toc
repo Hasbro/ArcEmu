@@ -1,0 +1,10 @@
+## Interface: 30000
+## Title: Latency
+## Author: Maven
+## Version: 0.2
+## Notes: A simple addon that shows the user their latency.
+## eMail: Maven01@live.com
+## DefaultState: Enabled
+## LoadOnDemand: 0
+LatencyForm.xml
+

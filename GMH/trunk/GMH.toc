@@ -1,6 +1,6 @@
 ## Interface: 30000
 ## Title: GMH (GameMaster's Helper) v0.10.0
-## Author: Stephen "Skate" Lovik | Skyler "Maven"
+## Author: Skyler "Maven" | Stephen "Skate" Lovik
 ## Version: 0.10.0
 ## Notes: An addon to manage GM commands in an A.R.C. Emu based World of Warcraft private server.
 ## eMail: Skate555@gmail.com | Maven01@live.com

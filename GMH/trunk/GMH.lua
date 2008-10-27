@@ -805,6 +805,11 @@ function RevivePlayer2()
 result=".reviveplr "..RevivePlayer:GetText();
 outSAY(result);
 end
+
+function LookupFaction()
+result=".lookup faction "..FactionLookup:GetText();
+outSAY(result);
+end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- ProfessionsForm
 

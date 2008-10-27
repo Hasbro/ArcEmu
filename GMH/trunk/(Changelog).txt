@@ -1,6 +1,6 @@
 Version 0.10.0 -
 *3.0.2 compatibility
-+New Spell, Skill, Creature, and Object lookup functions. They are in their respective forms.
++New Faction, Spell, Skill, Creature, and Object lookup functions. They are in their respective forms.
 
 -------------------------------------------------------------------------------------------------------------
 Version 0.9.0 -
