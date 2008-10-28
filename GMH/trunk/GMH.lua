@@ -83,7 +83,7 @@ end
 
 -- Binding Variables
 BINDING_HEADER_GMHelper = "GM Helper";
-BINDING_NAME_ToggleAddon = "Togles GM Helper";
+BINDING_NAME_ToggleAddon = "Toggles GM Helper";
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 -- AnnounceScript
 function SetAnnouncementChecked()
