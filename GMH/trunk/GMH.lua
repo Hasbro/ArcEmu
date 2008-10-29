@@ -792,22 +792,22 @@ end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- PlayerScript
  function CreateGuild()
-result=".guild create "..GuildName:GetText();  
+result=".guild create "..PlayerFormBox:GetText();  
 outSAY(result);
 end
 
 function LevelPlayer()
-result=".mod level "..PlayerLevel:GetText();    
+result=".mod level "..PlayerFormBox:GetText();    
 outSAY(result);
 end
 
 function RevivePlayer2()
-result=".reviveplr "..RevivePlayer:GetText();
+result=".reviveplr "..PlayerFormBox:GetText();
 outSAY(result);
 end
 
 function LookupFaction()
-result=".lookup faction "..FactionLookup:GetText();
+result=".lookup faction "..PlayerFormBox:GetText();
 outSAY(result);
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
