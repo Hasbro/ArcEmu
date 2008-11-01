@@ -63,39 +63,6 @@
       </Layer>
     </Layers>
     <Frames>
-      <Frame name="$parentLabel5">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="144" y="19" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-115" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Lookup Object">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Button name="$parentButton2" text="Lookup Object">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -132,142 +99,10 @@
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
-      <Frame name="$parentLabel4">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="90" y="19" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="49" y="-234" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Done">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel3">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="144" y="22" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-206" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Delete Object">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel2">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="144" y="22" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-178" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Target Object">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel1">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="144" y="22" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-87" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Place Object">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <CheckButton name="NoSaveCheck">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4974-d66d-444e-bb2d-1ad102c87fed" />-->
         <Size>
@@ -328,9 +163,9 @@
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <EditBox name="ObjectNumber" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
@@ -470,9 +305,9 @@
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -514,9 +349,9 @@
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent1" text="Place Object">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -559,9 +394,9 @@ ObjectNumber:ClearFocus();
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Frame name="$parentComponent2">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->

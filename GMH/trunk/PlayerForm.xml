@@ -63,40 +63,7 @@
       </Layer>
     </Layers>
     <Frames>
-      <Frame name="$parentLabel5">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-123" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Lookup Faction">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Button name="$parentButton2" text="$parentButton2">
+      <Button name="$parentButton2" text="Lookup Faction">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
           <AbsDimension x="150" y="25" />
@@ -141,142 +108,10 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
-      <Frame name="$parentLabel4">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="102" y="19" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="41" y="-185" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Done">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel3">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-154" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Create Guild">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel2">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-92" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Level Up">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel1">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-61" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Revive Player">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Button name="$parentButton1" text="Revive Player">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -322,9 +157,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <EditBox name="PlayerFormBox" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
@@ -373,7 +208,7 @@ end
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnEscapePressed>RevivePlayer:ClearFocus();
+          <OnEscapePressed>this:ClearFocus();
 </OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
@@ -404,7 +239,7 @@ end
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>OpenMain(); PlayerFormBox:SetText("");
+          <OnClick>OpenMain(); PlayerForm:Hide(); PlayerFormBox:SetText("");
 </OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
@@ -431,9 +266,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="AddItem" text="Level Up">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -480,9 +315,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent2" text="Create Guild">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -528,9 +363,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
     </Frames>
     <Scripts>

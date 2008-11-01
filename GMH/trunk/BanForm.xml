@@ -63,303 +63,6 @@
       </Layer>
     </Layers>
     <Frames>
-      <Frame name="$parentLabel12">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="90" y="18" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="48" y="-501" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Done">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel11">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-469" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Delete IP Ban">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel10">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-438" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Add IP Ban">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel9">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-303" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Info">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel8">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-272" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="UnParalyze Player">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel7">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-241" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Paralyze Player">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel6">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-210" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Kick Player">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel5">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-179" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="UnBan Player">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel4">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="150" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="19" y="-148" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Ban Player">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Button name="$parentButton2" text="Delete IP Ban">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -404,9 +107,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentButton1" text="Add IP Ban">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -452,9 +155,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <EditBox name="Duration1" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
@@ -725,9 +428,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="BanPlayer" text="Ban Player">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -773,9 +476,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <EditBox name="CharName" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
@@ -984,9 +687,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent3" text="Paralyze Player">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1032,9 +735,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent4" text="UnParalyze Player">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1080,9 +783,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent5" text="UnBan Player">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1128,9 +831,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent6" text="Info">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1176,9 +879,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
     </Frames>
     <Scripts>

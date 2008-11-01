@@ -63,600 +63,6 @@
       </Layer>
     </Layers>
     <Frames>
-      <Frame name="$parentLabel18">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="90" y="18" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="49" y="-455" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Done">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel17">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="143" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-423" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Two Handed Maces">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel16">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="143" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-392" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Two Handed Swords">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel15">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="143" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-361" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Two Handed Axes">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel14">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="143" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-330" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Polearms">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel13">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="143" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-299" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Fist Weapons">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel12">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="143" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-268" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Crossbows">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel11">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="143" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-237" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Dual Wield">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel10">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="62" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="104" y="-206" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Bows">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel9">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="75" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-206" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Maces">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel8">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="62" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="104" y="-175" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Guns">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel7">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="75" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-175" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Daggers">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel6">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="62" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="104" y="-144" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Wand">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel5">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="75" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-144" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Thrown">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel4">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="62" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="104" y="-113" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Axes">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel3">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="75" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-113" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Unarmed">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel2">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="62" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="104" y="-82" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Staves">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel1">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="75" y="25" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="23" y="-82" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Swords">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Frame name="SKLvl">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -795,9 +201,9 @@
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Swords" text="Swords">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -843,9 +249,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="DualWield" text="Dual Wield">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -892,9 +298,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Staves" text="Staves">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -941,9 +347,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Unarmed" text="Unarmed">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -990,9 +396,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="TwoHandedAxes" text="Two Handed Axes">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1039,9 +445,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Daggers" text="Daggers">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1088,9 +494,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Crossbows" text="Crossbows">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1137,9 +543,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Wand" text="Wand">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1185,9 +591,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Polearms" text="Polearms">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1234,9 +640,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Guns" text="Guns">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1282,9 +688,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="TwoHandedSwords" text="Two Handed Swords">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1331,9 +737,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FistWeapons" text="Fist Weapons">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1380,9 +786,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="TwoHandedMaces" text="Two Handed Maces">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1429,9 +835,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Bows" text="Bows">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1478,9 +884,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Thrown" text="Thrown">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1527,9 +933,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Axes" text="Axes">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1576,9 +982,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="Maces" text="Maces">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1625,9 +1031,9 @@ end
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont />
-        <HighlightFont />
-        <DisabledFont />
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
     </Frames>
     <Scripts>

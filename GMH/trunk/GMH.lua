@@ -72,8 +72,8 @@ end
 function GMHelper_Loaded()
 --DEFAULT_CHAT_FRAME:AddMessage("GM Helper v0.10.0 loaded!");
 UIErrorsFrame:AddMessage("GM Helper v0.10.0 loaded!", 0.0, 1.0, 0.0, 53, 2);
---OpenMain();
---addonopen = 1;
+OpenMain();
+addonopen = 1;
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");
 end
 
@@ -1254,3 +1254,16 @@ result=".character advancesk 54 "..WeaponSkillLvl:GetText();
 outSAY(result);
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+function GMH_Reload()
+ReloadUI()
+end
+SlashCmdList["GMH"] = GMH_Reload;
+SLASH_GMH1="/reload";
+
+function GMH_Revive()
+result=".revive"   
+outSAY(result);
+end
+SlashCmdList["REVIVE"] = GMH_Revive;
+SLASH_REVIVE1="/revive";

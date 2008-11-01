@@ -63,534 +63,6 @@
       </Layer>
     </Layers>
     <Frames>
-      <Frame name="$parentLabel16">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-513" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Views">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel15">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-481" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Waypoints">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel14">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-449" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Modify">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel13">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-417" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Battlegrounds">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel12">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-385" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Overrides">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel11">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-353" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Misc">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel10">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-321" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Bans">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel9">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-289" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Comms">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel8">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-257" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Players">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel7">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-225" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="NPCs">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel6">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-193" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="G Objects">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel5">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-161" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Spells">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel4">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-129" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Skills">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel3">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-97" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Items">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel2">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-65" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Tickets">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
-      <Frame name="$parentLabel1">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="160" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="14" y="-33" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="Ports">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Button name="FullPortBtn" text="Ports">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -619,43 +91,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullItemBtn" text="Items">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -685,43 +135,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullSkillBtn" text="Skills">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -751,43 +179,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullBanBtn" text="Ban Stick ">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -817,43 +223,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullCommBtn" text="Comms">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -883,43 +267,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullViewBtn" text="Views">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -949,43 +311,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullTickBtn" text="Tickets">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1015,43 +355,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullMiscBtn" text="Misc">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1081,43 +399,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullGOBtn" text="G Objects">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1147,43 +443,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullSpellBtn" text="Spells">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1214,46 +488,20 @@
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
         <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
             <AbsValue val="10" />
           </FontHeight>
         </ButtonText>
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullNPCBtn" text="NPCs">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1283,43 +531,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="FullPlayBtn" text="Players">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1349,43 +575,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent1" text="Battlegrounds">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1415,43 +619,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent2" text="Waypoints">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1481,43 +663,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent4" text="Modify">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1547,43 +707,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
       <Button name="$parentComponent5" text="Overrides">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -1613,43 +751,21 @@
         <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
-        <ButtonText name="$parentText" />
-        <NormalFont inherits="GameFontNormal" font="Fonts\FRIZQT__.TTF">
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
           <FontHeight>
-            <AbsValue val="12" />
+            <AbsValue val="10" />
           </FontHeight>
-          <Color r="1" g="0.8196079" b="0" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </NormalFont>
-        <HighlightFont inherits="GameFontHighlight" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="1" g="1" b="1" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </HighlightFont>
-        <DisabledFont inherits="GameFontDisable" font="Fonts\FRIZQT__.TTF">
-          <FontHeight>
-            <AbsValue val="12" />
-          </FontHeight>
-          <Color r="0.4980392" g="0.4980392" b="0.4980392" />
-          <Shadow>
-            <Color r="0" g="0" b="0" />
-            <Offset>
-              <AbsDimension x="1" y="-1" />
-            </Offset>
-          </Shadow>
-        </DisabledFont>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
       </Button>
     </Frames>
     <Scripts>
