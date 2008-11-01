@@ -1254,12 +1254,25 @@ result=".character advancesk 54 "..WeaponSkillLvl:GetText();
 outSAY(result);
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--[[function GMH_Main()
+if (msg == "help") then
+DEFAULT_CHAT_FRAME:AddMessage("/gmh help - displays this menu",1,1,1);
+DEFAULT_CHAT_FRAME:AddMessage("/reload - reloads UI (mainly for Dev's)",1,1,1);
+DEFAULT_CHAT_FRAME:AddMessage("/revive - revives yourself");
+DEFAULT_CHAT_FRAME:AddMessage("/npcspawn - spawns NPC (e.g. /npcspawn 1");
+DEFAULT_CHAT_FRAME:AddMessage("/npcdelete - deleted targeted NPC");
+DEFAULT_CHAT_FRAME:AddMessage("/additem - adds item to you or target (e.g. /additem 1");
+end
+end
+SlashCmdList["GMH"] = GMH_Main;
+SLASH_GMH1="/gmh";
+SLASH_GMH2="/gm";]]
 
 function GMH_Reload()
 ReloadUI()
 end
-SlashCmdList["GMH"] = GMH_Reload;
-SLASH_GMH1="/reload";
+SlashCmdList["GMHRELOAD"] = GMH_Reload;
+SLASH_GMHRELOAD1="/reload";
 
 function GMH_Revive()
 result=".revive"   
@@ -1267,3 +1280,26 @@ outSAY(result);
 end
 SlashCmdList["REVIVE"] = GMH_Revive;
 SLASH_REVIVE1="/revive";
+
+function GMH_NPCSpawn(msg)
+NPCID=msg;
+result=".npc spawn "..NPCID; 
+outSAY(result);
+end
+SlashCmdList["GMHSPAWN"] = GMH_NPCSpawn;
+SLASH_GMHSPAWN1="/npcspawn";
+
+function GMH_NPCDelete()
+result=".npc delete" 
+outSAY(result);
+end
+SlashCmdList["GMHDELETE"] = GMH_NPCDelete;
+SLASH_GMHDELETE1="/npcdelete";
+
+function GMH_AddItem(msg)
+ItemID=msg;
+result=".character additem "..ItemID; 
+outSAY(result);
+end
+SlashCmdList["GMHADDITEM"] = GMH_AddItem;
+SLASH_GMHADDITEM1="/additem";

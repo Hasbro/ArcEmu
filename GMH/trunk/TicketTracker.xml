@@ -64,39 +64,6 @@
       </Layer>
     </Layers>
     <Frames>
-      <Frame name="$parentLabel21">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="16" y="15" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="418" y="-15" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Layers>
-          <Layer>
-            <FontString name="$parentLabel" font="Fonts\FRIZQT__.TTF" text="x">
-              <Anchors>
-                <Anchor point="TOPLEFT" />
-                <Anchor point="BOTTOMRIGHT" />
-              </Anchors>
-              <FontHeight>
-                <AbsValue val="12" />
-              </FontHeight>
-              <Color r="1" g="0.8196079" b="0" />
-              <Shadow>
-                <Color r="0" g="0" b="0" />
-                <Offset>
-                  <AbsDimension x="1" y="-1" />
-                </Offset>
-              </Shadow>
-            </FontString>
-          </Layer>
-        </Layers>
-      </Frame>
       <Button name="$parentButton2" text="x">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -127,17 +94,10 @@ OpenMain();
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
         </HighlightTexture>
         <ButtonText name="$parentText">
-          <Anchors>
-            <Anchor point="CENTER">
-              <Offset>
-                <AbsDimension x="0" y="1" />
-              </Offset>
-            </Anchor>
-          </Anchors>
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
         </ButtonText>
-        <NormalFont style="GameFontNormal" />
-        <HighlightFont style="GameFontHighlight" />
-        <DisabledFont style="GameFontDisable" />
       </Button>
       <Frame name="$parentPanel1">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4972-d66d-444e-bb2d-1ad102c87fed" />-->
@@ -192,20 +152,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Frame name="$parentLabel2">
             <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4978-d66d-444e-bb2d-1ad102c87fed" />-->
@@ -294,20 +244,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent44" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -338,20 +278,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent43" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -382,20 +312,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent42" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -426,20 +346,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent41" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -470,20 +380,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent40" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -514,20 +414,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent39" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -558,20 +448,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent38" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -602,20 +482,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent37" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -646,20 +516,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent36" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -690,20 +550,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent35" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -734,20 +584,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent34" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -778,20 +618,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent33" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -822,20 +652,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent32" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -866,20 +686,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent31" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -910,20 +720,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <Button name="$parentComponent30" text="View">
             <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
@@ -954,20 +754,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <MessageFrame name="$parentComponent0" fade="false" fadeDuration="0" displayDuration="0">
             <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="07bef61d-ceb4-4cab-bd99-cc05653863c3" />-->
@@ -1838,20 +1628,10 @@ OpenMain();
               <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
             </HighlightTexture>
             <ButtonText name="$parentText">
-              <Anchors>
-                <Anchor point="CENTER">
-                  <Offset>
-                    <AbsDimension x="0" y="1" />
-                  </Offset>
-                </Anchor>
-              </Anchors>
               <FontHeight>
                 <AbsValue val="10" />
               </FontHeight>
             </ButtonText>
-            <NormalFont style="GameFontNormal" />
-            <HighlightFont style="GameFontHighlight" />
-            <DisabledFont style="GameFontDisable" />
           </Button>
           <MessageFrame name="$parentBar" fade="false" fadeDuration="0" displayDuration="0">
             <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="07bef61d-ceb4-4cab-bd99-cc05653863c3" />-->
