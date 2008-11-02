@@ -74,6 +74,7 @@ function GMHelper_Loaded()
 UIErrorsFrame:AddMessage("GM Helper v0.10.0 loaded!", 0.0, 1.0, 0.0, 53, 2);
 OpenMain();
 addonopen = 1;
+SendChatMessage(".gm on", chanvar, nil, nil);
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");
 end
 
