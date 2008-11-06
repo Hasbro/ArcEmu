@@ -1,6 +1,0 @@
-Trunk is 0.10.0 which is 3.0.2 ONLY.
-
-If you are using a 2.4.3 client, please use the copy in GMH\branches\0.9.0
-
-
-Thanks! 
