@@ -23,6 +23,7 @@ ObjectForm.xml
 TeleForm.xml
 ProfessionsForm.xml
 RidingForm.xml
+QuestForm.xml
 SkillForm.xml
 SpellForm.xml
 BanForm.xml

@@ -1,7 +1,5 @@
 ﻿--**********************************************************************
---$Author: ssargon $
---$Date: 2007-08-06 09:25:44 -0400 (Mon, 06 Aug 2007) $
---$Revision: 15 $
+--$Author: Maven $
 --**********************************************************************
 
 chanvar = "GUILD";
@@ -889,6 +887,74 @@ result=".character advancesk 185 "..SkillLevel:GetText();
 outSAY(result);
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--QuestScript
+function LookupQuest()
+result=".quest lookup "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestComplete()
+result=".quest complete "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestStart()
+result=".quest start "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestRemove()
+result=".quest remove "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestStatus()
+result=".quest status "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestReward()
+result=".quest reward "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestSpawn()
+result=".quest spawn "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestAddBoth()
+result=".quest addboth "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestAddStart()
+result=".quest addstart "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestAddFinish()
+result=".quest addfinish "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestDelBoth()
+result=".quest delboth "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestDelStart()
+result=".quest delstart "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+function QuestDelFinish()
+result=".quest delfinish "..QuestFormBox:GetText();
+outSAY(result)
+end
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 --QuickItemScript
 
 function GmOutfit()

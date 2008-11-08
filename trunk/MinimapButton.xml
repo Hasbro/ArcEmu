@@ -50,7 +50,7 @@
 		</OnLoad>
 		<OnEnter>
 			GameTooltip:SetOwner(this, "ANCHOR_LEFT");
-			GameTooltip:AddLine("GMH");
+			GameTooltip:AddLine("GMH v0.10.0");
 			GameTooltip:AddLine("Left click to show/hide");
 			GameTooltip:AddLine("Right click to drag this");
 			GameTooltip:Show();
