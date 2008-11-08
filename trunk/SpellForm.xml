@@ -3,7 +3,7 @@
   <Frame name="SpellForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="182" y="248" />
+      <AbsDimension x="188" y="242" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="$parentButton2" text="Lookup Spell">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-150" />
+              <AbsDimension x="16" y="-147" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -115,12 +115,12 @@ end
       <Button name="$parentButton1" text="Learn All">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-181" />
+              <AbsDimension x="16" y="-175" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -159,7 +159,7 @@ end
       <Frame name="Spell">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="18" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -192,12 +192,12 @@ end
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="90" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="47" y="-211" />
+              <AbsDimension x="16" y="-203" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -236,12 +236,12 @@ end
       <EditBox name="SpellNumber" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-56" />
+              <AbsDimension x="16" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -301,7 +301,7 @@ end
       <Button name="Learn" text="Learn">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -350,7 +350,7 @@ end
       <Button name="Unlearn" text="Unlearn">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">

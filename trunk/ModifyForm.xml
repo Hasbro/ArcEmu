@@ -3,7 +3,7 @@
   <Frame name="ModifyForm" hidden="true" movable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="196" y="559" />
+      <AbsDimension x="188" y="497" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="$parentButton3" text="Energy">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-162" />
+              <AbsDimension x="17" y="-150" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -115,12 +115,12 @@ end
       <Button name="$parentButton2" text="Rage">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-130" />
+              <AbsDimension x="17" y="-122" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -164,7 +164,7 @@ end
       <Button name="$parentButton1" text="Health Points">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -213,7 +213,7 @@ end
       <EditBox name="ModifyEditBox" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="22" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -284,12 +284,12 @@ GameTooltip:Show();
       <Button name="$parentComponent1" text="Mana">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-98" />
+              <AbsDimension x="17" y="-94" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -333,12 +333,12 @@ end
       <Button name="$parentComponent2" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-514" />
+              <AbsDimension x="17" y="-458" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -377,12 +377,12 @@ end
       <Button name="$parentComponent4" text="All Resistances">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-194" />
+              <AbsDimension x="17" y="-178" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -426,12 +426,12 @@ end
       <Button name="$parentComponent5" text="Damage">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-258" />
+              <AbsDimension x="17" y="-234" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -475,12 +475,12 @@ end
       <Button name="$parentComponent6" text="Display">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-290" />
+              <AbsDimension x="17" y="-262" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -524,12 +524,12 @@ end
       <Button name="$parentComponent7" text="Armor">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-226" />
+              <AbsDimension x="17" y="-206" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -573,12 +573,12 @@ end
       <Button name="$parentComponent8" text="Speed">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-322" />
+              <AbsDimension x="17" y="-290" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -621,12 +621,12 @@ end
       <Button name="$parentComponent9" text="Scale">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-354" />
+              <AbsDimension x="17" y="-318" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -669,12 +669,12 @@ end
       <Button name="$parentComponent10" text="Spirit">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-386" />
+              <AbsDimension x="17" y="-346" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -717,12 +717,12 @@ end
       <Button name="$parentComponent11" text="Talentpoints">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-418" />
+              <AbsDimension x="17" y="-374" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -765,12 +765,12 @@ end
       <Button name="$parentComponent12" text="Faction">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-450" />
+              <AbsDimension x="17" y="-402" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -813,12 +813,12 @@ end
       <Button name="$parentComponent13" text="Demorph">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="162" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-482" />
+              <AbsDimension x="17" y="-430" />
             </Offset>
           </Anchor>
         </Anchors>

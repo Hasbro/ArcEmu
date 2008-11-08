@@ -3,7 +3,7 @@
   <Frame name="MiscForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="196" y="176" />
+      <AbsDimension x="189" y="159" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="90" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="50" y="-132" />
+              <AbsDimension x="18" y="-116" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -110,12 +110,12 @@
       <Button name="$parentComponent1" text="Invisibility">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="160" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="18" y="-39" />
+              <AbsDimension x="18" y="-32" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -154,12 +154,12 @@
       <Button name="$parentComponent4" text="Invincibility">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="160" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="18" y="-70" />
+              <AbsDimension x="18" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -199,12 +199,12 @@
       <Button name="$parentComponent8" text="Server Info">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="160" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="18" y="-101" />
+              <AbsDimension x="18" y="-88" />
             </Offset>
           </Anchor>
         </Anchors>

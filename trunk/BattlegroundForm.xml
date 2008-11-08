@@ -3,7 +3,7 @@
   <Frame name="BattlegroundForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="164" y="221" />
+      <AbsDimension x="190" y="185" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="127" y="22" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-177" />
+              <AbsDimension x="19" y="-142" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -112,12 +112,12 @@ OpenMain();
       <Button name="Leave" text="Leave BG">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="127" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-141" />
+              <AbsDimension x="19" y="-114" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -156,12 +156,12 @@ OpenMain();
       <Button name="ForceLoad" text="Force Load BG">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="127" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-33" />
+              <AbsDimension x="19" y="-30" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -200,12 +200,12 @@ OpenMain();
       <Button name="Start" text="Start Current BG">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="127" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-69" />
+              <AbsDimension x="19" y="-58" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -244,12 +244,12 @@ OpenMain();
       <Button name="Info" text="BG Info">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="127" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-105" />
+              <AbsDimension x="19" y="-86" />
             </Offset>
           </Anchor>
         </Anchors>

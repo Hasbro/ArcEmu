@@ -3,7 +3,7 @@
   <Frame name="QuickItemForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="189" y="382" />
+      <AbsDimension x="195" y="349" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="$parentButton10" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-339" />
+              <AbsDimension x="19" y="-309" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -110,12 +110,12 @@
       <Button name="$parentButton9" text="Rogue T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-308" />
+              <AbsDimension x="19" y="-281" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -154,12 +154,12 @@
       <Button name="$parentButton8" text="Paladin T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-277" />
+              <AbsDimension x="19" y="-253" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -198,12 +198,12 @@
       <Button name="$parentButton7" text="Warlock T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-246" />
+              <AbsDimension x="19" y="-225" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -242,12 +242,12 @@
       <Button name="$parentButton6" text="Hunter T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-215" />
+              <AbsDimension x="19" y="-197" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -286,12 +286,12 @@
       <Button name="$parentButton5" text="Druid T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-184" />
+              <AbsDimension x="19" y="-169" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -330,12 +330,12 @@
       <Button name="$parentButton4" text="Mage T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-153" />
+              <AbsDimension x="19" y="-141" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -374,12 +374,12 @@
       <Button name="$parentButton3" text="Priest T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-122" />
+              <AbsDimension x="19" y="-113" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -418,12 +418,12 @@
       <Button name="$parentButton2" text="Warrior T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-91" />
+              <AbsDimension x="19" y="-85" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -462,12 +462,12 @@
       <Button name="$parentButton1" text="Shaman T6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-60" />
+              <AbsDimension x="19" y="-57" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -506,7 +506,7 @@
       <Button name="$parentComponent1" text="GM Outfit">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">

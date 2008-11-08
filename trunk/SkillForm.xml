@@ -3,7 +3,7 @@
   <Frame name="SkillForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="184" y="490" />
+      <AbsDimension x="190" y="466" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="$parentButton1" text="Lookup Skill">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-185" />
+              <AbsDimension x="16" y="-179" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -114,12 +114,12 @@ end
       <Frame name="$parentLabel2">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-314" />
+              <AbsDimension x="16" y="-291" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -180,12 +180,12 @@ end
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="97" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="44" y="-456" />
+              <AbsDimension x="16" y="-427" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -289,12 +289,12 @@ end
       <Button name="Professions" text="Professions">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-216" />
+              <AbsDimension x="16" y="-207" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -333,12 +333,12 @@ end
       <Button name="Riding" text="Riding Skills">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-282" />
+              <AbsDimension x="16" y="-263" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -377,7 +377,7 @@ end
       <Button name="LearnSkill" text="Learn Skill">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -425,12 +425,12 @@ end
       <Button name="UnlearnSkill" text="Unlearn Skill">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-154" />
+              <AbsDimension x="16" y="-151" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -539,12 +539,12 @@ end
       <Button name="$parentComponent3" text="Advance All  Skills">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-338" />
+              <AbsDimension x="16" y="-315" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -657,7 +657,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="53" y="-369" />
+              <AbsDimension x="53" y="-343" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -722,7 +722,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-369" />
+              <AbsDimension x="16" y="-343" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -815,12 +815,12 @@ end
       <Button name="Weapons" text="Weapons">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-251" />
+              <AbsDimension x="16" y="-235" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -859,12 +859,12 @@ end
       <Button name="$parentComponent4" hidden="true" text="Advance Skill Window">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="150" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-425" />
+              <AbsDimension x="16" y="-399" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -908,7 +908,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="16" y="-401" />
+              <AbsDimension x="16" y="-375" />
             </Offset>
           </Anchor>
         </Anchors>

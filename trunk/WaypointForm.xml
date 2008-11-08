@@ -3,7 +3,7 @@
   <Frame name="WaypointsForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="154" y="208" />
+      <AbsDimension x="188" y="180" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="$parentButton4" text="Hide Waypoints">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="119" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-137" />
+              <AbsDimension x="17" y="-113" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -110,7 +110,7 @@
       <Button name="$parentButton2" text="Add Waypoint">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="119" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -154,12 +154,12 @@
       <Button name="$parentButton1" text="Show Waypoints">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="119" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-101" />
+              <AbsDimension x="17" y="-85" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -198,12 +198,12 @@
       <Button name="$parentButton3" text="Delete Waypoint">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="119" y="30" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-65" />
+              <AbsDimension x="17" y="-57" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -242,12 +242,12 @@
       <Button name="$parentComponent1" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="119" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="17" y="-173" />
+              <AbsDimension x="17" y="-141" />
             </Offset>
           </Anchor>
         </Anchors>

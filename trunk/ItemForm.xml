@@ -3,7 +3,7 @@
   <Frame name="ItemForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="210" y="496" />
+      <AbsDimension x="196" y="483" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,7 +66,7 @@
       <EditBox name="ItemQuantity1" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="22" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -129,7 +129,7 @@
       <Frame name="$parentLabel2">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -162,12 +162,12 @@
       <Frame name="$parentLabel1">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="132" y="30" />
+          <AbsDimension x="120" y="30" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="56" y="-217" />
+              <AbsDimension x="56" y="-208" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -195,12 +195,12 @@
       <Frame name="$parentTexture1">
         <!--<FrameSkin skinid="f15d4970-d66d-444e-bb2d-1ad102c87fed" frameid="f15d4979-d66d-444e-bb2d-1ad102c87fed" />-->
         <Size>
-          <AbsDimension x="26" y="26" />
+          <AbsDimension x="26" y="23" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="56" y="-369" />
+              <AbsDimension x="49" y="-356" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -224,7 +224,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-217" />
+              <AbsDimension x="20" y="-208" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -260,12 +260,12 @@
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="93" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="56" y="-463" />
+              <AbsDimension x="20" y="-444" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -304,12 +304,12 @@
       <Frame name="$parentComponent1">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="23" />
+          <AbsDimension x="156" y="23" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-340" />
+              <AbsDimension x="20" y="-324" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -337,12 +337,12 @@
       <Frame name="$parentComponent2">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-253" />
+              <AbsDimension x="20" y="-244" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -370,7 +370,7 @@
       <Frame name="$parentComponent3">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -403,7 +403,7 @@
       <Button name="$parentComponent5" text="Add">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -449,7 +449,7 @@ ItemQuantity1:ClearFocus();
       <EditBox name="ItemNumber" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="26" />
+          <AbsDimension x="156" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -520,7 +520,7 @@ ItemQuantity1:SetFocus();
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="88" y="-369" />
+              <AbsDimension x="81" y="-353" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -580,12 +580,12 @@ ItemQuantity1:SetFocus();
       <Button name="$parentComponent8" text="Add Gold">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-401" />
+              <AbsDimension x="20" y="-385" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -624,12 +624,12 @@ ItemQuantity1:SetFocus();
       <Button name="$parentComponent9" text="Add Item Set">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-309" />
+              <AbsDimension x="20" y="-296" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -672,12 +672,12 @@ end
       <EditBox name="ItemSetNumber" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="26" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-277" />
+              <AbsDimension x="20" y="-268" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -737,12 +737,12 @@ end
       <Button name="$parentComponent11" text="Remove Item">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-155" />
+              <AbsDimension x="20" y="-152" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -786,12 +786,12 @@ end
       <Button name="$parentComponent12" text="Search Item">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-186" />
+              <AbsDimension x="20" y="-180" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -835,12 +835,12 @@ end
       <EditBox name="Gold" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="30" y="26" />
+          <AbsDimension x="23" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-369" />
+              <AbsDimension x="20" y="-353" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -905,7 +905,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="146" y="-369" />
+              <AbsDimension x="137" y="-353" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -965,12 +965,12 @@ end
       <Button name="$parentComponent4" text="Quick Items">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="168" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="20" y="-432" />
+              <AbsDimension x="20" y="-416" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -1016,7 +1016,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="120" y="-369" />
+              <AbsDimension x="113" y="-353" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -1036,7 +1036,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="175" y="-369" />
+              <AbsDimension x="163" y="-353" />
             </Offset>
           </Anchor>
         </Anchors>

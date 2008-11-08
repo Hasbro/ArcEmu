@@ -3,7 +3,7 @@
   <Frame name="ProfessionsForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="189" y="556" />
+      <AbsDimension x="202" y="561" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="Leatherworking" text="Leatherworking">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-268" />
+              <AbsDimension x="23" y="-250" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -115,7 +115,7 @@ end
       <Frame name="SKLvl">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -148,7 +148,7 @@ end
       <EditBox name="SkillLevel" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="22" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -213,12 +213,12 @@ end
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="90" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="48" y="-516" />
+              <AbsDimension x="23" y="-522" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -257,12 +257,12 @@ end
       <Button name="Blacksmithing" text="Blacksmithing">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-113" />
+              <AbsDimension x="23" y="-110" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -306,12 +306,12 @@ end
       <Button name="Tailoring" text="Tailoring">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-361" />
+              <AbsDimension x="23" y="-334" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -355,12 +355,12 @@ end
       <Button name="Engineering" text="Engineering">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-175" />
+              <AbsDimension x="23" y="-166" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -404,12 +404,12 @@ end
       <Button name="Enchanting" text="Enchanting">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-144" />
+              <AbsDimension x="23" y="-138" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -453,12 +453,12 @@ end
       <Button name="Skinning" text="Skinning">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-330" />
+              <AbsDimension x="23" y="-306" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -502,7 +502,7 @@ end
       <Button name="Alchemy" text="Alchemy">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -551,12 +551,12 @@ end
       <Button name="FirstAid" text="FirstAid">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-454" />
+              <AbsDimension x="23" y="-442" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -600,12 +600,12 @@ end
       <Button name="Mining" text="Mining">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-299" />
+              <AbsDimension x="23" y="-278" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -649,12 +649,12 @@ end
       <Button name="Cooking" text="Cooking">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-392" />
+              <AbsDimension x="23" y="-386" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -698,12 +698,12 @@ end
       <Button name="$parentComponent3" text="Herbalism">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-206" />
+              <AbsDimension x="23" y="-194" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -747,12 +747,12 @@ end
       <Button name="$parentComponent2" text="Jewel Craft">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-237" />
+              <AbsDimension x="23" y="-222" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -796,12 +796,12 @@ end
       <Button name="$parentComponent4" text="Fishing">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-423" />
+              <AbsDimension x="23" y="-414" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -845,12 +845,12 @@ end
       <Button name="$parentComponent5" text="Poisons">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-485" />
+              <AbsDimension x="23" y="-494" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -894,12 +894,12 @@ end
       <Frame name="$parentComponent1">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-381" />
+              <AbsDimension x="23" y="-362" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -927,12 +927,12 @@ end
       <Frame name="$parentComponent6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-472" />
+              <AbsDimension x="23" y="-470" />
             </Offset>
           </Anchor>
         </Anchors>

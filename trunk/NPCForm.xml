@@ -3,7 +3,7 @@
   <Frame name="NPCForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="180" y="476" />
+      <AbsDimension x="191" y="422" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -66,12 +66,12 @@
       <Button name="$parentButton1" text="Lookup NPC">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-117" />
+              <AbsDimension x="19" y="-114" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -115,12 +115,12 @@ end
       <Button name="$parentComponent3" text="Delete NPC">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-408" />
+              <AbsDimension x="19" y="-352" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -159,12 +159,12 @@ end
       <Button name="$parentComponent15" text="Beckon NPC">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-377" />
+              <AbsDimension x="19" y="-324" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -203,12 +203,12 @@ end
       <Frame name="$parentComponent2">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-291" />
+              <AbsDimension x="19" y="-244" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -236,12 +236,12 @@ end
       <Button name="$parentComponent4" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="90" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="40" y="-439" />
+              <AbsDimension x="19" y="-380" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -280,7 +280,7 @@ end
       <Frame name="$parentComponent5">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -313,12 +313,12 @@ end
       <Button name="$parentComponent7" text="Remove Vendor">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="29" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-245" />
+              <AbsDimension x="19" y="-198" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -362,12 +362,12 @@ end
       <Button name="$parentComponent8" text="Add Vendor">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-210" />
+              <AbsDimension x="19" y="-170" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -411,12 +411,12 @@ end
       <EditBox name="NPCItemNumber" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="32" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-172" />
+              <AbsDimension x="19" y="-142" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -476,7 +476,7 @@ end
       <Button name="$parentComponent13" text="Spawn NPC">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -525,7 +525,7 @@ end
       <EditBox name="NPCNumber" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="32" />
+          <AbsDimension x="156" y="32" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -590,12 +590,12 @@ end
       <Button name="$parentComponent9" text="NPC Info">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-315" />
+              <AbsDimension x="19" y="-268" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -634,12 +634,12 @@ end
       <Button name="$parentComponent6" text="Possess">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="144" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="19" y="-346" />
+              <AbsDimension x="19" y="-296" />
             </Offset>
           </Anchor>
         </Anchors>

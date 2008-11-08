@@ -3,7 +3,7 @@
   <Frame name="Skill2Form" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="189" y="315" />
+      <AbsDimension x="201" y="305" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -83,7 +83,7 @@
 &lt;/ArrayOfString&gt;</Property><Property name="OnSelectionChanged">&lt;?xml version="1.0"?&gt;
 &lt;string /&gt;</Property></FrameSkin>-->
         <Size>
-          <AbsDimension x="143" y="32" />
+          <AbsDimension x="156" y="32" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -109,7 +109,7 @@
             </Texture>
             <Texture name="$parentMiddle" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
               <Size>
-                <AbsDimension x="93" y="64" />
+                <AbsDimension x="106" y="64" />
               </Size>
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT" />
@@ -127,7 +127,7 @@
             </Texture>
             <FontString name="$parentText" font="Fonts\FRIZQT__.TTF" text="Professions" justifyH="RIGHT">
               <Size>
-                <AbsDimension x="118" y="10" />
+                <AbsDimension x="131" y="10" />
               </Size>
               <Anchors>
                 <Anchor point="RIGHT" relativeTo="$parentRight">
@@ -272,7 +272,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       <Button name="ProfessionsBtn" text="Professions">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -316,7 +316,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       <Frame name="SKLvl">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -349,12 +349,12 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       <Button name="Done" text="Done">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="90" y="19" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="47" y="-268" />
+              <AbsDimension x="23" y="-264" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -393,12 +393,12 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       <Button name="Blacksmithing" text="Weapons">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="25" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-237" />
+              <AbsDimension x="23" y="-236" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -437,7 +437,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       <Frame name="$parentComponent1">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -470,7 +470,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       <Frame name="$parentComponent6">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508885-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="18" />
+          <AbsDimension x="156" y="18" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -505,7 +505,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
 &lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" /&gt;</Property><Property name="OnSelectionChanged">&lt;?xml version="1.0"?&gt;
 &lt;string /&gt;</Property></FrameSkin>-->
         <Size>
-          <AbsDimension x="143" y="32" />
+          <AbsDimension x="156" y="32" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -531,7 +531,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
             </Texture>
             <Texture name="$parentMiddle" file="Interface\Glues\CharacterCreate\CharacterCreate-LabelFrame">
               <Size>
-                <AbsDimension x="93" y="64" />
+                <AbsDimension x="106" y="64" />
               </Size>
               <Anchors>
                 <Anchor point="LEFT" relativeTo="$parentLeft" relativePoint="RIGHT" />
@@ -549,7 +549,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
             </Texture>
             <FontString name="$parentText" font="Fonts\FRIZQT__.TTF" text="Weapons" justifyH="RIGHT">
               <Size>
-                <AbsDimension x="118" y="10" />
+                <AbsDimension x="131" y="10" />
               </Size>
               <Anchors>
                 <Anchor point="RIGHT" relativeTo="$parentRight">
@@ -631,7 +631,7 @@ UIDropDownMenu_Initialize(this, cb_init_fn)
       <EditBox name="SkillLevel1" enableMouse="true">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508887-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="143" y="22" />
+          <AbsDimension x="156" y="22" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
