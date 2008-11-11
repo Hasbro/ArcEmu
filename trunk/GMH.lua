@@ -43,7 +43,7 @@ WepskForm:Hide();
 OverridesForm:Hide();
 ModifyForm:Hide();
 QuickItemForm:Hide();
-WaypointsForm:Hide();
+QuestForm:Hide();
 PlaySound("INTERFACESOUND_CHARWINDOWCLOSE");
 addonopen = 0;
 else
@@ -711,6 +711,21 @@ end
 
 function LookupObject()
 result=".lookup object "..ObjectNumber:GetText();
+outSAY(result)
+end
+
+function ObjectInfo()
+result=".go info"
+outSAY(result)
+end
+
+function ActivateObject()
+result=".go activate"
+outSAY(result)
+end
+
+function EnableObject()
+result=".go enable"
 outSAY(result)
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------

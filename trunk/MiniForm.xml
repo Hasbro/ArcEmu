@@ -3,7 +3,7 @@
   <Frame name="MiniForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="622" y="109" />
+      <AbsDimension x="556" y="109" />
     </Size>
     <Anchors>
       <Anchor point="TOP" relativeTo="UIParent">
@@ -66,17 +66,18 @@
       <Button name="$parentButton1" text="Quests">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="68" y="26" />
+          <AbsDimension x="60" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="534" y="-60" />
+              <AbsDimension x="478" y="-28" />
             </Offset>
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>QuestForm:Show(); MiniForm:Hide();</OnClick>
+          <OnClick>QuestForm:Show(); MiniForm:Hide();
+</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
@@ -114,7 +115,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="542" y="-28" />
+              <AbsDimension x="478" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -373,12 +374,12 @@
       <Button name="$parentComponent7" text="Comm">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="68" y="26" />
+          <AbsDimension x="60" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="164" y="-60" />
+              <AbsDimension x="148" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -461,12 +462,12 @@
       <Button name="$parentComponent9" text="Ban">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="68" y="26" />
+          <AbsDimension x="60" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="238" y="-60" />
+              <AbsDimension x="214" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -505,7 +506,7 @@
       <Button name="$parentComponent10" text="NPCs">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="68" y="26" />
+          <AbsDimension x="60" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
@@ -549,12 +550,12 @@
       <Button name="$parentComponent11" text="Players">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="68" y="26" />
+          <AbsDimension x="60" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="90" y="-60" />
+              <AbsDimension x="82" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -593,12 +594,12 @@
       <Button name="$parentComponent12" text="Misc">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="68" y="26" />
+          <AbsDimension x="60" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="312" y="-60" />
+              <AbsDimension x="280" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -637,12 +638,12 @@
       <Button name="$parentComponent13" text="BGs">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
-          <AbsDimension x="68" y="26" />
+          <AbsDimension x="60" y="26" />
         </Size>
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="386" y="-60" />
+              <AbsDimension x="346" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -678,7 +679,7 @@
         <HighlightFont style="GameFontHighlight" />
         <DisabledFont style="GameFontDisable" />
       </Button>
-      <Button name="$parentComponent14" text="WPs">
+      <Button name="$parentComponent15" text="Mod">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
           <AbsDimension x="60" y="26" />
@@ -686,51 +687,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="478" y="-28" />
-            </Offset>
-          </Anchor>
-        </Anchors>
-        <Scripts>
-          <OnClick>WaypointsForm:Show(); MiniForm:Hide();
-</OnClick>
-        </Scripts>
-        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </NormalTexture>
-        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </PushedTexture>
-        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </DisabledTexture>
-        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
-          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
-        </HighlightTexture>
-        <ButtonText name="$parentText">
-          <Anchors>
-            <Anchor point="CENTER">
-              <Offset>
-                <AbsDimension x="0" y="1" />
-              </Offset>
-            </Anchor>
-          </Anchors>
-          <FontHeight>
-            <AbsValue val="10" />
-          </FontHeight>
-        </ButtonText>
-        <NormalFont style="GameFontNormal" />
-        <HighlightFont style="GameFontHighlight" />
-        <DisabledFont style="GameFontDisable" />
-      </Button>
-      <Button name="$parentComponent15" text="Mod">
-        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
-        <Size>
-          <AbsDimension x="68" y="26" />
-        </Size>
-        <Anchors>
-          <Anchor point="TOPLEFT">
-            <Offset>
-              <AbsDimension x="460" y="-60" />
+              <AbsDimension x="412" y="-60" />
             </Offset>
           </Anchor>
         </Anchors>
