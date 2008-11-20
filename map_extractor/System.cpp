@@ -197,7 +197,7 @@ void ExtractMapsFromMpq()
 
 int main(int argc, char * arg[])
 {
-    printf("Ascent map extractor for versions 2.1.0 and above.. maybe :p\n");
+    printf("Ascent map extractor for version 3.0.2 \n");
     printf("============================================================\n\n");
 
 	FILE * tf;
@@ -213,7 +213,15 @@ int main(int argc, char * arg[])
 		return 1;
 	}
 	fclose(tf);
+
 	new MPQArchive("Data/common.MPQ");
+
+	tf = fopen("Data/common-2.MPQ", "r");	// WotLK
+	if (tf)
+	{
+		fclose(tf);
+		new MPQArchive("Data/common-2.MPQ");
+	}
 
 	for( size_t i = 0; localeNames[i] != 0; i++ )
 	{
@@ -234,6 +242,18 @@ int main(int argc, char * arg[])
 		if ( -1 != locale )
 		{
 			sprintf(tmp, "Data/%s/expansion-locale-%s.MPQ", localeNames[locale], localeNames[locale]);
+			new MPQArchive(tmp);
+		}
+	}
+	
+	tf = fopen("Data/lichking.MPQ", "r");
+	if (tf)
+	{
+		fclose(tf);
+		new MPQArchive("Data/lichking.MPQ");
+		if ( -1 != locale )
+		{
+			sprintf(tmp, "Data/%s/lichking-locale-%s.MPQ", localeNames[locale], localeNames[locale]);
 			new MPQArchive(tmp);
 		}
 	}
