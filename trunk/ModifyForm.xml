@@ -265,6 +265,7 @@ GameTooltip:Show();
 </OnEnter>
           <OnLeave>GameTooltip:Hide();
 </OnLeave>
+          <OnEscapePressed>this:ClearFocus();</OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
         </Scripts>

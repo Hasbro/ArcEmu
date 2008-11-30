@@ -3,7 +3,7 @@
   <Frame name="TicketTracker" hidden="true" movable="true" enableMouse="true" enableKeyboard="true" clampedToScreen="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="450" y="475" />
+      <AbsDimension x="403" y="470" />
     </Size>
     <Anchors>
       <Anchor point="CENTER" relativeTo="UIParent">
@@ -72,7 +72,7 @@
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="418" y="-15" />
+              <AbsDimension x="370" y="-8" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -117,7 +117,7 @@ OpenMain();
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="41" y="-26" />
+              <AbsDimension x="18" y="-29" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -1831,7 +1831,7 @@ OpenMain();
             <Anchors>
               <Anchor point="TOPLEFT">
                 <Offset>
-                  <AbsDimension x="125" y="-367" />
+                  <AbsDimension x="139" y="-367" />
                 </Offset>
               </Anchor>
             </Anchors>

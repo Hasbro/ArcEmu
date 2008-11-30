@@ -1,0 +1,41 @@
+## Interface: 30000
+## Title: GMH (GameMaster's Helper) v0.10.1
+## Author: Skyler "Maven" | Stephen "Skate" Lovik
+## Version: 0.10.1
+## Notes: An addon to manage GM commands in an A.R.C. Emu based World of Warcraft private server.
+## eMail: Maven01@live.com | Skate555@gmail.com
+## URL: http://opensvn.csie.org/GMHelper/|http://arcemu.info/svn
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: firstannounce,secondannounce,thirdeannounce,fourthannounce,fifthannounce,view,TicketChannel,TicketPassword
+GMH.lua
+FullForm.xml
+MiniForm.xml
+MinipForm.xml
+ViewForm.xml
+bindings.xml
+MinimapButton.xml
+ItemForm.xml
+CommForm.xml
+ItemFormSearch.xml
+MiscForm.xml
+ObjectForm.xml
+TeleForm.xml
+ProfessionsForm.xml
+RidingForm.xml
+QuestForm.xml
+SkillForm.xml
+SpellForm.xml
+BanForm.xml
+NPCForm.xml
+AnnounceForm.xml
+PlayerForm.xml
+WepskForm.xml
+OverridesForm.xml
+BattlegroundForm.xml
+ModifyForm.xml
+QuickItemForm.xml
+TicketShowForm.xml
+TicketView.xml
+TicketTracker.xml
+TicketTracker.lua

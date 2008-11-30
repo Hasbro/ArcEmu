@@ -1,0 +1,47 @@
+Changelog - 0.10.1
+-------------------------------------------------
+Main Changes:
+Bug Fixes
+Credits updated
+
+GMH.lua:
+When you login, (.)gmon no longer sends
+
+ItemFormSearch:
+*Resized to be smaller
+
+MofifyForm:
+*When you press escape in the EditBox, it now clears focus
+
+ProfessionsForm:
+*Inscription function added
+
+TicketTracker:
+*Resized to be smaller
+
+-------------------------------------------------
+Changelog - 0.10.0
+-------------------------------------------------
+Main Changes:
+****WotLK Support added****
+*GMH now shows when you login
+*Began implementation of Slash Commands (/). /npcspawn /npcdelete, /additem, /reload (Equivalent to /script ReloadUI()) and /revive
+*When you login, it will send ".gm on" through guild chat.
+*Changed size of buttons on most forms to 156, 22.
+
+NPCForm Changes:
+*NPC Possess was actually pointing to NPCCome() instead of NPCPossess()
+*Added all WaypointForm content
+
+ObjectForm Changes:
+*Added GO Info, GO Activate and GO Enable to ObjectForm
+
+PlayerForm Changes:
+*Instead of all the buttons having their own edit box, they now all share one.
+
+QuestForm Changes:
+**Added**
+
+WaypointForm Changes:
+**Deleted** (Refer to NPCForm)
+-------------------------------------------------

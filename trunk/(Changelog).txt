@@ -1,3 +1,25 @@
+Changelog - 0.10.1
+-------------------------------------------------
+Main Changes:
+Bug Fixes
+Credits updated
+
+GMH.lua:
+When you login, (.)gmon no longer sends
+
+ItemFormSearch:
+*Resized to be smaller
+
+MofifyForm:
+*When you press escape in the EditBox, it now clears focus
+
+ProfessionsForm:
+*Inscription function added
+
+TicketTracker:
+*Resized to be smaller
+
+-------------------------------------------------
 Changelog - 0.10.0
 -------------------------------------------------
 Main Changes:

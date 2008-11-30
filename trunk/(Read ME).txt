@@ -1,1 +1,8 @@
 The version in here is Patch 3.0.3 only! Thanks!
+
+
+Credits:
+Rushowr and his team (Original Idea)
+Maven (Main Development)
+Skate (Development)
+Taek (Hosting Blog and testing SVN)

@@ -252,7 +252,7 @@ end
         <Scripts>
           <OnLoad>this:SetAutoFocus(false);
 </OnLoad>
-          <OnEscapePressed>PlayerName2:ClearFocus();
+          <OnEscapePressed>this:ClearFocus();
 </OnEscapePressed>
           <OnTabPressed>this:ClearFocus();
 </OnTabPressed>
@@ -371,9 +371,7 @@ end
           </Anchor>
         </Anchors>
         <Scripts>
-          <OnClick>SayFourthAnnounce()
-;
-</OnClick>
+          <OnClick>SayFourthAnnounce()</OnClick>
         </Scripts>
         <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
           <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />

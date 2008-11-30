@@ -45,12 +45,12 @@
 	<HighlightTexture alphaMode="ADD" file="Interface\Minimap\UI-Minimap-ZoomButton-Highlight"/>
 	<Scripts>
 		<OnLoad>
-			this:RegisterForClicks("LeftButtonUp","RightButtonUp");
+			this:RegisterForClicks("LeftButtonUp","RightButtonUp","MiddleButtonUp");
 			this:RegisterForDrag("RightButton");
 		</OnLoad>
 		<OnEnter>
 			GameTooltip:SetOwner(this, "ANCHOR_LEFT");
-			GameTooltip:AddLine("GMH v0.10.0");
+			GameTooltip:AddLine("GMH v0.10.1");
 			GameTooltip:AddLine("Left click to show/hide");
 			GameTooltip:AddLine("Right click to drag this");
 			GameTooltip:Show();

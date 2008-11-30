@@ -22,7 +22,6 @@ ItemFormSearch:Hide();
 FullForm:Hide();
 MinipForm:Hide();
 MiniForm:Hide();
-Skill2Form:Hide();
 CommForm:Hide();
 ItemForm:Hide();
 MiscForm:Hide();
@@ -68,12 +67,10 @@ this:RegisterForDrag("RightButton");
 end
 
 function GMHelper_Loaded()
---DEFAULT_CHAT_FRAME:AddMessage("GM Helper v0.10.0 loaded!");
-UIErrorsFrame:AddMessage("GM Helper v0.10.0 loaded!", 0.0, 1.0, 0.0, 53, 2);
-OpenMain();
-addonopen = 1;
-SendChatMessage(".gm on", chanvar, nil, nil);
+UIErrorsFrame:AddMessage("GM Helper v0.10.1 loaded!", 0.0, 1.0, 0.0, 53, 2);
 PSoundF("Interface\\Addons\\GMH\\Sounds\\Omega.wav");
+OpenMain();
+addonopen = 1; 
 end
 
 function PSoundF(file)
@@ -153,15 +150,15 @@ end
 function FourthAnnounce()
 if (AnnounceSetCheck:GetChecked() or ScreenAnnounceSetCheck:GetChecked() or GMAnnounceSetCheck:GetChecked() ) then
 if AnnounceSetCheck:GetChecked() then
-forthannounce=".announce "..SetAnnounceText:GetText();
+fourthannounce=".announce "..SetAnnounceText:GetText();
 UIErrorsFrame:AddMessage("4th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);    
 end
 if ScreenAnnounceSetCheck:GetChecked() then
-forthannounce=".wannounce "..SetAnnounceText:GetText(); 
+fourthannounce=".wannounce "..SetAnnounceText:GetText(); 
 UIErrorsFrame:AddMessage("4th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 if GMAnnounceSetCheck:GetChecked() then
-forthannounce=".gmannounce "..SetAnnounceText:GetText(); 
+fourthannounce=".gmannounce "..SetAnnounceText:GetText(); 
 UIErrorsFrame:AddMessage("4th Announcement Saved!", 0.0, 1.0, 0.0, 53, 2);   
 end
 else
@@ -298,23 +295,43 @@ outSAY(result);
 end
 
 function SayFirstAnnounce()
+if firstannounce == nil then
+UIErrorsFrame:AddMessage("Annoucement not set! Please set it in the AnnounceForm", 1.0, 0.0, 0.0, 53, 2);
+else
 outSAY(firstannounce);
+end
 end
 
 function SaySecondAnnounce()
+if secondannounce == nil then
+UIErrorsFrame:AddMessage("Annoucement not set! Please set it in the AnnounceForm", 1.0, 0.0, 0.0, 53, 2);
+else
 outSAY(secondannounce);
+end
 end
 
 function SayThirdAnnounce()
+if thirdannounce == nil then
+UIErrorsFrame:AddMessage("Annoucement not set! Please set it in the AnnounceForm", 1.0, 0.0, 0.0, 53, 2);
+else
 outSAY(thirdannounce);
 end
+end
 
-function SayForthAnnounce()
-outSAY(forthannounce);
+function SayFourthAnnounce()
+if fourthannounce == nil then
+UIErrorsFrame:AddMessage("Annoucement not set! Please set it in the AnnounceForm", 1.0, 0.0, 0.0, 53, 2);
+else
+outSAY(fourthannounce);
+end
 end
 
 function SayFifthAnnounce()
+if fifthannounce == nil then
+UIErrorsFrame:AddMessage("Annoucement not set! Please set it in the AnnounceForm", 1.0, 0.0, 0.0, 53, 2);
+else
 outSAY(fifthannounce);
+end
 end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- ItemScript
@@ -728,6 +745,7 @@ function EnableObject()
 result=".go enable"
 outSAY(result)
 end
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- OverridesScript
 
@@ -901,6 +919,11 @@ function LearnCooking()
 result=".character advancesk 185 "..SkillLevel:GetText();    
 outSAY(result);
 end
+
+function LearnInscription()
+result=".character advancesk 773 "..SkillLevel:GetText();    
+outSAY(result);
+end
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 --QuestScript
 function LookupQuest()
@@ -1060,69 +1083,6 @@ outSAY(result);
 result=".character additemset 681"
 outSAY(result);
 end
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- Skill2Script
-
-function LearnProf123()
-     if (ProfessionComboButton:GetText() == Alchemy) then
-     result=".character advancesk 171 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif ( ProfessionComboButton:GetText() == Blacksmithing ) then
-     result=".character advancesk 164 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Enchanting) then
-     result=".character advancesk 333 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Engineering) then
-     result=".character advancesk 202 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Jewelcrafting) then
-     result=".character advancesk 755 "..SkillLevel1:GetText(); 
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Leatherworking) then
-     result=".character advancesk 165 "..SkillLevel1:GetText(); 
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Mining) then
-     result=".character advancesk 186 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Skinning) then
-     result=".character advancesk 393 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Tailoring) then
-     result=".character advancesk 197 "..SkillLevel1:GetText(); 
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Cooking) then
-     result=".character advancesk 185 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Fishing) then
-     result=".character advancesk 356 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == FirstAid) then
-     result=".character advancesk 129 "..SkillLevel1:GetText();
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Poisons) then
-     result=".character advancesk 40 "..SkillLevel1:GetText(); 
-     outSAY(result);
-     elseif (ProfessionComboButton:GetText() == Herbalism ) then
-     result=".character advancesk 182 "..SkillLevel1:GetText();
-     outSAY(result);
-     end
-
-end
---[[Alchemy
-Blacksmithing
-Enchanting
-Engineering
-Herbalism
-Jewelcrafting
-Leatherworking
-Mining
-Skinning
-Tailoring
-Cooking
-Fishing
-FirstAid
-Poisons]]
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- SkillScript
 
@@ -1385,3 +1345,60 @@ outSAY(result);
 end
 SlashCmdList["GMHADDITEM"] = GMH_AddItem;
 SLASH_GMHADDITEM1="/additem";
+
+function GMH_Announce(msg)
+Announce=msg;
+result=".announce "..Announce; 
+outSAY(result);
+end
+SlashCmdList["GMHANNOUNCE"] = GMH_Announce;
+SLASH_GMHANNOUNCE1="/announce";
+SLASH_GMHANNOUNCE2="/an";
+
+function GMH_WAnnounce(msg)
+WAnnounce=msg;
+result=".wannounce "..WAnnounce; 
+outSAY(result);
+end
+SlashCmdList["GMHWANNOUNCE"] = GMH_Announce;
+SLASH_GMHWANNOUNCE1="/wannounce";
+SLASH_GMHWANNOUNCE2="/wan";
+
+function GMH_GMAnnounce(msg)
+GMAnnounce=msg;
+result=".gmannounce "..GMAnnounce; 
+outSAY(result);
+end
+SlashCmdList["GMHGMANNOUNCE"] = GMH_GMAnnounce;
+SLASH_GMHGMANNOUNCE1="/gmannounce";
+SLASH_GMHGMANNOUNCE2="/gman";
+
+function GMH_Learn(msg)
+Learn=msg;
+if Learn == all then
+result=".char learn all" 
+outSAY(result);
+else
+result=".char learn "..Learn; 
+outSAY(result);
+end
+end
+SlashCmdList["GMHLEARN"] = GMH_Learn;
+SLASH_GMHLEARN1="/learn";
+
+function GMH_UnLearn(msg)
+UnLearn=msg;
+result=".char unlearn "..UnLearn; 
+outSAY(result);
+end
+SlashCmdList["GMHUNLEARN"] = GMH_UnLearn;
+SLASH_GMHUnLEARN1="/unlearn";
+
+
+--[[function GMH_Kick(msg)
+Announce=msg;
+result=".kickplayer "..Announce; 
+outSAY(result);
+end
+SlashCmdList["GMHANNOUNCE"] = GMH_Kick;
+SLASH_GMHDELETE1="/announce";]]

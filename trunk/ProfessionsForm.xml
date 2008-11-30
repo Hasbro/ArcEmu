@@ -3,7 +3,7 @@
   <Frame name="ProfessionsForm" hidden="true" movable="true" resizable="true" enableMouse="true">
     <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508883-59c2-4f83-ae10-27aaad48391b" />-->
     <Size>
-      <AbsDimension x="202" y="561" />
+      <AbsDimension x="202" y="589" />
     </Size>
     <Anchors>
       <Anchor point="RIGHT" relativeTo="UIParent">
@@ -63,6 +63,54 @@
       </Layer>
     </Layers>
     <Frames>
+      <Button name="$parentButton1" text="Inscription">
+        <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
+        <Size>
+          <AbsDimension x="156" y="22" />
+        </Size>
+        <Anchors>
+          <Anchor point="TOPLEFT">
+            <Offset>
+              <AbsDimension x="23" y="-306" />
+            </Offset>
+          </Anchor>
+        </Anchors>
+        <Scripts>
+          <OnClick>if SkillLevel:GetNumLetters() &lt; 1 then
+UIErrorsFrame:AddMessage("Please complete the required fields!", 1.0, 0.0, 0.0, 53, 2);
+else
+LearnInscription();
+SkillLevel:ClearFocus();
+end</OnClick>
+        </Scripts>
+        <NormalTexture file="Interface\Buttons\UI-Panel-Button-Up">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </NormalTexture>
+        <PushedTexture file="Interface\Buttons\UI-Panel-Button-Down">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </PushedTexture>
+        <DisabledTexture file="Interface\Buttons\UI-Panel-Button-Disabled">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </DisabledTexture>
+        <HighlightTexture file="Interface\Buttons\UI-Panel-Button-Highlight" alphaMode="ADD">
+          <TexCoords left="0" right="0.625" top="0" bottom="0.6875" />
+        </HighlightTexture>
+        <ButtonText name="$parentText">
+          <Anchors>
+            <Anchor point="CENTER">
+              <Offset>
+                <AbsDimension x="0" y="1" />
+              </Offset>
+            </Anchor>
+          </Anchors>
+          <FontHeight>
+            <AbsValue val="10" />
+          </FontHeight>
+        </ButtonText>
+        <NormalFont style="GameFontNormal" />
+        <HighlightFont style="GameFontHighlight" />
+        <DisabledFont style="GameFontDisable" />
+      </Button>
       <Button name="Leatherworking" text="Leatherworking">
         <!--<FrameSkin skinid="dcb143e1-a4ab-4e7c-b934-1efa40101d21" frameid="2d508884-59c2-4f83-ae10-27aaad48391b" />-->
         <Size>
@@ -218,7 +266,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-522" />
+              <AbsDimension x="23" y="-550" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -311,7 +359,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-334" />
+              <AbsDimension x="23" y="-362" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -458,7 +506,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-306" />
+              <AbsDimension x="23" y="-334" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -556,7 +604,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-442" />
+              <AbsDimension x="23" y="-470" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -654,7 +702,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-386" />
+              <AbsDimension x="23" y="-414" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -801,7 +849,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-414" />
+              <AbsDimension x="23" y="-442" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -850,7 +898,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-494" />
+              <AbsDimension x="23" y="-522" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -899,7 +947,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-362" />
+              <AbsDimension x="23" y="-390" />
             </Offset>
           </Anchor>
         </Anchors>
@@ -932,7 +980,7 @@ end
         <Anchors>
           <Anchor point="TOPLEFT">
             <Offset>
-              <AbsDimension x="23" y="-470" />
+              <AbsDimension x="23" y="-498" />
             </Offset>
           </Anchor>
         </Anchors>
